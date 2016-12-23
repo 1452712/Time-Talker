@@ -1,6 +1,17 @@
-/.vs/*
+# Build File
 
+/.vs/*
 
 /Time Talker/bld/*
 
 /Time Talker/Time Talker_TemporaryKey.pfx
+
+# Temperory Files
+*.[Cc]ache
+[Ss]tyle[Cc]op.*
+~$*
+*~
+*.dbmdl
+*.dbproj.schemaview
+*.pfx
+*publishsettings
