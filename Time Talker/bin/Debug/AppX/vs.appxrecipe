@@ -1,0 +1,123 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>DESKTOP-KUOTDES</Machine>
+    <WindowsUser>luminous</WindowsUser>
+    <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
+    <TargetOsVersion>10.0</TargetOsVersion>
+    <TargetOsDescription>Windows 10.0</TargetOsDescription>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>3db1460a-a2ad-4f1a-9c4b-50763a875c98</PackageIdentityName>
+    <PackageIdentityPublisher>CN=luminous</PackageIdentityPublisher>
+    <IntermediateOutputPath>c:\users\luminous\documents\visual studio 2017\Projects\Time Talker\Time Talker\bld\Debug\</IntermediateOutputPath>
+    <RemoteDeploymentType>
+    </RemoteDeploymentType>
+    <PackageRegistrationPath>
+    </PackageRegistrationPath>
+    <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
+    <RegisteredManifestChecksum>3BCAE636FDC0154F7E103B43870D9EAC5F76362CE096772C719A1BE1A8463891</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>3db1460a-a2ad-4f1a-9c4b-50763a875c98_1.0.0.0_neutral__nj1kg8pnmr4gj</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>3db1460a-a2ad-4f1a-9c4b-50763a875c98_nj1kg8pnmr4gj!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>3db1460a-a2ad-4f1a-9c4b-50763a875c98</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=luminous</RegisteredPackagePublisher>
+    <RegisteredVersion>1.0.0.0</RegisteredVersion>
+    <JitOptimizationSuppressed>True</JitOptimizationSuppressed>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="c:\users\luminous\documents\visual studio 2017\Projects\Time Talker\Time Talker\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2016-12-23T08:01:16.785</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="c:\users\luminous\documents\visual studio 2017\Projects\Time Talker\Time Talker\images\150_title.scale-100.png">
+      <PackagePath>images\150_title.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2016-12-22T13:21:29.344</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\luminous\documents\visual studio 2017\Projects\Time Talker\Time Talker\images\44_title.scale-100.png">
+      <PackagePath>images\44_title.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2016-12-22T13:16:17.284</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\luminous\documents\visual studio 2017\Projects\Time Talker\Time Talker\images\50_title.scale-100.png">
+      <PackagePath>images\50_title.scale-100.png</PackagePath>
+      <Modified>2016-12-22T13:15:42.181</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\luminous\documents\visual studio 2017\Projects\Time Talker\Time Talker\images\splash3.scale-100.png">
+      <PackagePath>images\splash3.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2016-12-22T14:32:00.116</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\luminous\documents\visual studio 2017\Projects\Time Talker\Time Talker\images\LockScreenLogo.scale-200.png">
+      <PackagePath>images\LockScreenLogo.scale-200.png</PackagePath>
+      <Modified>2016-12-22T10:36:08.042</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\luminous\documents\visual studio 2017\Projects\Time Talker\Time Talker\images\SplashScreen.scale-200.png">
+      <PackagePath>images\SplashScreen.scale-200.png</PackagePath>
+      <Modified>2016-12-22T10:36:08.058</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\luminous\documents\visual studio 2017\Projects\Time Talker\Time Talker\images\Square150x150Logo.scale-200.png">
+      <PackagePath>images\Square150x150Logo.scale-200.png</PackagePath>
+      <Modified>2016-12-22T10:36:08.058</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\luminous\documents\visual studio 2017\Projects\Time Talker\Time Talker\images\Square44x44Logo.scale-200.png">
+      <PackagePath>images\Square44x44Logo.scale-200.png</PackagePath>
+      <Modified>2016-12-22T10:36:08.058</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\luminous\documents\visual studio 2017\Projects\Time Talker\Time Talker\images\Square44x44Logo.targetsize-24_altform-unplated.png">
+      <PackagePath>images\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
+      <Modified>2016-12-22T10:36:08.058</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\luminous\documents\visual studio 2017\Projects\Time Talker\Time Talker\images\StoreLogo.png">
+      <PackagePath>images\StoreLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2016-12-22T10:36:08.073</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\luminous\documents\visual studio 2017\Projects\Time Talker\Time Talker\images\Wide310x150Logo.scale-200.png">
+      <PackagePath>images\Wide310x150Logo.scale-200.png</PackagePath>
+      <Modified>2016-12-22T10:36:08.464</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\luminous\documents\visual studio 2017\Projects\Time Talker\Time Talker\index.html">
+      <PackagePath>index.html</PackagePath>
+      <Modified>2016-12-23T08:47:30.305</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\luminous\documents\visual studio 2017\Projects\Time Talker\Time Talker\js\main.js">
+      <PackagePath>js\main.js</PackagePath>
+      <Modified>2016-12-23T08:51:59.349</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\luminous\documents\visual studio 2017\Projects\Time Talker\Time Talker\lib\winjs-4.0.1\js\base.js">
+      <PackagePath>lib\winjs-4.0.1\js\base.js</PackagePath>
+      <Modified>2016-12-22T10:36:07.995</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\luminous\documents\visual studio 2017\Projects\Time Talker\Time Talker\lib\winjs-4.0.1\js\ui.js">
+      <PackagePath>lib\winjs-4.0.1\js\ui.js</PackagePath>
+      <Modified>2016-12-22T10:36:08.464</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\luminous\documents\visual studio 2017\Projects\Time Talker\Time Talker\css\default.css">
+      <PackagePath>css\default.css</PackagePath>
+      <Modified>2016-12-23T07:56:34.791</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\luminous\documents\visual studio 2017\Projects\Time Talker\Time Talker\lib\winjs-4.0.1\css\ui-light.css">
+      <PackagePath>lib\winjs-4.0.1\css\ui-light.css</PackagePath>
+      <Modified>2016-12-22T10:36:08.104</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\luminous\documents\visual studio 2017\Projects\Time Talker\Time Talker\lib\winjs-4.0.1\css\ui-dark.css">
+      <PackagePath>lib\winjs-4.0.1\css\ui-dark.css</PackagePath>
+      <Modified>2016-12-22T10:36:08.089</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\luminous\documents\visual studio 2017\Projects\Time Talker\Time Talker\lib\winjs-4.0.1\fonts\Symbols.ttf">
+      <PackagePath>lib\winjs-4.0.1\fonts\Symbols.ttf</PackagePath>
+      <Modified>2016-12-22T10:36:08.073</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\luminous\documents\visual studio 2017\Projects\Time Talker\Time Talker\bin\Debug\ReverseMap\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2016-12-23T08:01:16.566</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>
