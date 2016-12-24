@@ -16,7 +16,11 @@
   <Applications>
     <Application Id="App" StartPage="index.html">
       <uap:VisualElements DisplayName="Time Talker" Description="Time Talker" BackgroundColor="transparent" Square150x150Logo="images\150_title.png" Square44x44Logo="images\44_title.png">
-        <uap:SplashScreen Image="images\splash3.png" BackgroundColor="#FCFCFD" />
+        <uap:SplashScreen Image="images\splash3.png" BackgroundColor="#F7FAFC" />
+        <uap:InitialRotationPreference>
+          <uap:Rotation Preference="landscape" />
+          <uap:Rotation Preference="landscapeFlipped" />
+        </uap:InitialRotationPreference>
       </uap:VisualElements>
     </Application>
   </Applications>

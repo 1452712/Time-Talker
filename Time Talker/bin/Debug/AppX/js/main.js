@@ -42,21 +42,17 @@
 
             args.setPromise(WinJS.UI.processAll().then(function completed() {
 
-                // Retrieve the div that hosts the Rating control.
-                var ratingControlDiv = document.getElementById("ratingControlDiv");
-                // Retrieve the actual Rating control.
-                var ratingControl = ratingControlDiv.winControl;
-                // Register the event handler.
-                ratingControl.addEventListener("change", ratingChanged, false);
+                var webviewControl = document.getElementById("contentHost");
+                webviewControl.addEventListener("navigated", navigationToLogin);
 
-                var helloButton = document.getElementById("helloButton");
-                helloButton.addEventListener("click", buttonClickHandler, false);
+                var uriPage = "ms-appx-web:///src/login.html";
+                webviewControl.navigate(uriPage);
 
             }));
 		}
 
 		isFirstActivation = false;
-	};
+    };
 
 	function onVisibilityChanged(args) {
 		if (!document.hidden) {
@@ -71,17 +67,20 @@
     };
 
     ///////////////////////////////////
-    function buttonClickHandler(eventInfo) {
-        var userName = document.getElementById("nameInput").value;
-        var greetingString = "Hello, " + userName + "!";
-        document.getElementById("greetingOutput").innerText = greetingString;
-    }
 
-    function ratingChanged(eventInfo) {
+    function navigationToLogin(eventObject) {
+        var url = eventObject.detail.location;
+        var host = document.getElementById("contentHost");
 
-        var ratingOutput = document.getElementById("ratingOutput");
-        ratingOutput.innerText = eventInfo.detail.tentativeRating;
-    }
+        WinJS.UI.Pages.render(url, host);
+        //WinJS.UI.Pages.render(url, host, eventObject.detail.state);
+        // Call unload method on current scenario, if there is one
+       // host.winControl && host.winControl.unload && host.winControl.unload();
+        //WinJS.Utilities.empty(host);
+        //eventObject.detail.setPromise(WinJS.UI.Pages.render(url, host, eventObject.detail.state).then(function () {
+        ///    WinJS.Application.sessionState.lastUrl = url;
+        //}));
+     }
 
     ///////////////////////////////////
 

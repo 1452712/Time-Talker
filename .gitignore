@@ -6,6 +6,12 @@
 
 /Time Talker/Time Talker_TemporaryKey.pfx
 
+# Reference Files
+
+/Time Talker/demos/*
+
+/Time Talker/pages/*
+
 # Temperory Files
 *.[Cc]ache
 [Ss]tyle[Cc]op.*

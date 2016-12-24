@@ -1,2 +1,9 @@
-﻿body {
+﻿html, body {
+    /*height:97%;*/
+    margin:0px;
+}
+
+#contentHost {
+    height: 100%;
+    width: 100%;
 }
