@@ -46,6 +46,7 @@
                 webviewControl.addEventListener("navigated", navigationToLogin);
 
                 var uriPage = "ms-appx-web:///src/login.html";
+                var uriPage = "ms-appx-web:///demos/badgeupdate/badgeupdate.html"
                 webviewControl.navigate(uriPage);
 
             }));
