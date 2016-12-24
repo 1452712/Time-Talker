@@ -720,6 +720,7 @@
     <Content Include="js\main.js" />
     <Content Include="css\default.css" />
     <Content Include="js\particles.js" />
+    <Content Include="js\register.js" />
     <Content Include="js\semantic.js" />
     <Content Include="lib\winjs-4.0.1\js\base.js" />
     <Content Include="lib\winjs-4.0.1\js\ui.js" />

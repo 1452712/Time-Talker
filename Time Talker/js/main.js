@@ -72,15 +72,14 @@
         var url = eventObject.detail.location;
         var host = document.getElementById("contentHost");
 
-        WinJS.UI.Pages.render(url, host);
-        //WinJS.UI.Pages.render(url, host, eventObject.detail.state);
+        //WinJS.UI.Pages.render(url, host);
         // Call unload method on current scenario, if there is one
        // host.winControl && host.winControl.unload && host.winControl.unload();
         //WinJS.Utilities.empty(host);
-        //eventObject.detail.setPromise(WinJS.UI.Pages.render(url, host, eventObject.detail.state).then(function () {
-        ///    WinJS.Application.sessionState.lastUrl = url;
-        //}));
-     }
+        eventObject.detail.setPromise(WinJS.UI.Pages.render(url, host, eventObject.detail.state).then(function () {
+           WinJS.Application.sessionState.lastUrl = url;
+        }));
+    }
 
     ///////////////////////////////////
 

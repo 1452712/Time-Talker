@@ -1918,6 +1918,9 @@
     <AppxPackagedFile Include="C:\Users\luminous\Documents\Visual Studio 2017\Projects\Time Talker\Time Talker\js\particles.js">
       <PackagePath>js\particles.js</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\luminous\Documents\Visual Studio 2017\Projects\Time Talker\Time Talker\js\register.js">
+      <PackagePath>js\register.js</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\luminous\Documents\Visual Studio 2017\Projects\Time Talker\Time Talker\js\semantic.js">
       <PackagePath>js\semantic.js</PackagePath>
     </AppxPackagedFile>

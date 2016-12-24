@@ -28,7 +28,7 @@
     <AppXManifest Include="C:\Users\luminous\Documents\Visual Studio 2017\Projects\Time Talker\Time Talker\bin\Debug\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2016-12-24T11:36:44.310</Modified>
+      <Modified>2016-12-24T14:31:41.314</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
@@ -1198,11 +1198,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\luminous\Documents\Visual Studio 2017\Projects\Time Talker\Time Talker\src\login.html">
       <PackagePath>src\login.html</PackagePath>
-      <Modified>2016-12-24T13:43:14.318</Modified>
+      <Modified>2016-12-24T14:15:56.192</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\luminous\Documents\Visual Studio 2017\Projects\Time Talker\Time Talker\src\register.html">
       <PackagePath>src\register.html</PackagePath>
-      <Modified>2016-12-24T12:09:53.073</Modified>
+      <Modified>2016-12-24T14:47:48.148</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\luminous\Documents\Visual Studio 2017\Projects\Time Talker\Time Talker\src\navbar.html">
       <PackagePath>src\navbar.html</PackagePath>
@@ -2550,15 +2550,19 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\luminous\Documents\Visual Studio 2017\Projects\Time Talker\Time Talker\js\login.js">
       <PackagePath>js\login.js</PackagePath>
-      <Modified>2016-12-24T13:40:19.660</Modified>
+      <Modified>2016-12-24T14:24:54.239</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\luminous\Documents\Visual Studio 2017\Projects\Time Talker\Time Talker\js\main.js">
       <PackagePath>js\main.js</PackagePath>
-      <Modified>2016-12-24T13:36:12.720</Modified>
+      <Modified>2016-12-24T14:15:30.152</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\luminous\Documents\Visual Studio 2017\Projects\Time Talker\Time Talker\js\particles.js">
       <PackagePath>js\particles.js</PackagePath>
       <Modified>2016-12-23T09:19:25.615</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\luminous\Documents\Visual Studio 2017\Projects\Time Talker\Time Talker\js\register.js">
+      <PackagePath>js\register.js</PackagePath>
+      <Modified>2016-12-24T14:33:08.705</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\luminous\Documents\Visual Studio 2017\Projects\Time Talker\Time Talker\js\semantic.js">
       <PackagePath>js\semantic.js</PackagePath>
@@ -2775,7 +2779,7 @@
     <AppxPackagedFile Include="C:\Users\luminous\Documents\Visual Studio 2017\Projects\Time Talker\Time Talker\bin\Debug\ReverseMap\resources.pri">
       <PackagePath>resources.pri</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2016-12-24T11:36:43.848</Modified>
+      <Modified>2016-12-24T14:31:40.827</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
