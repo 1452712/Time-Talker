@@ -2,9 +2,17 @@
 
 /.vs/*
 
+# Time Talker
+
 /Time Talker/bld/*
 
 /Time Talker/Time Talker_TemporaryKey.pfx
+
+# AppointmentComponent
+
+/AppointmentComponent/obj/*
+
+/AppointmentComponent/bin/*
 
 # Reference Files
 

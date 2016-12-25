@@ -26,7 +26,7 @@
   </Applications>
   <Capabilities>
     <Capability Name="internetClient" />
-    <uap3:Capability Name="userNotificationListener" />
     <uap:Capability Name="appointments" />
+    <uap3:Capability Name="userNotificationListener" />
   </Capabilities>
 </Package>

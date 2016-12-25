@@ -714,6 +714,7 @@
     <Content Include="images\Square44x44Logo.targetsize-24_altform-unplated.png" />
     <Content Include="images\StoreLogo.png" />
     <Content Include="images\Wide310x150Logo.scale-200.png" />
+    <Content Include="js\alarm.js" />
     <Content Include="js\background.js" />
     <Content Include="js\jquery.js" />
     <Content Include="js\login.js" />
@@ -727,6 +728,7 @@
     <Content Include="lib\winjs-4.0.1\css\ui-light.css" />
     <Content Include="lib\winjs-4.0.1\css\ui-dark.css" />
     <Content Include="lib\winjs-4.0.1\fonts\Symbols.ttf" />
+    <Content Include="packages.config" />
     <Content Include="pages\demos\demos.js" />
     <Content Include="pages\demo\demo.js" />
     <Content Include="pages\hub\categoriesControl.css" />
@@ -738,14 +740,31 @@
     <Content Include="pages\hub\demosListControl.js" />
     <Content Include="pages\hub\hub.js" />
     <Content Include="pages\hub\welcomeControl.js" />
+    <Content Include="src\AddApointment.html" />
     <Content Include="src\login.html" />
     <Content Include="src\register.html" />
     <Content Include="src\navbar.html" />
-    <Content Include="src\test.html" />
-    <Content Include="src\test.js" />
     <None Include="Time Talker_TemporaryKey.pfx" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\AppointmentComponent\AppointmentComponent.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.Toolkit.Uwp.Notifications">
+      <HintPath>..\packages\Microsoft.Toolkit.Uwp.Notifications.JavaScript.1.2.0\lib\Windows\Microsoft.Toolkit.Uwp.Notifications.winmd</HintPath>
+      <IsWinMDFile>true</IsWinMDFile>
+      <CopyLocal>True</CopyLocal>
+      <SpecificVersion>True</SpecificVersion>
+    </Reference>
+  </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\$(WMSJSProjectDirectory)\Microsoft.VisualStudio.$(WMSJSProject).targets" />
+  <Import Project="..\packages\Microsoft.Toolkit.Uwp.Notifications.JavaScript.1.2.0\build\Windows\Microsoft.Toolkit.Uwp.Notifications.JavaScript.targets" Condition="Exists('..\packages\Microsoft.Toolkit.Uwp.Notifications.JavaScript.1.2.0\build\Windows\Microsoft.Toolkit.Uwp.Notifications.JavaScript.targets')" />
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\Microsoft.Toolkit.Uwp.Notifications.JavaScript.1.2.0\build\Windows\Microsoft.Toolkit.Uwp.Notifications.JavaScript.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.Toolkit.Uwp.Notifications.JavaScript.1.2.0\build\Windows\Microsoft.Toolkit.Uwp.Notifications.JavaScript.targets'))" />
+  </Target>
   <!-- To modify your build process, add your task inside one of the targets below then uncomment
        that target and the DisableFastUpToDateCheck PropertyGroup. 
        Other similar extension points exist, see Microsoft.Common.targets.

@@ -23,18 +23,30 @@
   <Applications>
     <Application Id="App" StartPage="index.html">
       <uap:VisualElements DisplayName="Time Talker" Description="Time Talker" BackgroundColor="transparent" Square150x150Logo="images\150_title.png" Square44x44Logo="images\44_title.png">
+        <uap:DefaultTile>
+          <uap:TileUpdate Recurrence="halfHour" UriTemplate="http://www.baidu.com" />
+        </uap:DefaultTile>
         <uap:SplashScreen Image="images\splash3.png" BackgroundColor="#F7FAFC" />
         <uap:InitialRotationPreference>
           <uap:Rotation Preference="landscape" />
           <uap:Rotation Preference="landscapeFlipped" />
         </uap:InitialRotationPreference>
       </uap:VisualElements>
+      <Extensions>
+        <uap:Extension Category="windows.appointmentsProvider">
+          <uap:AppointmentsProvider>
+            <uap:AppointmentsProviderLaunchActions>
+              <uap:LaunchAction Verb="addAppointment" StartPage="src/AddApointment.html" />
+            </uap:AppointmentsProviderLaunchActions>
+          </uap:AppointmentsProvider>
+        </uap:Extension>
+      </Extensions>
     </Application>
   </Applications>
   <Capabilities>
     <Capability Name="internetClient" />
-    <uap3:Capability Name="userNotificationListener" />
     <uap:Capability Name="appointments" />
+    <uap3:Capability Name="userNotificationListener" />
   </Capabilities>
   <build:Metadata>
     <build:Item Name="VisualStudio" Version="15.0" />
