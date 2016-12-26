@@ -7,7 +7,6 @@
     <script src="../lib/winjs-4.0.1/js/base.js"></script>
     <script src="../lib/winjs-4.0.1/js/ui.js"></script>
 	<link rel="stylesheet" type="text/css" href="../css/register-login.css">
-    <script src="../js/register.js"></script>
 </head>
 <body>
     <div id="box">
@@ -21,8 +20,8 @@
             <div class="cont-main clearfix">
                 <div class="index-tab">
                     <div class="index-slide-nav">
-                        <a href="login.html">Login</a>
-                        <a href="register.html" class="active">Register</a>
+                        <a href="login.html" id="loginPage2">Login</a>
+                        <a href="register.html" id="registerPage2" class="active">Register</a>
                         <div class="slide-bar slide-bar1"></div>
                     </div>
                 </div>
@@ -36,10 +35,10 @@
                             <input type="text" name="user" id="user" class="ipt" placeholder="Enter your e-mail" required>
                         </div>
                         <div class="group-ipt password">
-                            <input type="password" name="password" id="password" class="ipt" placeholder="Enter your password" required>
+                            <input type="password" name="password" id="password1" class="ipt" placeholder="Enter your password" required>
                         </div>
                         <div class="group-ipt password1">
-                            <input type="password" name="password1" id="password1" class="ipt" placeholder="Repeat your password" required>
+                            <input type="password" name="password1" id="password2" class="ipt" placeholder="Repeat your password" required>
                         </div>
                         <div class="group-ipt verify">
                             <input type="text" name="verify" id="verify" class="ipt" placeholder="Enter verification code" required>
@@ -49,7 +48,7 @@
                 </div>
 
                 <div class="button">
-                    <button type="submit" class="login-btn register-btn" id="button">Register</button>
+                    <button type="submit" class="login-btn register-btn" id="buttonRegister">Register</button>
                 </div>
             </div>
         </div>
@@ -63,8 +62,8 @@
         <script src='../js/particles.js' type="text/javascript"></script>
         <script src='../js/background.js' type="text/javascript"></script>
         <script src='../js/jquery_login.min.js' type="text/javascript"></script>
-        <script src='../js/layer/layer.js' type="text/javascript"></script>
-        <script src='../js/index.js' type="text/javascript"></script>
+        <script src='../js/layer.js' type="text/javascript"></script>
+        <script src="../js/register.js"></script>
         <!--
         <script>
             $('.imgcode').hover(function(){

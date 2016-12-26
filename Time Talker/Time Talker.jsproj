@@ -714,12 +714,14 @@
     <Content Include="images\Square44x44Logo.targetsize-24_altform-unplated.png" />
     <Content Include="images\StoreLogo.png" />
     <Content Include="images\Wide310x150Logo.scale-200.png" />
-    <Content Include="js\alarm.js" />
     <Content Include="js\background.js" />
     <Content Include="js\jquery.js" />
+    <Content Include="js\jquery_login.min.js" />
+    <Content Include="js\layer.js" />
     <Content Include="js\login.js" />
     <Content Include="js\main.js" />
     <Content Include="css\default.css" />
+    <Content Include="js\navbar.js" />
     <Content Include="js\particles.js" />
     <Content Include="js\register.js" />
     <Content Include="js\semantic.js" />

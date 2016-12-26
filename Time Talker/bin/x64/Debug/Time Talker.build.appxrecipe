@@ -1909,20 +1909,26 @@
     <AppxPackagedFile Include="C:\Users\luminous\documents\visual studio 2017\Projects\Time Talker\Time Talker\demos\xhr\xhr.js">
       <PackagePath>demos\xhr\xhr.js</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\luminous\documents\visual studio 2017\Projects\Time Talker\Time Talker\js\alarm.js">
-      <PackagePath>js\alarm.js</PackagePath>
-    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\luminous\documents\visual studio 2017\Projects\Time Talker\Time Talker\js\background.js">
       <PackagePath>js\background.js</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\luminous\documents\visual studio 2017\Projects\Time Talker\Time Talker\js\jquery.js">
       <PackagePath>js\jquery.js</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\luminous\documents\visual studio 2017\Projects\Time Talker\Time Talker\js\jquery_login.min.js">
+      <PackagePath>js\jquery_login.min.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\luminous\documents\visual studio 2017\Projects\Time Talker\Time Talker\js\layer.js">
+      <PackagePath>js\layer.js</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\luminous\documents\visual studio 2017\Projects\Time Talker\Time Talker\js\login.js">
       <PackagePath>js\login.js</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\luminous\documents\visual studio 2017\Projects\Time Talker\Time Talker\js\main.js">
       <PackagePath>js\main.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\luminous\documents\visual studio 2017\Projects\Time Talker\Time Talker\js\navbar.js">
+      <PackagePath>js\navbar.js</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\luminous\documents\visual studio 2017\Projects\Time Talker\Time Talker\js\particles.js">
       <PackagePath>js\particles.js</PackagePath>

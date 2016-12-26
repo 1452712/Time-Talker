@@ -6,9 +6,9 @@
     <link href="../lib/winjs-4.0.1/css/ui-light.css" rel="stylesheet" />
     <link href="../css/default.css" rel="stylesheet" />
     <link rel="stylesheet" type="text/css" href="../css/register-login.css">
+
     <script src="../lib/winjs-4.0.1/js/base.js"></script>
     <script src="../lib/winjs-4.0.1/js/ui.js"></script>
-    <script src="../js/login.js"></script>
 </head>
 <body class="win-type-body">
     <div id="box">
@@ -22,8 +22,8 @@
             <div class="cont-main clearfix">
                 <div class="index-tab">
                     <div class="index-slide-nav">
-                        <a href="login.html" class="active">Login</a>
-                        <a href="register.html">Register</a>
+                        <a href="login.html" class="active" id="loginPage">Login</a>
+                        <a href="register.html" id="registerPage">Register</a>
                         <div class="slide-bar"></div>
                     </div>
                 </div>
@@ -44,7 +44,7 @@
                 </div>
 
                 <div class="button">
-                    <button type="submit" class="login-btn register-btn" id="button">Login</button>
+                    <button type="submit" class="login-btn register-btn" id="buttonLogin">Login</button>
                 </div>
 
                 <div class="remember clearfix">
@@ -59,11 +59,13 @@
         <div class="footer">
             <p>TimeTalker-Be your private time assistant</p>
         </div>
+
+        <script src='../js/jquery_login.min.js' type="text/javascript"></script>
+        <script src='../js/layer.js' type="text/javascript"></script>
         <script src='../js/particles.js' type="text/javascript"></script>
         <script src='../js/background.js' type="text/javascript"></script>
-        <script src='../js/jquery_login.min.js' type="text/javascript"></script>
-        <script src='../js/layer/layer.js' type="text/javascript"></script>
-        <script src='../js/index.js' type="text/javascript"></script>
+        <script src="../js/login.js"></script>
+
         <!--
         <script>
             $('.imgcode').hover(function(){

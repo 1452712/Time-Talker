@@ -159,7 +159,7 @@
 		.button{
 			margin-top:18px; 
 		}
-		#button{
+		#buttonLogin{
 			width: 100%;
 			background: #62758D;
     		box-shadow: none;
@@ -172,7 +172,23 @@
     		cursor: pointer;
     		font-family: 'Microsoft Yahei';
 		}
-		#button:hover{
+		#buttonLogin:hover{
+			background: #80c3f7;
+		}
+        #buttonRegister{
+			width: 100%;
+			background: #62758D;
+    		box-shadow: none;
+    		border: 0;
+    		border-radius: 3px;
+    		line-height: 41px;
+    		color: #fff;
+    		display: block;
+    		font-size: 15px;
+    		cursor: pointer;
+    		font-family: 'Microsoft Yahei';
+		}
+		#buttonRegister:hover{
 			background: #80c3f7;
 		}
 		.remember{

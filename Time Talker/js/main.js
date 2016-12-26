@@ -42,22 +42,13 @@
 
             args.setPromise(WinJS.UI.processAll().then(function completed() {
 
-                /*WinJS.Navigation.addEventListener("navigated", navigationToLogin, true);
-                WinJS.Navigation.navigate("ms-appx:///src/login.html");
-                */
-                
+                WinJS.Navigation.addEventListener("navigated", navigationToLogin, true);
                 var webviewControl = document.getElementById("contentHost");
                 //webviewControl.addEventListener("activate", updateTile);
                 webviewControl.addEventListener("activate", tileNotificationExpiration);
-                webviewControl.addEventListener("navigated", navigationToLogin);
 
-                var uriPage = "ms-appx-web:///src/login.html";
-                //var uriPage = "ms-appx-web:///demos/tileupdate/tileupdate.html"
-                webviewControl.navigate(uriPage);
-
-                // declarition
-                //var updater = Windows.UI.Notifications.TileUpdateManager.createTileUpdaterForApplication();
-                //initTileTextSection();
+                var uriPage = "ms-appx:///src/login.html";
+                WinJS.Navigation.navigate(uriPage);
 
                 // Appointment Component
                 /* Example
@@ -72,7 +63,8 @@
                 runtimeButton2.addEventListener("click", runtime2, false);
                 */
             }));
-		}
+        }
+
 
 		isFirstActivation = false;
     };
@@ -95,34 +87,13 @@
         var url = eventObject.detail.location;
         var host = document.getElementById("contentHost");
 
-        //WinJS.UI.Pages.render(url, host);
         // Call unload method on current scenario, if there is one
        // host.winControl && host.winControl.unload && host.winControl.unload();
         WinJS.Utilities.empty(host);
+        //WinJS.UI.Pages.render(url, host, eventObject.detail.state)
         eventObject.detail.setPromise(WinJS.UI.Pages.render(url, host, eventObject.detail.state).then(function () {
            WinJS.Application.sessionState.lastUrl = url;
         }));
-    }
-
-    function initTileTextSection() {
-        var updater = Windows.UI.Notifications.TileUpdateManager.createTileUpdaterForApplication();
-
-        //q("button.sendText", element).onclick = function (e) {
-            // build and send the tile notification
-
-            //tileContent.textHeadingWrap.text = q("#tileText", element).value;
-            var squareTileContent = NotificationsExtensions.TileContent.TileContentFactory.createTileSquare150x150Text04();
-            //squareTileContent.textBodyWrap.text = q("#tileText", element).value;
-            squareTileContent.textBodyWrap.text = "test";
-            //tileContent.squareContent = squareTileContent;
-            //updater.enableNotificationQueue(q("#enableQueueing", element).winControl.checked);
-            updater.enableNotificationQueue(true);
-            updater.update(squareTileContent.createNotification());
-        //};
-
-        //q("button.clear", element).onclick = function (e) {
-            //updater.clear();
-        //};
     }
 
     //Appointment Compoennt
