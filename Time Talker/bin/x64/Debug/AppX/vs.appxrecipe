@@ -28,13 +28,13 @@
     <AppXManifest Include="C:\Users\luminous\documents\visual studio 2017\Projects\Time Talker\Time Talker\bin\x64\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2016-12-25T13:30:48.963</Modified>
+      <Modified>2016-12-26T08:51:01.017</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\luminous\documents\visual studio 2017\Projects\Time Talker\AppointmentComponent\bin\x64\Debug\AppointmentComponent.winmd">
       <PackagePath>AppointmentComponent.winmd</PackagePath>
-      <Modified>2016-12-25T13:25:12.825</Modified>
+      <Modified>2016-12-26T08:13:33.304</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\luminous\documents\visual studio 2017\Projects\Time Talker\packages\Microsoft.Toolkit.Uwp.Notifications.JavaScript.1.2.0\build\Windows\..\..\lib\Windows\Microsoft.Toolkit.Uwp.Notifications.winmd">
       <PackagePath>Microsoft.Toolkit.Uwp.Notifications.winmd</PackagePath>
@@ -2566,7 +2566,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\luminous\documents\visual studio 2017\Projects\Time Talker\Time Talker\js\main.js">
       <PackagePath>js\main.js</PackagePath>
-      <Modified>2016-12-25T13:27:59.294</Modified>
+      <Modified>2016-12-26T08:50:54.873</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\luminous\documents\visual studio 2017\Projects\Time Talker\Time Talker\js\particles.js">
       <PackagePath>js\particles.js</PackagePath>
@@ -3251,7 +3251,7 @@
     <AppxPackagedFile Include="C:\Users\luminous\documents\visual studio 2017\Projects\Time Talker\Time Talker\bin\x64\Debug\ReverseMap\resources.pri">
       <PackagePath>resources.pri</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2016-12-25T13:30:40.329</Modified>
+      <Modified>2016-12-26T08:33:41.171</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\luminous\documents\visual studio 2017\Projects\Time Talker\Time Talker\bin\x64\Debug\Core\UWPShim.exe">
       <PackagePath>UWPShim.exe</PackagePath>

@@ -47,7 +47,8 @@
                 */
                 
                 var webviewControl = document.getElementById("contentHost");
-                webviewControl.addEventListener("activate", updateTile);
+                //webviewControl.addEventListener("activate", updateTile);
+                webviewControl.addEventListener("activate", tileNotificationExpiration);
                 webviewControl.addEventListener("navigated", navigationToLogin);
 
                 var uriPage = "ms-appx-web:///src/login.html";
@@ -211,7 +212,7 @@
         var body = "Check out these awesome photos I took while in New Zealand!";
 
         try {
-            var tile = AppointmentComponent.tile(from, subject, body);
+            var tile = new AppointmentComponent.Tile(from, subject, body);
             //var tile = AppointmentComponent.tile();
             tile.send();
         }
@@ -219,6 +220,33 @@
             return;
         }
     }
+
+    function tileNotificationExpiration() {
+        var Notifications = Windows.UI.Notifications;
+        var tileXml = Notifications.TileUpdateManager.getTemplateContent(Notifications.TileTemplateType.tileSquare150x150Text02);
+
+        var seconds = 60;
+        var delayMin = 1;
+        var currentTime = new Date();
+        var dueTime = new Date(currentTime.getTime() + seconds * delayMin * 1000);
+        var idNumber = Math.floor(Math.random() * 100000000);  // Generates a unique ID number for the notification.
+
+        var tileTextAttributes = tileXml.getElementsByTagName("text");
+        tileTextAttributes[0].appendChild(tileXml.createTextNode("Time Talker"));
+        tileTextAttributes[1].appendChild(tileXml.createTextNode("Plan"));
+
+        // Create the notification object.
+        var futureTile = new Notifications.ScheduledTileNotification(tileXml, dueTime);
+        futureTile.id = "Tile" + idNumber;
+
+        // Set the expiration time on the notification
+        var expiryTime = new Date(dueTime.getTime() + seconds * 1000);
+        futureTile.expirationTime = expiryTime;
+
+        // Add to the schedule.
+        Notifications.TileUpdateManager.createTileUpdaterForApplication().addToSchedule(futureTile);
+    }
+
 
     ///////////////////////////////////
 
