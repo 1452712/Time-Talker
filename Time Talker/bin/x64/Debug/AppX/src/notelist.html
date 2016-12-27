@@ -63,7 +63,7 @@
                          location: '/src/profile.html'
                          }">
                 </div>
-                <div data-win-control="WinJS.UI.NavBarCommand" 
+                <div data-win-control="WinJS.UI.NavBarCommand"
                      data-win-options="{
                          label: 'Sign Out',
                          icon: WinJS.UI.AppBarIcon.blockcontact,
@@ -89,6 +89,8 @@
         </div>
         <br><br>-->
         <!-- semantic ui modal -->
+        <div id="titleBlock"><img src="../images/notes_title.png" /></div>
+        <!--
         <div class="ui large test modal" id="modalf" style="height:600px">
             <div class="ui transparent input header">
                 <input type="text" placeholder="New Node">
@@ -97,13 +99,9 @@
 
             <div class="content">
 
-<textarea id="editor_id"
-          name="content"
-          style="width:870px;
- height:400px;">
-
-&lt;strong&gt;Note&lt;/strong&gt;
-</textarea>
+                <textarea id="editor_id" name="content" style="width:870px; height:400px;">
+                    &lt;strong&gt;Note&lt;/strong&gt;
+                </textarea>
 
             </div>
             <div class="actions">
@@ -120,7 +118,7 @@
 
         <div class="ui.rating"></div>
 
-        <div class="ui star rating" data-rating="3"></div>
+        <div class="ui star rating" data-rating="3"></div>-->
         <div class="ui relaxed divided list">
             <div class="item">
                 <i class="large github middle aligned icon"></i>
@@ -164,7 +162,8 @@
 
         </div>
     </div>
-    <div id="appBar" data-win-control="WinJS.UI.AppBar" data-win-options="{placement:'bottom'}">
+    <div id="appBar" style="margin-left:-30px"
+         data-win-control="WinJS.UI.AppBar" data-win-options="{placement:'bottom'}">
         <!--<button data-win-control="WinJS.UI.BackButton"/>-->
         <div data-win-control="WinJS.UI.AppBarCommand"
              data-win-options="{
@@ -181,7 +180,7 @@
             section:'primary'}" />
         <button id="createButton"
                 data-win-control="WinJS.UI.AppBarCommand"
-                data-win-options="{            
+                data-win-options="{
                 type: 'button',
                 label:'Create',
                 tooltip:'Create',
@@ -225,22 +224,7 @@
                 ;
             //	window.parent.document.getElementById("notelist_iframe").src="../taskpage.jsp";
         }
-    </script>
-
-
-    <script charset="utf-8" src="../js/editor/kindeditor.js"></script>
-    <script charset="utf-8" src="../js/editor/lang/zh-CN.js"></script>
-    <script>
-        var editor;
-        KindEditor.ready(function (K) {
-            editor = K.create('textarea[name="content"]', {
-                allowFileManager: true
-            });
-
-            editor.html('HTML内容');
-
-        })
-    </script>-->
+-->
 </body>
 
 

@@ -2,9 +2,14 @@
 <html>
 <head>
     <title></title>
+    <link rel="stylesheet" type="text/css" href="../css/semantic.css">
+    <link rel="stylesheet" type="text/css" href="../css/form.min.css">
     <link href="../lib/winjs-4.0.1/css/ui-light.css" rel="stylesheet" />
     <script src="../lib/winjs-4.0.1/js/base.js"></script>
     <script src="../lib/winjs-4.0.1/js/ui.js"></script>
+    <script src="../js/editor/kindeditor.js"></script>
+    <script src="../js/editor/lang/zh-CN.js"></script>
+
     <link href="../css/notepage.css" rel="stylesheet" type="text/css" />
     <script src="../js/notepage.js"></script>
 </head>
@@ -60,6 +65,12 @@
         </div>
     </div>
     <div class="mainContent">
+        <div id="titleBlock"><img src="../images/createnote_title.png" /></div>
+        <textarea id="editor_id" name="content"></textarea>
+
+        <br />
+        <div class="ui submit button green" id="saveButton"> Save </div>
+        <div class="ui nonsubmit button red" id="cancelButton">Cancel</div>
     </div>
 </body>
 </html>

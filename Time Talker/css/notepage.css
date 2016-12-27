@@ -8,3 +8,16 @@
     margin-left: auto;
     margin-right: auto;
 }
+
+#titleBlock {
+    padding-top: 2em;
+    padding-bottom: 1em;
+}
+
+#editor_id {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 400px;
+    padding-bottom:1em;
+}

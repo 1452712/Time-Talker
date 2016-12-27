@@ -72,55 +72,51 @@
     <div class="mainContent">
         <div id="taskpage">
 
-
+            <div id="titleBlock"><img src="../images/createtask_title.png" /></div>
             <div>
                 <div id="taskcontent">
                     <form class="ui form" style="margin-left:10px;margin-right:10px">
-                        <div class="field">
-                            <label>Task Name</label>
-                            <input type="text" name="taskname" placeholder="Reading A book" />
-                        </div>
                         <div class="two fields">
                             <div class="field">
+                                <label>Task Name</label>
+                                <input type="text" id="taskname" name="taskname" placeholder="Reading A book" />
+                            </div>
+                            <div class="field">
                                 <label>Task Type</label>
-                                <select class="ui search dropdown">
+                                <select class="ui search dropdown" id="tasktype">
                                     <option value="">type</option>
                                     <option value="1">Read</option>
                                     <option value="2">Code</option>
                                     <option value="3">Write</option>
                                 </select>
                             </div>
-                            <div class="field">
-                                <label>Status</label>
-                                <input type="text" readonly="" placeholder="inProgress" />
-                            </div>
                         </div>
                         <div class="two fields">
                             <div class="field">
-                                <label>Start Time</label>
-                                <input type="date" readonly="" placeholder="2016/6/6" />
+                                <label>Start Date</label>
+                                <input type="date" placeholder="2016/6/6" id="startdate"/>
                             </div>
                             <div class="field">
-                                <label>Predict End Time</label>
-                                <input type="date" placeholder="2016/6/7" />
+                                <label>End Date</label>
+                                <input type="date" placeholder="2016/6/7" id="enddate"/>
                             </div>
                         </div>
                         <div>
-                            <label>Alarm Time</label>
                             <div class="fields inline">
 
-                                <div class="three wide field">
-                                    <label>Type</label>
-                                    <select multiple="" class="ui dropdown">
-                                        <option value="8">AllDays</option>
-                                        <option value="1">Monday</option>
-                                        <option value="2">Tuesday</option>
-                                        <option value="3">Wednesday</option>
-                                        <option value="4">Thursday</option>
-                                        <option value="5">Friday</option>
-                                        <option value="6">Saturday</option>
-                                        <option value="7">Sunday</option>
-                                    </select>
+                                <div class="two field inline">
+                                    <label>Repeat</label>
+                                        <select class="ui search dropdown">
+                                            <option value="">----</option>
+                                            <option value="8">All Days</option>
+                                            <option value="1">Monday</option>
+                                            <option value="2">Tuesday</option>
+                                            <option value="3">Wednesday</option>
+                                            <option value="4">Thursday</option>
+                                            <option value="5">Friday</option>
+                                            <option value="6">Saturday</option>
+                                            <option value="7">Sunday</option>
+                                        </select>
                                 </div>
                                 <div class="two field inline">
                                     <label>Begin Time</label>
@@ -136,10 +132,10 @@
                         </div>
                         <div class="field">
                             <label>Description</label>
-                            <textarea></textarea>
+                            <textarea id="description"></textarea>
                         </div>
-                        <div class="ui submit button green"> Save </div>
-                        <div class="ui nonsubmit button red">Cancel</div>
+                        <div class="ui submit button green" id="saveButton"> Save </div>
+                        <div class="ui nonsubmit button red" id="cancelButton">Cancel</div>
                     </form>
                     <script>
                         $(".taskbtnn").click(function () {

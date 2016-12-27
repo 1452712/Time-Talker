@@ -28,7 +28,7 @@
     <AppXManifest Include="C:\Users\luminous\documents\visual studio 2017\Projects\Time Talker\Time Talker\bin\x64\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2016-12-27T15:40:08.443</Modified>
+      <Modified>2016-12-27T19:44:40.566</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
@@ -98,7 +98,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\luminous\documents\visual studio 2017\Projects\Time Talker\Time Talker\css\dashboard.css">
       <PackagePath>css\dashboard.css</PackagePath>
-      <Modified>2016-12-27T11:29:56.161</Modified>
+      <Modified>2016-12-27T19:41:34.966</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\luminous\documents\visual studio 2017\Projects\Time Talker\Time Talker\css\dimmer.css">
       <PackagePath>css\dimmer.css</PackagePath>
@@ -158,11 +158,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\luminous\documents\visual studio 2017\Projects\Time Talker\Time Talker\css\notelist.css">
       <PackagePath>css\notelist.css</PackagePath>
-      <Modified>2016-12-27T11:08:10.684</Modified>
+      <Modified>2016-12-27T18:14:38.956</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\luminous\documents\visual studio 2017\Projects\Time Talker\Time Talker\css\notepage.css">
       <PackagePath>css\notepage.css</PackagePath>
-      <Modified>2016-12-27T13:28:42.939</Modified>
+      <Modified>2016-12-27T19:14:49.805</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\luminous\documents\visual studio 2017\Projects\Time Talker\Time Talker\css\owl.carousel.css">
       <PackagePath>css\owl.carousel.css</PackagePath>
@@ -170,7 +170,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\luminous\documents\visual studio 2017\Projects\Time Talker\Time Talker\css\profile.css">
       <PackagePath>css\profile.css</PackagePath>
-      <Modified>2016-12-27T12:35:07.858</Modified>
+      <Modified>2016-12-27T19:44:33.072</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\luminous\documents\visual studio 2017\Projects\Time Talker\Time Talker\css\register-login.css">
       <PackagePath>css\register-login.css</PackagePath>
@@ -210,11 +210,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\luminous\documents\visual studio 2017\Projects\Time Talker\Time Talker\css\tasklist.css">
       <PackagePath>css\tasklist.css</PackagePath>
-      <Modified>2016-12-27T12:58:16.465</Modified>
+      <Modified>2016-12-27T16:05:43.536</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\luminous\documents\visual studio 2017\Projects\Time Talker\Time Talker\css\taskpage.css">
       <PackagePath>css\taskpage.css</PackagePath>
-      <Modified>2016-12-27T12:58:42.698</Modified>
+      <Modified>2016-12-27T17:34:13.235</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\luminous\documents\visual studio 2017\Projects\Time Talker\Time Talker\demos\alaska\alaska.css">
       <PackagePath>demos\alaska\alaska.css</PackagePath>
@@ -651,6 +651,22 @@
     <AppxPackagedFile Include="C:\Users\luminous\documents\visual studio 2017\Projects\Time Talker\Time Talker\demos\zoom\zoom.css">
       <PackagePath>demos\zoom\zoom.css</PackagePath>
       <Modified>2016-12-22T06:16:01.295</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\luminous\documents\visual studio 2017\Projects\Time Talker\Time Talker\js\editor\plugins\code\prettify.css">
+      <PackagePath>js\editor\plugins\code\prettify.css</PackagePath>
+      <Modified>2016-12-26T08:32:40.392</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\luminous\documents\visual studio 2017\Projects\Time Talker\Time Talker\js\editor\themes\default\default.css">
+      <PackagePath>js\editor\themes\default\default.css</PackagePath>
+      <Modified>2016-12-26T08:32:41.083</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\luminous\documents\visual studio 2017\Projects\Time Talker\Time Talker\js\editor\themes\qq\qq.css">
+      <PackagePath>js\editor\themes\qq\qq.css</PackagePath>
+      <Modified>2016-12-26T08:32:41.090</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\luminous\documents\visual studio 2017\Projects\Time Talker\Time Talker\js\editor\themes\simple\simple.css">
+      <PackagePath>js\editor\themes\simple\simple.css</PackagePath>
+      <Modified>2016-12-26T08:32:41.093</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\luminous\documents\visual studio 2017\Projects\Time Talker\Time Talker\css\default.css">
       <PackagePath>css\default.css</PackagePath>
@@ -1376,6 +1392,30 @@
       <PackagePath>index.html</PackagePath>
       <Modified>2016-12-26T12:17:59.734</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\luminous\documents\visual studio 2017\Projects\Time Talker\Time Talker\js\editor\plugins\baidumap\index.html">
+      <PackagePath>js\editor\plugins\baidumap\index.html</PackagePath>
+      <Modified>2016-12-26T08:32:40.376</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\luminous\documents\visual studio 2017\Projects\Time Talker\Time Talker\js\editor\plugins\baidumap\map.html">
+      <PackagePath>js\editor\plugins\baidumap\map.html</PackagePath>
+      <Modified>2016-12-26T08:32:40.379</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\luminous\documents\visual studio 2017\Projects\Time Talker\Time Talker\js\editor\plugins\map\map.html">
+      <PackagePath>js\editor\plugins\map\map.html</PackagePath>
+      <Modified>2016-12-26T08:32:40.889</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\luminous\documents\visual studio 2017\Projects\Time Talker\Time Talker\js\editor\plugins\template\html\1.html">
+      <PackagePath>js\editor\plugins\template\html\1.html</PackagePath>
+      <Modified>2016-12-26T08:32:41.012</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\luminous\documents\visual studio 2017\Projects\Time Talker\Time Talker\js\editor\plugins\template\html\2.html">
+      <PackagePath>js\editor\plugins\template\html\2.html</PackagePath>
+      <Modified>2016-12-26T08:32:41.020</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\luminous\documents\visual studio 2017\Projects\Time Talker\Time Talker\js\editor\plugins\template\html\3.html">
+      <PackagePath>js\editor\plugins\template\html\3.html</PackagePath>
+      <Modified>2016-12-26T08:32:41.022</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\luminous\documents\visual studio 2017\Projects\Time Talker\Time Talker\pages\hub\categoriesControl.html">
       <PackagePath>pages\hub\categoriesControl.html</PackagePath>
       <Modified>2016-12-22T06:16:20.043</Modified>
@@ -1410,11 +1450,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\luminous\documents\visual studio 2017\Projects\Time Talker\Time Talker\src\notelist.html">
       <PackagePath>src\notelist.html</PackagePath>
-      <Modified>2016-12-27T15:20:59.779</Modified>
+      <Modified>2016-12-27T19:17:36.158</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\luminous\documents\visual studio 2017\Projects\Time Talker\Time Talker\src\notepage.html">
       <PackagePath>src\notepage.html</PackagePath>
-      <Modified>2016-12-27T13:30:04.326</Modified>
+      <Modified>2016-12-27T19:13:00.296</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\luminous\documents\visual studio 2017\Projects\Time Talker\Time Talker\src\personinfo.html">
       <PackagePath>src\personinfo.html</PackagePath>
@@ -1422,7 +1462,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\luminous\documents\visual studio 2017\Projects\Time Talker\Time Talker\src\profile.html">
       <PackagePath>src\profile.html</PackagePath>
-      <Modified>2016-12-27T15:39:59.969</Modified>
+      <Modified>2016-12-27T15:53:13.610</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\luminous\documents\visual studio 2017\Projects\Time Talker\Time Talker\src\register.html">
       <PackagePath>src\register.html</PackagePath>
@@ -1434,7 +1474,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\luminous\documents\visual studio 2017\Projects\Time Talker\Time Talker\src\semantic.html">
       <PackagePath>src\semantic.html</PackagePath>
-      <Modified>2016-12-27T11:44:25.652</Modified>
+      <Modified>2016-12-27T19:40:30.463</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\luminous\documents\visual studio 2017\Projects\Time Talker\Time Talker\src\splitView.html">
       <PackagePath>src\splitView.html</PackagePath>
@@ -1442,11 +1482,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\luminous\documents\visual studio 2017\Projects\Time Talker\Time Talker\src\tasklist.html">
       <PackagePath>src\tasklist.html</PackagePath>
-      <Modified>2016-12-27T11:58:35.130</Modified>
+      <Modified>2016-12-27T16:14:03.670</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\luminous\documents\visual studio 2017\Projects\Time Talker\Time Talker\src\taskpage.html">
       <PackagePath>src\taskpage.html</PackagePath>
-      <Modified>2016-12-27T13:27:08.408</Modified>
+      <Modified>2016-12-27T19:27:49.449</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\luminous\documents\visual studio 2017\Projects\Time Talker\Time Talker\demos\ads\ads.json">
       <PackagePath>demos\ads\ads.json</PackagePath>
@@ -2776,6 +2816,10 @@
       <PackagePath>demos\xhr\xhr.js</PackagePath>
       <Modified>2016-12-22T06:16:01.195</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\luminous\documents\visual studio 2017\Projects\Time Talker\Time Talker\js\ar.js">
+      <PackagePath>js\ar.js</PackagePath>
+      <Modified>2016-12-26T08:32:40.315</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\luminous\documents\visual studio 2017\Projects\Time Talker\Time Talker\js\background.js">
       <PackagePath>js\background.js</PackagePath>
       <Modified>2016-12-23T09:20:22.312</Modified>
@@ -2799,6 +2843,138 @@
     <AppxPackagedFile Include="C:\Users\luminous\documents\visual studio 2017\Projects\Time Talker\Time Talker\js\dropdown.js">
       <PackagePath>js\dropdown.js</PackagePath>
       <Modified>2016-12-26T12:04:01.993</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\luminous\documents\visual studio 2017\Projects\Time Talker\Time Talker\js\editor\kindeditor-all-min.js">
+      <PackagePath>js\editor\kindeditor-all-min.js</PackagePath>
+      <Modified>2016-12-26T08:32:40.087</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\luminous\documents\visual studio 2017\Projects\Time Talker\Time Talker\js\editor\kindeditor-all.js">
+      <PackagePath>js\editor\kindeditor-all.js</PackagePath>
+      <Modified>2016-12-26T08:32:40.173</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\luminous\documents\visual studio 2017\Projects\Time Talker\Time Talker\js\editor\kindeditor-min.js">
+      <PackagePath>js\editor\kindeditor-min.js</PackagePath>
+      <Modified>2016-12-26T08:32:40.236</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\luminous\documents\visual studio 2017\Projects\Time Talker\Time Talker\js\editor\kindeditor.js">
+      <PackagePath>js\editor\kindeditor.js</PackagePath>
+      <Modified>2016-12-26T08:32:40.305</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\luminous\documents\visual studio 2017\Projects\Time Talker\Time Talker\js\editor\lang\ar.js">
+      <PackagePath>js\editor\lang\ar.js</PackagePath>
+      <Modified>2016-12-26T08:32:40.315</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\luminous\documents\visual studio 2017\Projects\Time Talker\Time Talker\js\editor\lang\en.js">
+      <PackagePath>js\editor\lang\en.js</PackagePath>
+      <Modified>2016-12-26T08:32:40.316</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\luminous\documents\visual studio 2017\Projects\Time Talker\Time Talker\js\editor\lang\ko.js">
+      <PackagePath>js\editor\lang\ko.js</PackagePath>
+      <Modified>2016-12-26T08:32:40.329</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\luminous\documents\visual studio 2017\Projects\Time Talker\Time Talker\js\editor\lang\zh_CN.js">
+      <PackagePath>js\editor\lang\zh_CN.js</PackagePath>
+      <Modified>2016-12-26T08:32:40.339</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\luminous\documents\visual studio 2017\Projects\Time Talker\Time Talker\js\editor\lang\zh_TW.js">
+      <PackagePath>js\editor\lang\zh_TW.js</PackagePath>
+      <Modified>2016-12-26T08:32:40.348</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\luminous\documents\visual studio 2017\Projects\Time Talker\Time Talker\js\editor\plugins\anchor\anchor.js">
+      <PackagePath>js\editor\plugins\anchor\anchor.js</PackagePath>
+      <Modified>2016-12-26T08:32:40.363</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\luminous\documents\visual studio 2017\Projects\Time Talker\Time Talker\js\editor\plugins\autoheight\autoheight.js">
+      <PackagePath>js\editor\plugins\autoheight\autoheight.js</PackagePath>
+      <Modified>2016-12-26T08:32:40.368</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\luminous\documents\visual studio 2017\Projects\Time Talker\Time Talker\js\editor\plugins\baidumap\baidumap.js">
+      <PackagePath>js\editor\plugins\baidumap\baidumap.js</PackagePath>
+      <Modified>2016-12-26T08:32:40.373</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\luminous\documents\visual studio 2017\Projects\Time Talker\Time Talker\js\editor\plugins\clearhtml\clearhtml.js">
+      <PackagePath>js\editor\plugins\clearhtml\clearhtml.js</PackagePath>
+      <Modified>2016-12-26T08:32:40.384</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\luminous\documents\visual studio 2017\Projects\Time Talker\Time Talker\js\editor\plugins\code\code.js">
+      <PackagePath>js\editor\plugins\code\code.js</PackagePath>
+      <Modified>2016-12-26T08:32:40.389</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\luminous\documents\visual studio 2017\Projects\Time Talker\Time Talker\js\editor\plugins\code\prettify.js">
+      <PackagePath>js\editor\plugins\code\prettify.js</PackagePath>
+      <Modified>2016-12-26T08:32:40.435</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\luminous\documents\visual studio 2017\Projects\Time Talker\Time Talker\js\editor\plugins\emoticons\emoticons.js">
+      <PackagePath>js\editor\plugins\emoticons\emoticons.js</PackagePath>
+      <Modified>2016-12-26T08:32:40.439</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\luminous\documents\visual studio 2017\Projects\Time Talker\Time Talker\js\editor\plugins\filemanager\filemanager.js">
+      <PackagePath>js\editor\plugins\filemanager\filemanager.js</PackagePath>
+      <Modified>2016-12-26T08:32:40.852</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\luminous\documents\visual studio 2017\Projects\Time Talker\Time Talker\js\editor\plugins\flash\flash.js">
+      <PackagePath>js\editor\plugins\flash\flash.js</PackagePath>
+      <Modified>2016-12-26T08:32:40.861</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\luminous\documents\visual studio 2017\Projects\Time Talker\Time Talker\js\editor\plugins\image\image.js">
+      <PackagePath>js\editor\plugins\image\image.js</PackagePath>
+      <Modified>2016-12-26T08:32:40.874</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\luminous\documents\visual studio 2017\Projects\Time Talker\Time Talker\js\editor\plugins\insertfile\insertfile.js">
+      <PackagePath>js\editor\plugins\insertfile\insertfile.js</PackagePath>
+      <Modified>2016-12-26T08:32:40.883</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\luminous\documents\visual studio 2017\Projects\Time Talker\Time Talker\js\editor\plugins\lineheight\lineheight.js">
+      <PackagePath>js\editor\plugins\lineheight\lineheight.js</PackagePath>
+      <Modified>2016-12-26T08:32:40.885</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\luminous\documents\visual studio 2017\Projects\Time Talker\Time Talker\js\editor\plugins\link\link.js">
+      <PackagePath>js\editor\plugins\link\link.js</PackagePath>
+      <Modified>2016-12-26T08:32:40.887</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\luminous\documents\visual studio 2017\Projects\Time Talker\Time Talker\js\editor\plugins\map\map.js">
+      <PackagePath>js\editor\plugins\map\map.js</PackagePath>
+      <Modified>2016-12-26T08:32:40.890</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\luminous\documents\visual studio 2017\Projects\Time Talker\Time Talker\js\editor\plugins\media\media.js">
+      <PackagePath>js\editor\plugins\media\media.js</PackagePath>
+      <Modified>2016-12-26T08:32:40.892</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\luminous\documents\visual studio 2017\Projects\Time Talker\Time Talker\js\editor\plugins\multiimage\multiimage.js">
+      <PackagePath>js\editor\plugins\multiimage\multiimage.js</PackagePath>
+      <Modified>2016-12-26T08:32:40.963</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\luminous\documents\visual studio 2017\Projects\Time Talker\Time Talker\js\editor\plugins\pagebreak\pagebreak.js">
+      <PackagePath>js\editor\plugins\pagebreak\pagebreak.js</PackagePath>
+      <Modified>2016-12-26T08:32:40.965</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\luminous\documents\visual studio 2017\Projects\Time Talker\Time Talker\js\editor\plugins\plainpaste\plainpaste.js">
+      <PackagePath>js\editor\plugins\plainpaste\plainpaste.js</PackagePath>
+      <Modified>2016-12-26T08:32:40.968</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\luminous\documents\visual studio 2017\Projects\Time Talker\Time Talker\js\editor\plugins\preview\preview.js">
+      <PackagePath>js\editor\plugins\preview\preview.js</PackagePath>
+      <Modified>2016-12-26T08:32:40.979</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\luminous\documents\visual studio 2017\Projects\Time Talker\Time Talker\js\editor\plugins\quickformat\quickformat.js">
+      <PackagePath>js\editor\plugins\quickformat\quickformat.js</PackagePath>
+      <Modified>2016-12-26T08:32:40.982</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\luminous\documents\visual studio 2017\Projects\Time Talker\Time Talker\js\editor\plugins\table\table.js">
+      <PackagePath>js\editor\plugins\table\table.js</PackagePath>
+      <Modified>2016-12-26T08:32:40.998</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\luminous\documents\visual studio 2017\Projects\Time Talker\Time Talker\js\editor\plugins\template\template.js">
+      <PackagePath>js\editor\plugins\template\template.js</PackagePath>
+      <Modified>2016-12-26T08:32:41.025</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\luminous\documents\visual studio 2017\Projects\Time Talker\Time Talker\js\editor\plugins\wordpaste\wordpaste.js">
+      <PackagePath>js\editor\plugins\wordpaste\wordpaste.js</PackagePath>
+      <Modified>2016-12-26T08:32:41.048</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\luminous\documents\visual studio 2017\Projects\Time Talker\Time Talker\js\en.js">
+      <PackagePath>js\en.js</PackagePath>
+      <Modified>2016-12-26T08:32:40.316</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\luminous\documents\visual studio 2017\Projects\Time Talker\Time Talker\js\form.js">
       <PackagePath>js\form.js</PackagePath>
@@ -2832,6 +3008,26 @@
       <PackagePath>js\jquery_login.min.js</PackagePath>
       <Modified>2016-12-26T09:44:46.824</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\luminous\documents\visual studio 2017\Projects\Time Talker\Time Talker\js\kindeditor-all-min.js">
+      <PackagePath>js\kindeditor-all-min.js</PackagePath>
+      <Modified>2016-12-26T08:32:40.087</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\luminous\documents\visual studio 2017\Projects\Time Talker\Time Talker\js\kindeditor-all.js">
+      <PackagePath>js\kindeditor-all.js</PackagePath>
+      <Modified>2016-12-26T08:32:40.173</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\luminous\documents\visual studio 2017\Projects\Time Talker\Time Talker\js\kindeditor-min.js">
+      <PackagePath>js\kindeditor-min.js</PackagePath>
+      <Modified>2016-12-26T08:32:40.236</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\luminous\documents\visual studio 2017\Projects\Time Talker\Time Talker\js\kindeditor.js">
+      <PackagePath>js\kindeditor.js</PackagePath>
+      <Modified>2016-12-26T08:32:40.305</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\luminous\documents\visual studio 2017\Projects\Time Talker\Time Talker\js\ko.js">
+      <PackagePath>js\ko.js</PackagePath>
+      <Modified>2016-12-26T08:32:40.329</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\luminous\documents\visual studio 2017\Projects\Time Talker\Time Talker\js\layer.js">
       <PackagePath>js\layer.js</PackagePath>
       <Modified>2016-12-26T09:44:24.748</Modified>
@@ -2862,7 +3058,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\luminous\documents\visual studio 2017\Projects\Time Talker\Time Talker\js\notepage.js">
       <PackagePath>js\notepage.js</PackagePath>
-      <Modified>2016-12-27T13:25:57.035</Modified>
+      <Modified>2016-12-27T19:21:00.163</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\luminous\documents\visual studio 2017\Projects\Time Talker\Time Talker\js\package.js">
       <PackagePath>js\package.js</PackagePath>
@@ -2874,7 +3070,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\luminous\documents\visual studio 2017\Projects\Time Talker\Time Talker\js\profile.js">
       <PackagePath>js\profile.js</PackagePath>
-      <Modified>2016-12-27T15:39:56.668</Modified>
+      <Modified>2016-12-27T15:45:46.249</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\luminous\documents\visual studio 2017\Projects\Time Talker\Time Talker\js\register.js">
       <PackagePath>js\register.js</PackagePath>
@@ -2894,11 +3090,19 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\luminous\documents\visual studio 2017\Projects\Time Talker\Time Talker\js\taskpage.js">
       <PackagePath>js\taskpage.js</PackagePath>
-      <Modified>2016-12-27T13:00:31.339</Modified>
+      <Modified>2016-12-27T19:38:38.890</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\luminous\documents\visual studio 2017\Projects\Time Talker\Time Talker\js\tether.min.js">
       <PackagePath>js\tether.min.js</PackagePath>
       <Modified>2016-12-23T11:55:12.414</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\luminous\documents\visual studio 2017\Projects\Time Talker\Time Talker\js\zh_CN.js">
+      <PackagePath>js\zh_CN.js</PackagePath>
+      <Modified>2016-12-26T08:32:40.339</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\luminous\documents\visual studio 2017\Projects\Time Talker\Time Talker\js\zh_TW.js">
+      <PackagePath>js\zh_TW.js</PackagePath>
+      <Modified>2016-12-26T08:32:40.348</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\luminous\documents\visual studio 2017\Projects\Time Talker\Time Talker\lib\winjs-4.0.1\js\base.js">
       <PackagePath>lib\winjs-4.0.1\js\base.js</PackagePath>
@@ -3108,9 +3312,45 @@
       <PackagePath>images\Wide310x150Logo.scale-200.png</PackagePath>
       <Modified>2016-12-22T10:36:08.464</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\luminous\documents\visual studio 2017\Projects\Time Talker\Time Talker\js\editor\plugins\image\images\refresh.png">
+      <PackagePath>js\editor\plugins\image\images\refresh.png</PackagePath>
+      <Modified>2016-12-26T08:32:40.881</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\luminous\documents\visual studio 2017\Projects\Time Talker\Time Talker\js\editor\plugins\multiimage\images\image.png">
+      <PackagePath>js\editor\plugins\multiimage\images\image.png</PackagePath>
+      <Modified>2016-12-26T08:32:40.895</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\luminous\documents\visual studio 2017\Projects\Time Talker\Time Talker\js\editor\plugins\multiimage\images\select-files-en.png">
+      <PackagePath>js\editor\plugins\multiimage\images\select-files-en.png</PackagePath>
+      <Modified>2016-12-26T08:32:40.896</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\luminous\documents\visual studio 2017\Projects\Time Talker\Time Talker\js\editor\plugins\multiimage\images\select-files-zh_CN.png">
+      <PackagePath>js\editor\plugins\multiimage\images\select-files-zh_CN.png</PackagePath>
+      <Modified>2016-12-26T08:32:40.897</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\luminous\documents\visual studio 2017\Projects\Time Talker\Time Talker\js\editor\themes\default\background.png">
+      <PackagePath>js\editor\themes\default\background.png</PackagePath>
+      <Modified>2016-12-26T08:32:41.075</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\luminous\documents\visual studio 2017\Projects\Time Talker\Time Talker\js\editor\themes\default\default.png">
+      <PackagePath>js\editor\themes\default\default.png</PackagePath>
+      <Modified>2016-12-26T08:32:41.085</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\luminous\documents\visual studio 2017\Projects\Time Talker\Time Talker\demos\crop\images\attribution.txt">
       <PackagePath>demos\crop\images\attribution.txt</PackagePath>
       <Modified>2016-12-22T06:15:16.428</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\luminous\documents\visual studio 2017\Projects\Time Talker\Time Talker\js\editor\jsp\README.txt">
+      <PackagePath>js\editor\jsp\README.txt</PackagePath>
+      <Modified>2016-12-26T08:32:39.980</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\luminous\documents\visual studio 2017\Projects\Time Talker\Time Talker\js\editor\license.txt">
+      <PackagePath>js\editor\license.txt</PackagePath>
+      <Modified>2016-12-26T08:32:40.356</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\luminous\documents\visual studio 2017\Projects\Time Talker\Time Talker\js\license.txt">
+      <PackagePath>js\license.txt</PackagePath>
+      <Modified>2016-12-26T08:32:40.356</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\luminous\documents\visual studio 2017\Projects\Time Talker\Time Talker\demos\fontface\geobats.ttf">
       <PackagePath>demos\fontface\geobats.ttf</PackagePath>
@@ -3131,6 +3371,638 @@
     <AppxPackagedFile Include="C:\Users\luminous\documents\visual studio 2017\Projects\Time Talker\Time Talker\demos\html5video\butterfly.mp4">
       <PackagePath>demos\html5video\butterfly.mp4</PackagePath>
       <Modified>2016-12-22T06:15:29.699</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\luminous\documents\visual studio 2017\Projects\Time Talker\Time Talker\js\editor\jsp\demo.jsp">
+      <PackagePath>js\editor\jsp\demo.jsp</PackagePath>
+      <Modified>2016-12-26T08:32:39.946</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\luminous\documents\visual studio 2017\Projects\Time Talker\Time Talker\js\editor\jsp\file_manager_json.jsp">
+      <PackagePath>js\editor\jsp\file_manager_json.jsp</PackagePath>
+      <Modified>2016-12-26T08:32:39.953</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\luminous\documents\visual studio 2017\Projects\Time Talker\Time Talker\js\editor\jsp\upload_json.jsp">
+      <PackagePath>js\editor\jsp\upload_json.jsp</PackagePath>
+      <Modified>2016-12-26T08:32:39.984</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\luminous\documents\visual studio 2017\Projects\Time Talker\Time Talker\js\editor\jsp\lib\commons-fileupload-1.2.1.jar">
+      <PackagePath>js\editor\jsp\lib\commons-fileupload-1.2.1.jar</PackagePath>
+      <Modified>2016-12-26T12:11:44.225</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\luminous\documents\visual studio 2017\Projects\Time Talker\Time Talker\js\editor\jsp\lib\commons-io-1.4.jar">
+      <PackagePath>js\editor\jsp\lib\commons-io-1.4.jar</PackagePath>
+      <Modified>2016-12-26T08:32:39.972</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\luminous\documents\visual studio 2017\Projects\Time Talker\Time Talker\js\editor\jsp\lib\json_simple-1.1.jar">
+      <PackagePath>js\editor\jsp\lib\json_simple-1.1.jar</PackagePath>
+      <Modified>2016-12-26T08:32:39.976</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\luminous\documents\visual studio 2017\Projects\Time Talker\Time Talker\js\editor\plugins\emoticons\images\0.gif">
+      <PackagePath>js\editor\plugins\emoticons\images\0.gif</PackagePath>
+      <Modified>2016-12-26T08:32:40.445</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\luminous\documents\visual studio 2017\Projects\Time Talker\Time Talker\js\editor\plugins\emoticons\images\1.gif">
+      <PackagePath>js\editor\plugins\emoticons\images\1.gif</PackagePath>
+      <Modified>2016-12-26T08:32:40.448</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\luminous\documents\visual studio 2017\Projects\Time Talker\Time Talker\js\editor\plugins\emoticons\images\10.gif">
+      <PackagePath>js\editor\plugins\emoticons\images\10.gif</PackagePath>
+      <Modified>2016-12-26T08:32:40.451</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\luminous\documents\visual studio 2017\Projects\Time Talker\Time Talker\js\editor\plugins\emoticons\images\100.gif">
+      <PackagePath>js\editor\plugins\emoticons\images\100.gif</PackagePath>
+      <Modified>2016-12-26T08:32:40.454</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\luminous\documents\visual studio 2017\Projects\Time Talker\Time Talker\js\editor\plugins\emoticons\images\101.gif">
+      <PackagePath>js\editor\plugins\emoticons\images\101.gif</PackagePath>
+      <Modified>2016-12-26T08:32:40.457</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\luminous\documents\visual studio 2017\Projects\Time Talker\Time Talker\js\editor\plugins\emoticons\images\102.gif">
+      <PackagePath>js\editor\plugins\emoticons\images\102.gif</PackagePath>
+      <Modified>2016-12-26T08:32:40.460</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\luminous\documents\visual studio 2017\Projects\Time Talker\Time Talker\js\editor\plugins\emoticons\images\103.gif">
+      <PackagePath>js\editor\plugins\emoticons\images\103.gif</PackagePath>
+      <Modified>2016-12-26T08:32:40.463</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\luminous\documents\visual studio 2017\Projects\Time Talker\Time Talker\js\editor\plugins\emoticons\images\104.gif">
+      <PackagePath>js\editor\plugins\emoticons\images\104.gif</PackagePath>
+      <Modified>2016-12-26T08:32:40.467</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\luminous\documents\visual studio 2017\Projects\Time Talker\Time Talker\js\editor\plugins\emoticons\images\105.gif">
+      <PackagePath>js\editor\plugins\emoticons\images\105.gif</PackagePath>
+      <Modified>2016-12-26T08:32:40.470</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\luminous\documents\visual studio 2017\Projects\Time Talker\Time Talker\js\editor\plugins\emoticons\images\106.gif">
+      <PackagePath>js\editor\plugins\emoticons\images\106.gif</PackagePath>
+      <Modified>2016-12-26T08:32:40.473</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\luminous\documents\visual studio 2017\Projects\Time Talker\Time Talker\js\editor\plugins\emoticons\images\107.gif">
+      <PackagePath>js\editor\plugins\emoticons\images\107.gif</PackagePath>
+      <Modified>2016-12-26T08:32:40.476</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\luminous\documents\visual studio 2017\Projects\Time Talker\Time Talker\js\editor\plugins\emoticons\images\108.gif">
+      <PackagePath>js\editor\plugins\emoticons\images\108.gif</PackagePath>
+      <Modified>2016-12-26T08:32:40.478</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\luminous\documents\visual studio 2017\Projects\Time Talker\Time Talker\js\editor\plugins\emoticons\images\109.gif">
+      <PackagePath>js\editor\plugins\emoticons\images\109.gif</PackagePath>
+      <Modified>2016-12-26T08:32:40.481</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\luminous\documents\visual studio 2017\Projects\Time Talker\Time Talker\js\editor\plugins\emoticons\images\11.gif">
+      <PackagePath>js\editor\plugins\emoticons\images\11.gif</PackagePath>
+      <Modified>2016-12-26T08:32:40.484</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\luminous\documents\visual studio 2017\Projects\Time Talker\Time Talker\js\editor\plugins\emoticons\images\110.gif">
+      <PackagePath>js\editor\plugins\emoticons\images\110.gif</PackagePath>
+      <Modified>2016-12-26T08:32:40.487</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\luminous\documents\visual studio 2017\Projects\Time Talker\Time Talker\js\editor\plugins\emoticons\images\111.gif">
+      <PackagePath>js\editor\plugins\emoticons\images\111.gif</PackagePath>
+      <Modified>2016-12-26T08:32:40.490</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\luminous\documents\visual studio 2017\Projects\Time Talker\Time Talker\js\editor\plugins\emoticons\images\112.gif">
+      <PackagePath>js\editor\plugins\emoticons\images\112.gif</PackagePath>
+      <Modified>2016-12-26T08:32:40.493</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\luminous\documents\visual studio 2017\Projects\Time Talker\Time Talker\js\editor\plugins\emoticons\images\113.gif">
+      <PackagePath>js\editor\plugins\emoticons\images\113.gif</PackagePath>
+      <Modified>2016-12-26T08:32:40.496</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\luminous\documents\visual studio 2017\Projects\Time Talker\Time Talker\js\editor\plugins\emoticons\images\114.gif">
+      <PackagePath>js\editor\plugins\emoticons\images\114.gif</PackagePath>
+      <Modified>2016-12-26T08:32:40.499</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\luminous\documents\visual studio 2017\Projects\Time Talker\Time Talker\js\editor\plugins\emoticons\images\115.gif">
+      <PackagePath>js\editor\plugins\emoticons\images\115.gif</PackagePath>
+      <Modified>2016-12-26T08:32:40.502</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\luminous\documents\visual studio 2017\Projects\Time Talker\Time Talker\js\editor\plugins\emoticons\images\116.gif">
+      <PackagePath>js\editor\plugins\emoticons\images\116.gif</PackagePath>
+      <Modified>2016-12-26T08:32:40.505</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\luminous\documents\visual studio 2017\Projects\Time Talker\Time Talker\js\editor\plugins\emoticons\images\117.gif">
+      <PackagePath>js\editor\plugins\emoticons\images\117.gif</PackagePath>
+      <Modified>2016-12-26T08:32:40.508</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\luminous\documents\visual studio 2017\Projects\Time Talker\Time Talker\js\editor\plugins\emoticons\images\118.gif">
+      <PackagePath>js\editor\plugins\emoticons\images\118.gif</PackagePath>
+      <Modified>2016-12-26T08:32:40.511</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\luminous\documents\visual studio 2017\Projects\Time Talker\Time Talker\js\editor\plugins\emoticons\images\119.gif">
+      <PackagePath>js\editor\plugins\emoticons\images\119.gif</PackagePath>
+      <Modified>2016-12-26T08:32:40.514</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\luminous\documents\visual studio 2017\Projects\Time Talker\Time Talker\js\editor\plugins\emoticons\images\12.gif">
+      <PackagePath>js\editor\plugins\emoticons\images\12.gif</PackagePath>
+      <Modified>2016-12-26T08:32:40.517</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\luminous\documents\visual studio 2017\Projects\Time Talker\Time Talker\js\editor\plugins\emoticons\images\120.gif">
+      <PackagePath>js\editor\plugins\emoticons\images\120.gif</PackagePath>
+      <Modified>2016-12-26T08:32:40.520</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\luminous\documents\visual studio 2017\Projects\Time Talker\Time Talker\js\editor\plugins\emoticons\images\121.gif">
+      <PackagePath>js\editor\plugins\emoticons\images\121.gif</PackagePath>
+      <Modified>2016-12-26T08:32:40.523</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\luminous\documents\visual studio 2017\Projects\Time Talker\Time Talker\js\editor\plugins\emoticons\images\122.gif">
+      <PackagePath>js\editor\plugins\emoticons\images\122.gif</PackagePath>
+      <Modified>2016-12-26T08:32:40.526</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\luminous\documents\visual studio 2017\Projects\Time Talker\Time Talker\js\editor\plugins\emoticons\images\123.gif">
+      <PackagePath>js\editor\plugins\emoticons\images\123.gif</PackagePath>
+      <Modified>2016-12-26T08:32:40.529</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\luminous\documents\visual studio 2017\Projects\Time Talker\Time Talker\js\editor\plugins\emoticons\images\124.gif">
+      <PackagePath>js\editor\plugins\emoticons\images\124.gif</PackagePath>
+      <Modified>2016-12-26T08:32:40.532</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\luminous\documents\visual studio 2017\Projects\Time Talker\Time Talker\js\editor\plugins\emoticons\images\125.gif">
+      <PackagePath>js\editor\plugins\emoticons\images\125.gif</PackagePath>
+      <Modified>2016-12-26T08:32:40.535</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\luminous\documents\visual studio 2017\Projects\Time Talker\Time Talker\js\editor\plugins\emoticons\images\126.gif">
+      <PackagePath>js\editor\plugins\emoticons\images\126.gif</PackagePath>
+      <Modified>2016-12-26T08:32:40.538</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\luminous\documents\visual studio 2017\Projects\Time Talker\Time Talker\js\editor\plugins\emoticons\images\127.gif">
+      <PackagePath>js\editor\plugins\emoticons\images\127.gif</PackagePath>
+      <Modified>2016-12-26T08:32:40.541</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\luminous\documents\visual studio 2017\Projects\Time Talker\Time Talker\js\editor\plugins\emoticons\images\128.gif">
+      <PackagePath>js\editor\plugins\emoticons\images\128.gif</PackagePath>
+      <Modified>2016-12-26T08:32:40.544</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\luminous\documents\visual studio 2017\Projects\Time Talker\Time Talker\js\editor\plugins\emoticons\images\129.gif">
+      <PackagePath>js\editor\plugins\emoticons\images\129.gif</PackagePath>
+      <Modified>2016-12-26T08:32:40.547</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\luminous\documents\visual studio 2017\Projects\Time Talker\Time Talker\js\editor\plugins\emoticons\images\13.gif">
+      <PackagePath>js\editor\plugins\emoticons\images\13.gif</PackagePath>
+      <Modified>2016-12-26T08:32:40.550</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\luminous\documents\visual studio 2017\Projects\Time Talker\Time Talker\js\editor\plugins\emoticons\images\130.gif">
+      <PackagePath>js\editor\plugins\emoticons\images\130.gif</PackagePath>
+      <Modified>2016-12-26T08:32:40.552</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\luminous\documents\visual studio 2017\Projects\Time Talker\Time Talker\js\editor\plugins\emoticons\images\131.gif">
+      <PackagePath>js\editor\plugins\emoticons\images\131.gif</PackagePath>
+      <Modified>2016-12-26T08:32:40.555</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\luminous\documents\visual studio 2017\Projects\Time Talker\Time Talker\js\editor\plugins\emoticons\images\132.gif">
+      <PackagePath>js\editor\plugins\emoticons\images\132.gif</PackagePath>
+      <Modified>2016-12-26T08:32:40.558</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\luminous\documents\visual studio 2017\Projects\Time Talker\Time Talker\js\editor\plugins\emoticons\images\133.gif">
+      <PackagePath>js\editor\plugins\emoticons\images\133.gif</PackagePath>
+      <Modified>2016-12-26T08:32:40.561</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\luminous\documents\visual studio 2017\Projects\Time Talker\Time Talker\js\editor\plugins\emoticons\images\134.gif">
+      <PackagePath>js\editor\plugins\emoticons\images\134.gif</PackagePath>
+      <Modified>2016-12-26T08:32:40.564</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\luminous\documents\visual studio 2017\Projects\Time Talker\Time Talker\js\editor\plugins\emoticons\images\14.gif">
+      <PackagePath>js\editor\plugins\emoticons\images\14.gif</PackagePath>
+      <Modified>2016-12-26T08:32:40.567</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\luminous\documents\visual studio 2017\Projects\Time Talker\Time Talker\js\editor\plugins\emoticons\images\15.gif">
+      <PackagePath>js\editor\plugins\emoticons\images\15.gif</PackagePath>
+      <Modified>2016-12-26T08:32:40.570</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\luminous\documents\visual studio 2017\Projects\Time Talker\Time Talker\js\editor\plugins\emoticons\images\16.gif">
+      <PackagePath>js\editor\plugins\emoticons\images\16.gif</PackagePath>
+      <Modified>2016-12-26T08:32:40.573</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\luminous\documents\visual studio 2017\Projects\Time Talker\Time Talker\js\editor\plugins\emoticons\images\17.gif">
+      <PackagePath>js\editor\plugins\emoticons\images\17.gif</PackagePath>
+      <Modified>2016-12-26T08:32:40.576</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\luminous\documents\visual studio 2017\Projects\Time Talker\Time Talker\js\editor\plugins\emoticons\images\18.gif">
+      <PackagePath>js\editor\plugins\emoticons\images\18.gif</PackagePath>
+      <Modified>2016-12-26T08:32:40.579</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\luminous\documents\visual studio 2017\Projects\Time Talker\Time Talker\js\editor\plugins\emoticons\images\19.gif">
+      <PackagePath>js\editor\plugins\emoticons\images\19.gif</PackagePath>
+      <Modified>2016-12-26T08:32:40.582</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\luminous\documents\visual studio 2017\Projects\Time Talker\Time Talker\js\editor\plugins\emoticons\images\2.gif">
+      <PackagePath>js\editor\plugins\emoticons\images\2.gif</PackagePath>
+      <Modified>2016-12-26T08:32:40.585</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\luminous\documents\visual studio 2017\Projects\Time Talker\Time Talker\js\editor\plugins\emoticons\images\20.gif">
+      <PackagePath>js\editor\plugins\emoticons\images\20.gif</PackagePath>
+      <Modified>2016-12-26T08:32:40.588</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\luminous\documents\visual studio 2017\Projects\Time Talker\Time Talker\js\editor\plugins\emoticons\images\21.gif">
+      <PackagePath>js\editor\plugins\emoticons\images\21.gif</PackagePath>
+      <Modified>2016-12-26T08:32:40.591</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\luminous\documents\visual studio 2017\Projects\Time Talker\Time Talker\js\editor\plugins\emoticons\images\22.gif">
+      <PackagePath>js\editor\plugins\emoticons\images\22.gif</PackagePath>
+      <Modified>2016-12-26T08:32:40.594</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\luminous\documents\visual studio 2017\Projects\Time Talker\Time Talker\js\editor\plugins\emoticons\images\23.gif">
+      <PackagePath>js\editor\plugins\emoticons\images\23.gif</PackagePath>
+      <Modified>2016-12-26T08:32:40.597</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\luminous\documents\visual studio 2017\Projects\Time Talker\Time Talker\js\editor\plugins\emoticons\images\24.gif">
+      <PackagePath>js\editor\plugins\emoticons\images\24.gif</PackagePath>
+      <Modified>2016-12-26T08:32:40.600</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\luminous\documents\visual studio 2017\Projects\Time Talker\Time Talker\js\editor\plugins\emoticons\images\25.gif">
+      <PackagePath>js\editor\plugins\emoticons\images\25.gif</PackagePath>
+      <Modified>2016-12-26T08:32:40.603</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\luminous\documents\visual studio 2017\Projects\Time Talker\Time Talker\js\editor\plugins\emoticons\images\26.gif">
+      <PackagePath>js\editor\plugins\emoticons\images\26.gif</PackagePath>
+      <Modified>2016-12-26T08:32:40.606</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\luminous\documents\visual studio 2017\Projects\Time Talker\Time Talker\js\editor\plugins\emoticons\images\27.gif">
+      <PackagePath>js\editor\plugins\emoticons\images\27.gif</PackagePath>
+      <Modified>2016-12-26T08:32:40.609</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\luminous\documents\visual studio 2017\Projects\Time Talker\Time Talker\js\editor\plugins\emoticons\images\28.gif">
+      <PackagePath>js\editor\plugins\emoticons\images\28.gif</PackagePath>
+      <Modified>2016-12-26T08:32:40.612</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\luminous\documents\visual studio 2017\Projects\Time Talker\Time Talker\js\editor\plugins\emoticons\images\29.gif">
+      <PackagePath>js\editor\plugins\emoticons\images\29.gif</PackagePath>
+      <Modified>2016-12-26T08:32:40.615</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\luminous\documents\visual studio 2017\Projects\Time Talker\Time Talker\js\editor\plugins\emoticons\images\3.gif">
+      <PackagePath>js\editor\plugins\emoticons\images\3.gif</PackagePath>
+      <Modified>2016-12-26T08:32:40.618</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\luminous\documents\visual studio 2017\Projects\Time Talker\Time Talker\js\editor\plugins\emoticons\images\30.gif">
+      <PackagePath>js\editor\plugins\emoticons\images\30.gif</PackagePath>
+      <Modified>2016-12-26T08:32:40.621</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\luminous\documents\visual studio 2017\Projects\Time Talker\Time Talker\js\editor\plugins\emoticons\images\31.gif">
+      <PackagePath>js\editor\plugins\emoticons\images\31.gif</PackagePath>
+      <Modified>2016-12-26T08:32:40.625</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\luminous\documents\visual studio 2017\Projects\Time Talker\Time Talker\js\editor\plugins\emoticons\images\32.gif">
+      <PackagePath>js\editor\plugins\emoticons\images\32.gif</PackagePath>
+      <Modified>2016-12-26T08:32:40.628</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\luminous\documents\visual studio 2017\Projects\Time Talker\Time Talker\js\editor\plugins\emoticons\images\33.gif">
+      <PackagePath>js\editor\plugins\emoticons\images\33.gif</PackagePath>
+      <Modified>2016-12-26T08:32:40.632</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\luminous\documents\visual studio 2017\Projects\Time Talker\Time Talker\js\editor\plugins\emoticons\images\34.gif">
+      <PackagePath>js\editor\plugins\emoticons\images\34.gif</PackagePath>
+      <Modified>2016-12-26T08:32:40.635</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\luminous\documents\visual studio 2017\Projects\Time Talker\Time Talker\js\editor\plugins\emoticons\images\35.gif">
+      <PackagePath>js\editor\plugins\emoticons\images\35.gif</PackagePath>
+      <Modified>2016-12-26T08:32:40.638</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\luminous\documents\visual studio 2017\Projects\Time Talker\Time Talker\js\editor\plugins\emoticons\images\36.gif">
+      <PackagePath>js\editor\plugins\emoticons\images\36.gif</PackagePath>
+      <Modified>2016-12-26T08:32:40.640</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\luminous\documents\visual studio 2017\Projects\Time Talker\Time Talker\js\editor\plugins\emoticons\images\37.gif">
+      <PackagePath>js\editor\plugins\emoticons\images\37.gif</PackagePath>
+      <Modified>2016-12-26T08:32:40.643</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\luminous\documents\visual studio 2017\Projects\Time Talker\Time Talker\js\editor\plugins\emoticons\images\38.gif">
+      <PackagePath>js\editor\plugins\emoticons\images\38.gif</PackagePath>
+      <Modified>2016-12-26T08:32:40.646</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\luminous\documents\visual studio 2017\Projects\Time Talker\Time Talker\js\editor\plugins\emoticons\images\39.gif">
+      <PackagePath>js\editor\plugins\emoticons\images\39.gif</PackagePath>
+      <Modified>2016-12-26T08:32:40.649</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\luminous\documents\visual studio 2017\Projects\Time Talker\Time Talker\js\editor\plugins\emoticons\images\4.gif">
+      <PackagePath>js\editor\plugins\emoticons\images\4.gif</PackagePath>
+      <Modified>2016-12-26T08:32:40.652</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\luminous\documents\visual studio 2017\Projects\Time Talker\Time Talker\js\editor\plugins\emoticons\images\40.gif">
+      <PackagePath>js\editor\plugins\emoticons\images\40.gif</PackagePath>
+      <Modified>2016-12-26T08:32:40.655</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\luminous\documents\visual studio 2017\Projects\Time Talker\Time Talker\js\editor\plugins\emoticons\images\41.gif">
+      <PackagePath>js\editor\plugins\emoticons\images\41.gif</PackagePath>
+      <Modified>2016-12-26T08:32:40.658</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\luminous\documents\visual studio 2017\Projects\Time Talker\Time Talker\js\editor\plugins\emoticons\images\42.gif">
+      <PackagePath>js\editor\plugins\emoticons\images\42.gif</PackagePath>
+      <Modified>2016-12-26T08:32:40.662</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\luminous\documents\visual studio 2017\Projects\Time Talker\Time Talker\js\editor\plugins\emoticons\images\43.gif">
+      <PackagePath>js\editor\plugins\emoticons\images\43.gif</PackagePath>
+      <Modified>2016-12-26T08:32:40.665</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\luminous\documents\visual studio 2017\Projects\Time Talker\Time Talker\js\editor\plugins\emoticons\images\44.gif">
+      <PackagePath>js\editor\plugins\emoticons\images\44.gif</PackagePath>
+      <Modified>2016-12-26T08:32:40.668</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\luminous\documents\visual studio 2017\Projects\Time Talker\Time Talker\js\editor\plugins\emoticons\images\45.gif">
+      <PackagePath>js\editor\plugins\emoticons\images\45.gif</PackagePath>
+      <Modified>2016-12-26T08:32:40.671</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\luminous\documents\visual studio 2017\Projects\Time Talker\Time Talker\js\editor\plugins\emoticons\images\46.gif">
+      <PackagePath>js\editor\plugins\emoticons\images\46.gif</PackagePath>
+      <Modified>2016-12-26T08:32:40.674</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\luminous\documents\visual studio 2017\Projects\Time Talker\Time Talker\js\editor\plugins\emoticons\images\47.gif">
+      <PackagePath>js\editor\plugins\emoticons\images\47.gif</PackagePath>
+      <Modified>2016-12-26T08:32:40.676</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\luminous\documents\visual studio 2017\Projects\Time Talker\Time Talker\js\editor\plugins\emoticons\images\48.gif">
+      <PackagePath>js\editor\plugins\emoticons\images\48.gif</PackagePath>
+      <Modified>2016-12-26T08:32:40.680</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\luminous\documents\visual studio 2017\Projects\Time Talker\Time Talker\js\editor\plugins\emoticons\images\49.gif">
+      <PackagePath>js\editor\plugins\emoticons\images\49.gif</PackagePath>
+      <Modified>2016-12-26T08:32:40.683</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\luminous\documents\visual studio 2017\Projects\Time Talker\Time Talker\js\editor\plugins\emoticons\images\5.gif">
+      <PackagePath>js\editor\plugins\emoticons\images\5.gif</PackagePath>
+      <Modified>2016-12-26T08:32:40.686</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\luminous\documents\visual studio 2017\Projects\Time Talker\Time Talker\js\editor\plugins\emoticons\images\50.gif">
+      <PackagePath>js\editor\plugins\emoticons\images\50.gif</PackagePath>
+      <Modified>2016-12-26T08:32:40.689</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\luminous\documents\visual studio 2017\Projects\Time Talker\Time Talker\js\editor\plugins\emoticons\images\51.gif">
+      <PackagePath>js\editor\plugins\emoticons\images\51.gif</PackagePath>
+      <Modified>2016-12-26T08:32:40.692</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\luminous\documents\visual studio 2017\Projects\Time Talker\Time Talker\js\editor\plugins\emoticons\images\52.gif">
+      <PackagePath>js\editor\plugins\emoticons\images\52.gif</PackagePath>
+      <Modified>2016-12-26T08:32:40.695</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\luminous\documents\visual studio 2017\Projects\Time Talker\Time Talker\js\editor\plugins\emoticons\images\53.gif">
+      <PackagePath>js\editor\plugins\emoticons\images\53.gif</PackagePath>
+      <Modified>2016-12-26T08:32:40.698</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\luminous\documents\visual studio 2017\Projects\Time Talker\Time Talker\js\editor\plugins\emoticons\images\54.gif">
+      <PackagePath>js\editor\plugins\emoticons\images\54.gif</PackagePath>
+      <Modified>2016-12-26T08:32:40.701</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\luminous\documents\visual studio 2017\Projects\Time Talker\Time Talker\js\editor\plugins\emoticons\images\55.gif">
+      <PackagePath>js\editor\plugins\emoticons\images\55.gif</PackagePath>
+      <Modified>2016-12-26T08:32:40.704</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\luminous\documents\visual studio 2017\Projects\Time Talker\Time Talker\js\editor\plugins\emoticons\images\56.gif">
+      <PackagePath>js\editor\plugins\emoticons\images\56.gif</PackagePath>
+      <Modified>2016-12-26T08:32:40.707</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\luminous\documents\visual studio 2017\Projects\Time Talker\Time Talker\js\editor\plugins\emoticons\images\57.gif">
+      <PackagePath>js\editor\plugins\emoticons\images\57.gif</PackagePath>
+      <Modified>2016-12-26T08:32:40.710</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\luminous\documents\visual studio 2017\Projects\Time Talker\Time Talker\js\editor\plugins\emoticons\images\58.gif">
+      <PackagePath>js\editor\plugins\emoticons\images\58.gif</PackagePath>
+      <Modified>2016-12-26T08:32:40.713</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\luminous\documents\visual studio 2017\Projects\Time Talker\Time Talker\js\editor\plugins\emoticons\images\59.gif">
+      <PackagePath>js\editor\plugins\emoticons\images\59.gif</PackagePath>
+      <Modified>2016-12-26T08:32:40.717</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\luminous\documents\visual studio 2017\Projects\Time Talker\Time Talker\js\editor\plugins\emoticons\images\6.gif">
+      <PackagePath>js\editor\plugins\emoticons\images\6.gif</PackagePath>
+      <Modified>2016-12-26T08:32:40.720</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\luminous\documents\visual studio 2017\Projects\Time Talker\Time Talker\js\editor\plugins\emoticons\images\60.gif">
+      <PackagePath>js\editor\plugins\emoticons\images\60.gif</PackagePath>
+      <Modified>2016-12-26T08:32:40.723</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\luminous\documents\visual studio 2017\Projects\Time Talker\Time Talker\js\editor\plugins\emoticons\images\61.gif">
+      <PackagePath>js\editor\plugins\emoticons\images\61.gif</PackagePath>
+      <Modified>2016-12-26T08:32:40.738</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\luminous\documents\visual studio 2017\Projects\Time Talker\Time Talker\js\editor\plugins\emoticons\images\62.gif">
+      <PackagePath>js\editor\plugins\emoticons\images\62.gif</PackagePath>
+      <Modified>2016-12-26T08:32:40.741</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\luminous\documents\visual studio 2017\Projects\Time Talker\Time Talker\js\editor\plugins\emoticons\images\63.gif">
+      <PackagePath>js\editor\plugins\emoticons\images\63.gif</PackagePath>
+      <Modified>2016-12-26T08:32:40.744</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\luminous\documents\visual studio 2017\Projects\Time Talker\Time Talker\js\editor\plugins\emoticons\images\64.gif">
+      <PackagePath>js\editor\plugins\emoticons\images\64.gif</PackagePath>
+      <Modified>2016-12-26T08:32:40.747</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\luminous\documents\visual studio 2017\Projects\Time Talker\Time Talker\js\editor\plugins\emoticons\images\65.gif">
+      <PackagePath>js\editor\plugins\emoticons\images\65.gif</PackagePath>
+      <Modified>2016-12-26T08:32:40.750</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\luminous\documents\visual studio 2017\Projects\Time Talker\Time Talker\js\editor\plugins\emoticons\images\66.gif">
+      <PackagePath>js\editor\plugins\emoticons\images\66.gif</PackagePath>
+      <Modified>2016-12-26T08:32:40.753</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\luminous\documents\visual studio 2017\Projects\Time Talker\Time Talker\js\editor\plugins\emoticons\images\67.gif">
+      <PackagePath>js\editor\plugins\emoticons\images\67.gif</PackagePath>
+      <Modified>2016-12-26T08:32:40.756</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\luminous\documents\visual studio 2017\Projects\Time Talker\Time Talker\js\editor\plugins\emoticons\images\68.gif">
+      <PackagePath>js\editor\plugins\emoticons\images\68.gif</PackagePath>
+      <Modified>2016-12-26T08:32:40.759</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\luminous\documents\visual studio 2017\Projects\Time Talker\Time Talker\js\editor\plugins\emoticons\images\69.gif">
+      <PackagePath>js\editor\plugins\emoticons\images\69.gif</PackagePath>
+      <Modified>2016-12-26T08:32:40.763</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\luminous\documents\visual studio 2017\Projects\Time Talker\Time Talker\js\editor\plugins\emoticons\images\7.gif">
+      <PackagePath>js\editor\plugins\emoticons\images\7.gif</PackagePath>
+      <Modified>2016-12-26T08:32:40.766</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\luminous\documents\visual studio 2017\Projects\Time Talker\Time Talker\js\editor\plugins\emoticons\images\70.gif">
+      <PackagePath>js\editor\plugins\emoticons\images\70.gif</PackagePath>
+      <Modified>2016-12-26T08:32:40.769</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\luminous\documents\visual studio 2017\Projects\Time Talker\Time Talker\js\editor\plugins\emoticons\images\71.gif">
+      <PackagePath>js\editor\plugins\emoticons\images\71.gif</PackagePath>
+      <Modified>2016-12-26T08:32:40.772</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\luminous\documents\visual studio 2017\Projects\Time Talker\Time Talker\js\editor\plugins\emoticons\images\72.gif">
+      <PackagePath>js\editor\plugins\emoticons\images\72.gif</PackagePath>
+      <Modified>2016-12-26T08:32:40.776</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\luminous\documents\visual studio 2017\Projects\Time Talker\Time Talker\js\editor\plugins\emoticons\images\73.gif">
+      <PackagePath>js\editor\plugins\emoticons\images\73.gif</PackagePath>
+      <Modified>2016-12-26T08:32:40.779</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\luminous\documents\visual studio 2017\Projects\Time Talker\Time Talker\js\editor\plugins\emoticons\images\74.gif">
+      <PackagePath>js\editor\plugins\emoticons\images\74.gif</PackagePath>
+      <Modified>2016-12-26T08:32:40.783</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\luminous\documents\visual studio 2017\Projects\Time Talker\Time Talker\js\editor\plugins\emoticons\images\75.gif">
+      <PackagePath>js\editor\plugins\emoticons\images\75.gif</PackagePath>
+      <Modified>2016-12-26T08:32:40.787</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\luminous\documents\visual studio 2017\Projects\Time Talker\Time Talker\js\editor\plugins\emoticons\images\76.gif">
+      <PackagePath>js\editor\plugins\emoticons\images\76.gif</PackagePath>
+      <Modified>2016-12-26T08:32:40.792</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\luminous\documents\visual studio 2017\Projects\Time Talker\Time Talker\js\editor\plugins\emoticons\images\77.gif">
+      <PackagePath>js\editor\plugins\emoticons\images\77.gif</PackagePath>
+      <Modified>2016-12-26T08:32:40.795</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\luminous\documents\visual studio 2017\Projects\Time Talker\Time Talker\js\editor\plugins\emoticons\images\78.gif">
+      <PackagePath>js\editor\plugins\emoticons\images\78.gif</PackagePath>
+      <Modified>2016-12-26T08:32:40.799</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\luminous\documents\visual studio 2017\Projects\Time Talker\Time Talker\js\editor\plugins\emoticons\images\79.gif">
+      <PackagePath>js\editor\plugins\emoticons\images\79.gif</PackagePath>
+      <Modified>2016-12-26T08:32:40.803</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\luminous\documents\visual studio 2017\Projects\Time Talker\Time Talker\js\editor\plugins\emoticons\images\8.gif">
+      <PackagePath>js\editor\plugins\emoticons\images\8.gif</PackagePath>
+      <Modified>2016-12-26T08:32:40.806</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\luminous\documents\visual studio 2017\Projects\Time Talker\Time Talker\js\editor\plugins\emoticons\images\80.gif">
+      <PackagePath>js\editor\plugins\emoticons\images\80.gif</PackagePath>
+      <Modified>2016-12-26T08:32:40.808</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\luminous\documents\visual studio 2017\Projects\Time Talker\Time Talker\js\editor\plugins\emoticons\images\81.gif">
+      <PackagePath>js\editor\plugins\emoticons\images\81.gif</PackagePath>
+      <Modified>2016-12-26T08:32:40.811</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\luminous\documents\visual studio 2017\Projects\Time Talker\Time Talker\js\editor\plugins\emoticons\images\82.gif">
+      <PackagePath>js\editor\plugins\emoticons\images\82.gif</PackagePath>
+      <Modified>2016-12-26T08:32:40.814</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\luminous\documents\visual studio 2017\Projects\Time Talker\Time Talker\js\editor\plugins\emoticons\images\83.gif">
+      <PackagePath>js\editor\plugins\emoticons\images\83.gif</PackagePath>
+      <Modified>2016-12-26T08:32:40.817</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\luminous\documents\visual studio 2017\Projects\Time Talker\Time Talker\js\editor\plugins\emoticons\images\84.gif">
+      <PackagePath>js\editor\plugins\emoticons\images\84.gif</PackagePath>
+      <Modified>2016-12-26T08:32:40.819</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\luminous\documents\visual studio 2017\Projects\Time Talker\Time Talker\js\editor\plugins\emoticons\images\85.gif">
+      <PackagePath>js\editor\plugins\emoticons\images\85.gif</PackagePath>
+      <Modified>2016-12-26T08:32:40.821</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\luminous\documents\visual studio 2017\Projects\Time Talker\Time Talker\js\editor\plugins\emoticons\images\86.gif">
+      <PackagePath>js\editor\plugins\emoticons\images\86.gif</PackagePath>
+      <Modified>2016-12-26T08:32:40.824</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\luminous\documents\visual studio 2017\Projects\Time Talker\Time Talker\js\editor\plugins\emoticons\images\87.gif">
+      <PackagePath>js\editor\plugins\emoticons\images\87.gif</PackagePath>
+      <Modified>2016-12-26T08:32:40.828</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\luminous\documents\visual studio 2017\Projects\Time Talker\Time Talker\js\editor\plugins\emoticons\images\88.gif">
+      <PackagePath>js\editor\plugins\emoticons\images\88.gif</PackagePath>
+      <Modified>2016-12-26T08:32:40.830</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\luminous\documents\visual studio 2017\Projects\Time Talker\Time Talker\js\editor\plugins\emoticons\images\89.gif">
+      <PackagePath>js\editor\plugins\emoticons\images\89.gif</PackagePath>
+      <Modified>2016-12-26T08:32:40.832</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\luminous\documents\visual studio 2017\Projects\Time Talker\Time Talker\js\editor\plugins\emoticons\images\9.gif">
+      <PackagePath>js\editor\plugins\emoticons\images\9.gif</PackagePath>
+      <Modified>2016-12-26T08:32:40.834</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\luminous\documents\visual studio 2017\Projects\Time Talker\Time Talker\js\editor\plugins\emoticons\images\90.gif">
+      <PackagePath>js\editor\plugins\emoticons\images\90.gif</PackagePath>
+      <Modified>2016-12-26T08:32:40.836</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\luminous\documents\visual studio 2017\Projects\Time Talker\Time Talker\js\editor\plugins\emoticons\images\91.gif">
+      <PackagePath>js\editor\plugins\emoticons\images\91.gif</PackagePath>
+      <Modified>2016-12-26T08:32:40.838</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\luminous\documents\visual studio 2017\Projects\Time Talker\Time Talker\js\editor\plugins\emoticons\images\92.gif">
+      <PackagePath>js\editor\plugins\emoticons\images\92.gif</PackagePath>
+      <Modified>2016-12-26T08:32:40.839</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\luminous\documents\visual studio 2017\Projects\Time Talker\Time Talker\js\editor\plugins\emoticons\images\93.gif">
+      <PackagePath>js\editor\plugins\emoticons\images\93.gif</PackagePath>
+      <Modified>2016-12-26T08:32:40.840</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\luminous\documents\visual studio 2017\Projects\Time Talker\Time Talker\js\editor\plugins\emoticons\images\94.gif">
+      <PackagePath>js\editor\plugins\emoticons\images\94.gif</PackagePath>
+      <Modified>2016-12-26T08:32:40.841</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\luminous\documents\visual studio 2017\Projects\Time Talker\Time Talker\js\editor\plugins\emoticons\images\95.gif">
+      <PackagePath>js\editor\plugins\emoticons\images\95.gif</PackagePath>
+      <Modified>2016-12-26T08:32:40.843</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\luminous\documents\visual studio 2017\Projects\Time Talker\Time Talker\js\editor\plugins\emoticons\images\96.gif">
+      <PackagePath>js\editor\plugins\emoticons\images\96.gif</PackagePath>
+      <Modified>2016-12-26T08:32:40.844</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\luminous\documents\visual studio 2017\Projects\Time Talker\Time Talker\js\editor\plugins\emoticons\images\97.gif">
+      <PackagePath>js\editor\plugins\emoticons\images\97.gif</PackagePath>
+      <Modified>2016-12-26T08:32:40.846</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\luminous\documents\visual studio 2017\Projects\Time Talker\Time Talker\js\editor\plugins\emoticons\images\98.gif">
+      <PackagePath>js\editor\plugins\emoticons\images\98.gif</PackagePath>
+      <Modified>2016-12-26T08:32:40.847</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\luminous\documents\visual studio 2017\Projects\Time Talker\Time Talker\js\editor\plugins\emoticons\images\99.gif">
+      <PackagePath>js\editor\plugins\emoticons\images\99.gif</PackagePath>
+      <Modified>2016-12-26T08:32:40.848</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\luminous\documents\visual studio 2017\Projects\Time Talker\Time Talker\js\editor\plugins\emoticons\images\static.gif">
+      <PackagePath>js\editor\plugins\emoticons\images\static.gif</PackagePath>
+      <Modified>2016-12-26T08:32:40.850</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\luminous\documents\visual studio 2017\Projects\Time Talker\Time Talker\js\editor\plugins\filemanager\images\file-16.gif">
+      <PackagePath>js\editor\plugins\filemanager\images\file-16.gif</PackagePath>
+      <Modified>2016-12-26T08:32:40.854</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\luminous\documents\visual studio 2017\Projects\Time Talker\Time Talker\js\editor\plugins\filemanager\images\file-64.gif">
+      <PackagePath>js\editor\plugins\filemanager\images\file-64.gif</PackagePath>
+      <Modified>2016-12-26T08:32:40.855</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\luminous\documents\visual studio 2017\Projects\Time Talker\Time Talker\js\editor\plugins\filemanager\images\folder-16.gif">
+      <PackagePath>js\editor\plugins\filemanager\images\folder-16.gif</PackagePath>
+      <Modified>2016-12-26T08:32:40.856</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\luminous\documents\visual studio 2017\Projects\Time Talker\Time Talker\js\editor\plugins\filemanager\images\folder-64.gif">
+      <PackagePath>js\editor\plugins\filemanager\images\folder-64.gif</PackagePath>
+      <Modified>2016-12-26T08:32:40.858</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\luminous\documents\visual studio 2017\Projects\Time Talker\Time Talker\js\editor\plugins\filemanager\images\go-up.gif">
+      <PackagePath>js\editor\plugins\filemanager\images\go-up.gif</PackagePath>
+      <Modified>2016-12-26T08:32:40.859</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\luminous\documents\visual studio 2017\Projects\Time Talker\Time Talker\js\editor\plugins\image\images\align_left.gif">
+      <PackagePath>js\editor\plugins\image\images\align_left.gif</PackagePath>
+      <Modified>2016-12-26T08:32:40.877</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\luminous\documents\visual studio 2017\Projects\Time Talker\Time Talker\js\editor\plugins\image\images\align_right.gif">
+      <PackagePath>js\editor\plugins\image\images\align_right.gif</PackagePath>
+      <Modified>2016-12-26T08:32:40.879</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\luminous\documents\visual studio 2017\Projects\Time Talker\Time Talker\js\editor\plugins\image\images\align_top.gif">
+      <PackagePath>js\editor\plugins\image\images\align_top.gif</PackagePath>
+      <Modified>2016-12-26T08:32:40.880</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\luminous\documents\visual studio 2017\Projects\Time Talker\Time Talker\js\editor\themes\common\anchor.gif">
+      <PackagePath>js\editor\themes\common\anchor.gif</PackagePath>
+      <Modified>2016-12-26T08:32:41.054</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\luminous\documents\visual studio 2017\Projects\Time Talker\Time Talker\js\editor\themes\common\blank.gif">
+      <PackagePath>js\editor\themes\common\blank.gif</PackagePath>
+      <Modified>2016-12-26T08:32:41.057</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\luminous\documents\visual studio 2017\Projects\Time Talker\Time Talker\js\editor\themes\common\flash.gif">
+      <PackagePath>js\editor\themes\common\flash.gif</PackagePath>
+      <Modified>2016-12-26T08:32:41.061</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\luminous\documents\visual studio 2017\Projects\Time Talker\Time Talker\js\editor\themes\common\loading.gif">
+      <PackagePath>js\editor\themes\common\loading.gif</PackagePath>
+      <Modified>2016-12-26T08:32:41.064</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\luminous\documents\visual studio 2017\Projects\Time Talker\Time Talker\js\editor\themes\common\media.gif">
+      <PackagePath>js\editor\themes\common\media.gif</PackagePath>
+      <Modified>2016-12-26T08:32:41.067</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\luminous\documents\visual studio 2017\Projects\Time Talker\Time Talker\js\editor\themes\common\rm.gif">
+      <PackagePath>js\editor\themes\common\rm.gif</PackagePath>
+      <Modified>2016-12-26T08:32:41.071</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\luminous\documents\visual studio 2017\Projects\Time Talker\Time Talker\js\editor\themes\qq\editor.gif">
+      <PackagePath>js\editor\themes\qq\editor.gif</PackagePath>
+      <Modified>2016-12-26T08:32:41.088</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\luminous\documents\visual studio 2017\Projects\Time Talker\Time Talker\js\editor\plugins\multiimage\images\swfupload.swf">
+      <PackagePath>js\editor\plugins\multiimage\images\swfupload.swf</PackagePath>
+      <Modified>2016-12-26T08:32:40.907</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\luminous\documents\visual studio 2017\Projects\Time Talker\Time Talker\packages.config">
       <PackagePath>packages.config</PackagePath>
@@ -3599,7 +4471,7 @@
     <AppxPackagedFile Include="C:\Users\luminous\documents\visual studio 2017\Projects\Time Talker\Time Talker\bin\x64\Debug\ReverseMap\resources.pri">
       <PackagePath>resources.pri</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2016-12-27T13:30:40.628</Modified>
+      <Modified>2016-12-27T19:13:24.010</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\luminous\documents\visual studio 2017\Projects\Time Talker\Time Talker\bin\x64\Debug\Core\UWPShim.exe">
       <PackagePath>UWPShim.exe</PackagePath>

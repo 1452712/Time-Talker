@@ -23,6 +23,7 @@
     <script src="../lib/winjs-4.0.1/js/base.js"></script>
     <script src="../lib/winjs-4.0.1/js/ui.js"></script>
     <script src="../js/tasklist.js"></script>
+    <link rel="stylesheet" href="../css/tasklist.css" type="text/css" />
 
 </head>
 <body class="win-type-body">
@@ -78,39 +79,7 @@
     </div>
 
     <div class="mainContent">
-        <!--
-        <div class="ui pointing menu">
-            <a class="active item" id="today">
-                Today tasks
-            </a>
-            <a class="item" id="all">
-                All  tasks
-            </a>
-            <div class="right menu" id="searchitem">
-                <div class="item">
-                    <div class="ui transparent icon input">
-                        <input type="text" placeholder="Search...">
-                        <i class="search link icon"></i>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-
-        <div class="ui segment" id="tlcontent">
-            <p id="seg"></p>
-        </div>-->
-
-<!--
-        <div style="display:none;">
-            <div id="tasklistdiv">
-
-                <button class="ui basic button" onclick="createtask()">
-                    <i class="edit icon"></i>
-                    Create Task
-                </button>
-                <br>
-                <br>-->
+        <div id="titleBlock"><img src="../images/tasks_title.png" /></div>
                 <div class="data-div">
                     <div class="row tableHeader">
                         <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 ">
@@ -140,8 +109,8 @@
                             </div>
 
                             <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2">
-                                <button class="btn btn-success btn-xs" data-toggle="modal" data-target="#changeSource">Change</button>
-                                <button class="btn btn-danger btn-xs" data-toggle="modal" data-target="#deleteSource">Delete</button>
+                                <button class="btn btn-success btn-xs" data-toggle="modal" data-target="#changeSource" style="width:70px;margin-top:.5em">Change</button>
+                                <button class="btn btn-danger btn-xs" data-toggle="modal" data-target="#deleteSource" style="width:70px;margin-top:.5em">Delete</button>
                             </div>
                         </div>
 
@@ -160,8 +129,8 @@
                                 </div>
 
                                 <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2">
-                                    <button class="btn btn-success btn-xs" data-toggle="modal" data-target="#changeSource">Change</button>
-                                    <button class="btn btn-danger btn-xs" data-toggle="modal" data-target="#deleteSource">Delete</button>
+                                    <button class="btn btn-success btn-xs" data-toggle="modal" data-target="#changeSource" style="width:70px;margin-top:.5em">Change</button>
+                                    <button class="btn btn-danger btn-xs" data-toggle="modal" data-target="#deleteSource" style="width:70px;margin-top:.5em">Delete</button>
                                 </div>
                             </div>
 
@@ -198,31 +167,7 @@
                             </i>
                         </li>
                     </ul>
-                </footer>
-            <!--</div>
-        </div>
-
-
-        <div class="ui large test modal" id="modalf">
-            <div class="ui transparent input header">
-                <input type="text" placeholder="" />
-            </div>
-
-
-            <div class="content" id="tasklistcontent">
-                <p></p>
-            </div>
-            <div class="actions">
-                <div class="ui negative button">
-                    Cancel
-                </div>
-                <div class="ui positive right labeled icon button">
-                    Save
-                    <i class="checkmark icon"></i>
-                </div>
-            </div>
-        </div>
-    </div>-->    
+                </footer>   
     <div id="appBar" data-win-control="WinJS.UI.AppBar" data-win-options="{placement:'bottom'}">
         <!--<button data-win-control="WinJS.UI.BackButton"/>-->
         <div data-win-control="WinJS.UI.AppBarCommand"
@@ -254,9 +199,6 @@
 
     <script>
 
-        function tasklink() {
-            window.parent.document.getElementById("planlist_iframe").src = "./taskpage.html";
-        }
         function createtask() {
 
             $('.ui.large.test.modal')

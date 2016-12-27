@@ -33,3 +33,9 @@ polyline {
     stroke-width: 2px;
     fill: none;
 }
+
+#titleBlock {
+    padding-top: 2em;
+    padding-bottom: 1em;
+    padding-left: 2em;
+}
