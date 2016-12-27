@@ -14,3 +14,11 @@
 .mainContent {
     width: 94%;
 }
+
+#saveButton {
+    float:right;
+}
+
+#cancelButton {
+    float: right;
+}

@@ -1066,9 +1066,6 @@
     <AppxPackagedFile Include="C:\Users\luminous\documents\visual studio 2017\Projects\Time Talker\Time Talker\pages\hub\contributorsControl.html">
       <PackagePath>pages\hub\contributorsControl.html</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\luminous\documents\visual studio 2017\Projects\Time Talker\Time Talker\src\AddApointment.html">
-      <PackagePath>src\AddApointment.html</PackagePath>
-    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\luminous\documents\visual studio 2017\Projects\Time Talker\Time Talker\src\createtask.html">
       <PackagePath>src\createtask.html</PackagePath>
     </AppxPackagedFile>
@@ -1077,6 +1074,24 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\luminous\documents\visual studio 2017\Projects\Time Talker\Time Talker\src\header.html">
       <PackagePath>src\header.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\luminous\documents\visual studio 2017\Projects\Time Talker\Time Talker\src\appointment\addappointment.html">
+      <PackagePath>src\appointment\addappointment.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\luminous\documents\visual studio 2017\Projects\Time Talker\Time Talker\src\appointment\appointmentproperties.html">
+      <PackagePath>src\appointment\appointmentproperties.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\luminous\documents\visual studio 2017\Projects\Time Talker\Time Talker\src\appointment\recurrence.html">
+      <PackagePath>src\appointment\recurrence.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\luminous\documents\visual studio 2017\Projects\Time Talker\Time Talker\src\appointment\removeappointment.html">
+      <PackagePath>src\appointment\removeappointment.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\luminous\documents\visual studio 2017\Projects\Time Talker\Time Talker\src\appointment\replaceappointment.html">
+      <PackagePath>src\appointment\replaceappointment.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\luminous\documents\visual studio 2017\Projects\Time Talker\Time Talker\src\appointment\showtimeframe.html">
+      <PackagePath>src\appointment\showtimeframe.html</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\luminous\documents\visual studio 2017\Projects\Time Talker\Time Talker\src\login.html">
       <PackagePath>src\login.html</PackagePath>
@@ -2254,6 +2269,24 @@
     <AppxPackagedFile Include="C:\Users\luminous\documents\visual studio 2017\Projects\Time Talker\Time Talker\js\jquery_login.min.js">
       <PackagePath>js\jquery_login.min.js</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\luminous\documents\visual studio 2017\Projects\Time Talker\Time Talker\js\appointment\addappointment.js">
+      <PackagePath>js\appointment\addappointment.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\luminous\documents\visual studio 2017\Projects\Time Talker\Time Talker\js\appointment\appointmentproperties.js">
+      <PackagePath>js\appointment\appointmentproperties.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\luminous\documents\visual studio 2017\Projects\Time Talker\Time Talker\js\appointment\recurrence.js">
+      <PackagePath>js\appointment\recurrence.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\luminous\documents\visual studio 2017\Projects\Time Talker\Time Talker\js\appointment\removeappointment.js">
+      <PackagePath>js\appointment\removeappointment.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\luminous\documents\visual studio 2017\Projects\Time Talker\Time Talker\js\appointment\replaceappointment.js">
+      <PackagePath>js\appointment\replaceappointment.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\luminous\documents\visual studio 2017\Projects\Time Talker\Time Talker\js\appointment\showtimeframe.js">
+      <PackagePath>js\appointment\showtimeframe.js</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\luminous\documents\visual studio 2017\Projects\Time Talker\Time Talker\js\kindeditor-all-min.js">
       <PackagePath>js\kindeditor-all-min.js</PackagePath>
     </AppxPackagedFile>
@@ -2436,6 +2469,9 @@
     <AppxPackagedFile Include="C:\Users\luminous\documents\visual studio 2017\Projects\Time Talker\Time Talker\images\50_title.scale-100.png">
       <PackagePath>images\50_title.scale-100.png</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\luminous\documents\visual studio 2017\Projects\Time Talker\Time Talker\images\checkmark.png">
+      <PackagePath>images\checkmark.png</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\luminous\documents\visual studio 2017\Projects\Time Talker\Time Talker\images\createnote_title.png">
       <PackagePath>images\createnote_title.png</PackagePath>
     </AppxPackagedFile>
@@ -2453,6 +2489,9 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\luminous\documents\visual studio 2017\Projects\Time Talker\Time Talker\images\profile_title.png">
       <PackagePath>images\profile_title.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\luminous\documents\visual studio 2017\Projects\Time Talker\Time Talker\images\remove.png">
+      <PackagePath>images\remove.png</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\luminous\documents\visual studio 2017\Projects\Time Talker\Time Talker\images\splash3.scale-100.png">
       <PackagePath>images\splash3.scale-100.png</PackagePath>
