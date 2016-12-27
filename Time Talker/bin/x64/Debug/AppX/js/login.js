@@ -67,7 +67,7 @@
                     WinJS.log && WinJS.log("\"" + destinationUrl + "\" is not a valid absolute URL.\n", "sdksample", "error");
                     return;
                 }*/
-                self.location = "/src/navbar.html";
+                self.location = "/src/tasklist.html";
             }
             
             function navigationToHomepage(eventObject) {
@@ -137,7 +137,7 @@
                     return;
                 }*/
                 //self.localtion = "/src/navbar.html";
-                window.location.href = "/src/navbar.html";
+                window.location.href = "/src/tasklist.html";
             }
 
             function navigationToHomepage(eventObject) {

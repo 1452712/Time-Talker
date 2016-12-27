@@ -49,7 +49,6 @@
 
                 var uriPage = "ms-appx:///src/login.html";
                 WinJS.Navigation.navigate(uriPage);
-
                 // Appointment Component
                 /* Example
                 var button1 = document.getElementById("button1");

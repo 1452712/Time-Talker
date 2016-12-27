@@ -1,0 +1,298 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <link rel="stylesheet" type="text/css" href="../css/semantic.css">
+    <link rel="stylesheet" type="text/css" href="../css/menu.css">
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="../css/common.css">
+    <link rel="stylesheet" type="text/css" href="../css/slide.css">
+    <link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="../css/flat-ui.min.css">
+    <link rel="stylesheet" type="text/css" href="../css/jquery.nouislider.css">
+    <link rel="stylesheet" type="text/css" href="../css/modal.css">
+    <!--
+    <script src="../js/package.js"></script>-->
+    <script src="../js/jquery.js"></script>
+    <script src="../js/jquery.min.js"></script>
+    <script src="../js/semantic.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+
+    <link href="../lib/winjs-4.0.1/css/ui-light.css" rel="stylesheet" />
+    <script src="../lib/winjs-4.0.1/js/base.js"></script>
+    <script src="../lib/winjs-4.0.1/js/ui.js"></script>
+    <script src="../js/tasklist.js"></script>
+
+</head>
+<body class="win-type-body">
+    <div id="navBarBlock">
+        <div id="navBar" data-win-control="WinJS.UI.NavBar">
+            <div id="globalNav" data-win-control="WinJS.UI.NavBarContainer">
+                <div data-win-control="WinJS.UI.NavBarCommand" data-win-options="{
+                        label: 'You Account',
+                        icon: WinJS.UI.AppBarIcon.contact,
+                        splitButton: true,
+                         location: '/src/profile.html'
+                        }">
+                </div>
+                <div data-win-control="WinJS.UI.NavBarCommand" data-win-options="{
+                        label: 'Dashboard',
+                        icon: WinJS.UI.AppBarIcon.gotostart,
+                        location: '/src/semantic.html',
+                        splitButton: false
+                        }">
+                </div>
+                <div data-win-control="WinJS.UI.NavBarCommand" data-win-options="{
+                        label: 'Tasks',
+                        icon: WinJS.UI.AppBarIcon.calendar,
+                        location: '/src/tasklist.html',
+                        splitButton: false
+                        }">
+                </div>
+                <div data-win-control="WinJS.UI.NavBarCommand" data-win-options="{
+                        label: 'Notes',
+                        icon: WinJS.UI.AppBarIcon.bookmarks,
+                        location: '/src/notelist.html',
+                        splitButton: false
+                        }">
+                </div>
+            </div>
+        </div>
+        <div id="accountFlyout" data-win-control="WinJS.UI.Flyout" data-win-options="{ placement: 'bottom', alignment: 'left' }">
+            <div id="contactNavBarContainer" data-win-control="WinJS.UI.NavBarContainer">
+                <div data-win-control="WinJS.UI.NavBarCommand" data-win-options="{
+                         label: 'Setting',
+                         icon: WinJS.UI.AppBarIcon.settings,
+                         location: '/src/profile.html'
+                         }">
+                </div>
+                <div data-win-control="WinJS.UI.NavBarCommand" data-win-options="{
+                         label: 'Sign Out',
+                         icon: WinJS.UI.AppBarIcon.blockcontact,
+                         location: '/src/login.html'
+                         }">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="mainContent">
+        <!--
+        <div class="ui pointing menu">
+            <a class="active item" id="today">
+                Today tasks
+            </a>
+            <a class="item" id="all">
+                All  tasks
+            </a>
+            <div class="right menu" id="searchitem">
+                <div class="item">
+                    <div class="ui transparent icon input">
+                        <input type="text" placeholder="Search...">
+                        <i class="search link icon"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="ui segment" id="tlcontent">
+            <p id="seg"></p>
+        </div>-->
+
+<!--
+        <div style="display:none;">
+            <div id="tasklistdiv">
+
+                <button class="ui basic button" onclick="createtask()">
+                    <i class="edit icon"></i>
+                    Create Task
+                </button>
+                <br>
+                <br>-->
+                <div class="data-div">
+                    <div class="row tableHeader">
+                        <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 ">
+                            Number
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                            Name
+                        </div>
+                        <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5">
+                            Status
+                        </div>
+                        <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2">
+                            Operation
+                        </div>
+                    </div>
+                    <div class="tablebody">
+                        <div class="row">
+                            <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1">
+                                1
+                            </div>
+                            <div id="topAD" class="col-lg-4 col-md-4 col-sm-4 col-xs-4" role="button" data-parent="#accordion" aria-expanded="true" aria-controls="collapseOne">
+                                <span onclick="tasklink()">读书</span>
+                            </div>
+
+                            <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5">
+                                undone
+                            </div>
+
+                            <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2">
+                                <button class="btn btn-success btn-xs" data-toggle="modal" data-target="#changeSource">Change</button>
+                                <button class="btn btn-danger btn-xs" data-toggle="modal" data-target="#deleteSource">Delete</button>
+                            </div>
+                        </div>
+
+                        <!--系统管理折叠狂-->
+
+                        <div id="collapseSystem" class="collapse in" aria-expanded="true">
+                            <div class="row">
+                                <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 levl2 ">
+                                    2
+                                </div>
+                                <div id="topBD" onclick="changeA()" class="col-lg-4 col-md-4 col-sm-4 col-xs-4 levl2" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseAccount" aria-expanded="true" aria-controls="collapseOne">
+                                    <span>写代码</span>
+                                </div>
+                                <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5">
+                                    doing
+                                </div>
+
+                                <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2">
+                                    <button class="btn btn-success btn-xs" data-toggle="modal" data-target="#changeSource">Change</button>
+                                    <button class="btn btn-danger btn-xs" data-toggle="modal" data-target="#deleteSource">Delete</button>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <!--页码块-->
+                <footer class="footer">
+                    <ul class="pagination">
+                        <li>
+                            <select>
+                                <option>1</option>
+                                <option>2</option>
+                                <option>3</option>
+                                <option>4</option>
+                                <option>5</option>
+                                <option>6</option>
+                                <option>7</option>
+                                <option>8</option>
+                                <option>9</option>
+                                <option>10</option>
+                            </select>
+                            页
+                        </li>
+                        <li class="gray">
+                            共20页
+                        </li>
+                        <li>
+                            <i class="glyphicon glyphicon-menu-left">
+                            </i>
+                        </li>
+                        <li>
+                            <i class="glyphicon glyphicon-menu-right">
+                            </i>
+                        </li>
+                    </ul>
+                </footer>
+            <!--</div>
+        </div>
+
+
+        <div class="ui large test modal" id="modalf">
+            <div class="ui transparent input header">
+                <input type="text" placeholder="" />
+            </div>
+
+
+            <div class="content" id="tasklistcontent">
+                <p></p>
+            </div>
+            <div class="actions">
+                <div class="ui negative button">
+                    Cancel
+                </div>
+                <div class="ui positive right labeled icon button">
+                    Save
+                    <i class="checkmark icon"></i>
+                </div>
+            </div>
+        </div>
+    </div>-->    
+    <div id="appBar" data-win-control="WinJS.UI.AppBar" data-win-options="{placement:'bottom'}">
+        <!--<button data-win-control="WinJS.UI.BackButton"/>-->
+        <div data-win-control="WinJS.UI.AppBarCommand"
+             data-win-options="{
+             id: 'textfield',
+             type: 'content',
+             label:'Search',
+             section: 'secondary' }">           
+            <input type="text" value="Search" />
+        </div>
+        <hr data-win-control="WinJS.UI.AppBarCommand"
+                data-win-options="{
+            id:'separator',
+            type:'separator',
+            section:'primary'}" 
+            />
+        <button id="createButton"
+                data-win-control="WinJS.UI.AppBarCommand"
+                data-win-options="{
+                id:'createButton',
+                type: 'button',
+                label:'Create',
+                tooltip:'Create',
+                icon: WinJS.UI.AppBarIcon.add,
+                section:'primary'
+                }" />
+    </div>
+
+
+    <script>
+
+        function tasklink() {
+            window.parent.document.getElementById("planlist_iframe").src = "./taskpage.html";
+        }
+        function createtask() {
+
+            $('.ui.large.test.modal')
+                .modal('show')
+                ;
+            $("#tasklistcontent").load("createtask.html #createtaskpage");
+        }
+        $("#today").click(function () {
+            $("#tlcontent").load("tasklist.html #tasklistdiv");
+        });
+
+        $("#all").click(function () {
+            $("#tlcontent").load("tasklist.html #tasklistdiv");
+        });
+
+        $('.ui .item').on('click', function () {
+            $('.ui .item').removeClass('active');
+            $(this).addClass('active');
+        });
+
+        $('.ui.negative.button').click(function () {
+            $('.ui.large.test.modal').modal('hide');
+        });
+        $('.ui.positive.right.labeled.icon.button').click(function () {
+
+
+            $('.ui.large.test.modal').modal('hide');
+        });
+
+        $(document).ready(function () {
+            $("#tlcontent").load("tasklist.html #tasklistdiv");
+
+        });
+
+
+
+    </script>
+</body>
+</html>

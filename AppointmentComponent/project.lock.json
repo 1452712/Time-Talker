@@ -22050,10 +22050,10 @@
   },
   "project": {
     "restore": {
-      "projectUniqueName": "C:\\Users\\luminous\\Documents\\Visual Studio 2017\\Projects\\Time Talker\\AppointmentComponent\\AppointmentComponent.csproj",
+      "projectUniqueName": "C:\\Users\\luminous\\documents\\visual studio 2017\\Projects\\Time Talker\\AppointmentComponent\\AppointmentComponent.csproj",
       "projectName": "AppointmentComponent",
-      "projectPath": "C:\\Users\\luminous\\Documents\\Visual Studio 2017\\Projects\\Time Talker\\AppointmentComponent\\AppointmentComponent.csproj",
-      "projectJsonPath": "C:\\Users\\luminous\\Documents\\Visual Studio 2017\\Projects\\Time Talker\\AppointmentComponent\\project.json",
+      "projectPath": "C:\\Users\\luminous\\documents\\visual studio 2017\\Projects\\Time Talker\\AppointmentComponent\\AppointmentComponent.csproj",
+      "projectJsonPath": "C:\\Users\\luminous\\documents\\visual studio 2017\\Projects\\Time Talker\\AppointmentComponent\\project.json",
       "outputType": "UAP"
     },
     "dependencies": {

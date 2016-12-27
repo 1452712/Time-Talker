@@ -2,44 +2,75 @@
 <html>
 <head>
     <meta charset="utf-8" />
-    <title>Simple</title>
+    <title>Time Talker</title>
     <link href="../lib/winjs-4.0.1/css/ui-light.css" rel="stylesheet" />
     <script src="../lib/winjs-4.0.1/js/base.js"></script>
     <script src="../lib/winjs-4.0.1/js/ui.js"></script>
     <script src="../js/navbar.js"></script>
 </head>
-<body>
+<body class="win-type-body">
+    <!--
     <div class="simple fragment">
         <section aria-label="Main content" role="main">
             <div class="explanation">
                 Right click, press Win+Z, or swipe down from the top of the screen to show the simple NavBar control in action.
             </div>
-            <div id="NavBar" data-win-control="WinJS.UI.NavBar">
-                <div id="GlobalNav" data-win-control="WinJS.UI.NavBarContainer">
+        </section>
+    </div>-->
+            <div id="navBar" data-win-control="WinJS.UI.NavBar">
+                <div id="globalNav" data-win-control="WinJS.UI.NavBarContainer">
                     <div data-win-control="WinJS.UI.NavBarCommand" data-win-options="{
-                        label: 'Home',
-                        icon: WinJS.UI.AppBarIcon.home,
-                        location: '/pages/hub/hub.html',
+                        label: 'You Account',
+                        icon: WinJS.UI.AppBarIcon.contact,
+                        splitButton: true,
+                         location: '/src/profile.html'
+                        }">
+                    </div>
+                    <div data-win-control="WinJS.UI.NavBarCommand" data-win-options="{
+                        label: 'Dashboard',
+                        icon: WinJS.UI.AppBarIcon.gotostart,
+                        location: '/src/semantic.html',
                         splitButton: false
                         }">
                     </div>
                     <div data-win-control="WinJS.UI.NavBarCommand" data-win-options="{
-                        label: 'Demos',
-                        icon: WinJS.UI.AppBarIcon.gotostart,
-                        location: '/pages/hub/hub.html',
+                        label: 'Tasks',
+                        icon: WinJS.UI.AppBarIcon.calendar,
+                        location: '/src/tasklist.html',
+                        splitButton: false
+                        }">
+                    </div>
+                    <div data-win-control="WinJS.UI.NavBarCommand" data-win-options="{
+                        label: 'Notes',
+                        icon: WinJS.UI.AppBarIcon.bookmarks,
+                        location: '/src/notelist.html',
                         splitButton: false
                         }">
                     </div>
                 </div>
             </div>
-            <button id="addApt">Add</button>
-        </section>
-        <header aria-label="Header content" role="banner">
+            <div id="accountFlyout" data-win-control="WinJS.UI.Flyout" data-win-options="{ placement: 'bottom', alignment: 'left' }">
+                <div id="contactNavBarContainer" data-win-control="WinJS.UI.NavBarContainer">
+                    <div data-win-control="WinJS.UI.NavBarCommand" data-win-options="{ 
+                         label: 'Setting',
+                         icon: WinJS.UI.AppBarIcon.settings,
+                         location: '/src/profile.html'
+                         }">
+                    </div>
+                    <div data-win-control="WinJS.UI.NavBarCommand" data-win-options="{
+                         label: 'Sign Out',
+                         icon: WinJS.UI.AppBarIcon.blockcontact,
+                         location: '/src/login.html'
+                         }">
+                    </div>
+                </div>
+            </div>
+            <!--
+            <button id="addApt">Add</button>-->
+
+        <footer aria-label="Header content" role="banner">
             <button data-win-control="WinJS.UI.BackButton"></button>
-            <h1 class="titlearea win-type-ellipsis">
-                <span class="pagetitle">Welcome to simple</span>
-            </h1>
-        </header>
-    </div>
+        </footer>
+
 </body>
 </html>

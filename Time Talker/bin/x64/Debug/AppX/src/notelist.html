@@ -1,0 +1,247 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+
+    <script src="../js/jquery.js"></script>
+    <script src="../js/jquery.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    <script src="../js/semantic.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="../css/common.css">
+    <link rel="stylesheet" type="text/css" href="../css/slide.css">
+    <link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="../css/flat-ui.min.css">
+    <link rel="stylesheet" type="text/css" href="../css/jquery.nouislider.css">
+    <link rel="stylesheet" type="text/css" href="../css/semantic.css">
+    <link rel="stylesheet" type="text/css" href="../css/modal.css">
+    <link rel="stylesheet" type="text/css" href="../css/notelist.css" />
+    <link href="../lib/winjs-4.0.1/css/ui-light.css" rel="stylesheet" />
+    <script src="../lib/winjs-4.0.1/js/base.js"></script>
+    <script src="../lib/winjs-4.0.1/js/ui.js"></script>
+    <script src="../js/notelist.js"></script>
+
+</head>
+<body class="win-type-body">
+    <div id="navBarBlock">
+        <div id="navBar" data-win-control="WinJS.UI.NavBar">
+            <div id="globalNav" data-win-control="WinJS.UI.NavBarContainer">
+                <div data-win-control="WinJS.UI.NavBarCommand" data-win-options="{
+                        label: 'You Account',
+                        icon: WinJS.UI.AppBarIcon.contact,
+                        splitButton: true,
+                        location: '/src/profile.html'
+                        }">
+                </div>
+                <div data-win-control="WinJS.UI.NavBarCommand" data-win-options="{
+                        label: 'Dashboard',
+                        icon: WinJS.UI.AppBarIcon.gotostart,
+                        location: '/src/semantic.html',
+                        splitButton: false
+                        }">
+                </div>
+                <div data-win-control="WinJS.UI.NavBarCommand" data-win-options="{
+                        label: 'Tasks',
+                        icon: WinJS.UI.AppBarIcon.calendar,
+                        location: '/src/tasklist.html',
+                        splitButton: false
+                        }">
+                </div>
+                <div data-win-control="WinJS.UI.NavBarCommand" data-win-options="{
+                        label: 'Notes',
+                        icon: WinJS.UI.AppBarIcon.bookmarks,
+                        location: '/src/notelist.html',
+                        splitButton: false
+                        }">
+                </div>
+            </div>
+        </div>
+        <div id="accountFlyout" data-win-control="WinJS.UI.Flyout" data-win-options="{ placement: 'bottom', alignment: 'left' }">
+            <div id="contactNavBarContainer" data-win-control="WinJS.UI.NavBarContainer">
+                <div data-win-control="WinJS.UI.NavBarCommand" data-win-options="{
+                         label: 'Setting',
+                         icon: WinJS.UI.AppBarIcon.settings,
+                         location: '/src/profile.html'
+                         }">
+                </div>
+                <div data-win-control="WinJS.UI.NavBarCommand" 
+                     data-win-options="{
+                         label: 'Sign Out',
+                         icon: WinJS.UI.AppBarIcon.blockcontact,
+                         location: '/src/login.html'
+                         }">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="mainContent">
+        <!--
+        <br><br>
+
+        <button class="ui basic button" id="newb">
+            <i class="edit icon"></i>
+            New Note
+        </button>
+        <div class="right menu" style="position:relative; right:40px">
+            <div class="ui action input">
+                <input type="text" placeholder="Search...">
+                <button class="ui button">Search</button>
+            </div>
+        </div>
+        <br><br>-->
+        <!-- semantic ui modal -->
+        <div class="ui large test modal" id="modalf" style="height:600px">
+            <div class="ui transparent input header">
+                <input type="text" placeholder="New Node">
+            </div>
+
+
+            <div class="content">
+
+<textarea id="editor_id"
+          name="content"
+          style="width:870px;
+ height:400px;">
+
+&lt;strong&gt;Note&lt;/strong&gt;
+</textarea>
+
+            </div>
+            <div class="actions">
+                <div class="ui negative button">
+                    Cancel
+                </div>
+                <div class="ui positive right labeled icon button">
+                    Save
+                    <i class="checkmark icon"></i>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="ui.rating"></div>
+
+        <div class="ui star rating" data-rating="3"></div>
+        <div class="ui relaxed divided list">
+            <div class="item">
+                <i class="large github middle aligned icon"></i>
+                <div class="content">
+                    <a class="header" onclick="notelink(this)">mynote1</a>
+
+                    <i class="trash outline icon" ; id="id1"><a class="item"></a></i>
+                    <div class="description">Updated 10 mins ago</div>
+                </div>
+            </div>
+
+            <div class="item">
+                <i class="large github middle aligned icon"></i>
+                <div class="content">
+                    <a class="header">mynote1</a>
+
+                    <i class="trash outline icon" ; id="id1"><a class="item"></a></i>
+                    <div class="description">Updated 10 mins ago</div>
+                </div>
+            </div>
+
+            <div class="item">
+                <i class="large github middle aligned icon"></i>
+                <div class="content">
+                    <a class="header">mynote1</a>
+
+                    <i class="trash outline icon" ; id="id1"><a class="item"></a></i>
+                    <div class="description">Updated 10 mins ago</div>
+                </div>
+            </div>
+
+            <div class="item">
+                <i class="large github middle aligned icon"></i>
+                <div class="content">
+                    <a class="header">mynote1</a>
+
+                    <i class="trash outline icon" ; id="id1"><a class="item"></a></i>
+                    <div class="description">Updated 10 mins ago</div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <div id="appBar" data-win-control="WinJS.UI.AppBar" data-win-options="{placement:'bottom'}">
+        <!--<button data-win-control="WinJS.UI.BackButton"/>-->
+        <div data-win-control="WinJS.UI.AppBarCommand"
+             data-win-options="{
+             id: 'textfield',
+             type: 'content',
+             label:'Search',
+             section: 'secondary' }">
+            <input type="text" value="Search" />
+        </div>
+        <hr data-win-control="WinJS.UI.AppBarCommand"
+            data-win-options="{
+            id:'separator',
+            type:'separator',
+            section:'primary'}" />
+        <button id="createButton"
+                data-win-control="WinJS.UI.AppBarCommand"
+                data-win-options="{            
+                type: 'button',
+                label:'Create',
+                tooltip:'Create',
+                icon: WinJS.UI.AppBarIcon.add,
+                section:'primary'
+                }" />
+    </div>
+
+
+    <!--
+    <script>
+
+
+        $(function () {
+
+
+            $("#newb").click(function () {
+                $('.ui.large.test.modal')
+                    .modal('show')
+                    ;
+            });
+            $('.ui.negative.button').click(function () {
+                $('.ui.large.test.modal').modal('hide');
+            });
+            $('.ui.positive.right.labeled.icon.button').click(function () {
+
+                init();
+                $('.ui.large.test.modal').modal('hide');
+            });
+
+        });
+
+    </script>
+
+    <script>
+        function notelink(noteid) {
+
+
+            $('.ui.large.test.modal')
+                .modal('show')
+                ;
+            //	window.parent.document.getElementById("notelist_iframe").src="../taskpage.jsp";
+        }
+    </script>
+
+
+    <script charset="utf-8" src="../js/editor/kindeditor.js"></script>
+    <script charset="utf-8" src="../js/editor/lang/zh-CN.js"></script>
+    <script>
+        var editor;
+        KindEditor.ready(function (K) {
+            editor = K.create('textarea[name="content"]', {
+                allowFileManager: true
+            });
+
+            editor.html('HTML内容');
+
+        })
+    </script>-->
+</body>
+
+
+</html>

@@ -28,7 +28,7 @@
     <AppXManifest Include="C:\Users\luminous\documents\visual studio 2017\Projects\Time Talker\Time Talker\bin\x64\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2016-12-26T15:01:23.417</Modified>
+      <Modified>2016-12-27T15:40:08.443</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
@@ -40,9 +40,181 @@
       <PackagePath>Microsoft.Toolkit.Uwp.Notifications.winmd</PackagePath>
       <Modified>2016-11-15T09:25:02.000</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\luminous\documents\visual studio 2017\Projects\Time Talker\Time Talker\css\bootstrap-flex.css">
+      <PackagePath>css\bootstrap-flex.css</PackagePath>
+      <Modified>2016-12-23T12:00:53.313</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\luminous\documents\visual studio 2017\Projects\Time Talker\Time Talker\css\bootstrap-flex.min.css">
+      <PackagePath>css\bootstrap-flex.min.css</PackagePath>
+      <Modified>2016-12-23T12:00:53.324</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\luminous\documents\visual studio 2017\Projects\Time Talker\Time Talker\css\bootstrap-grid.css">
+      <PackagePath>css\bootstrap-grid.css</PackagePath>
+      <Modified>2016-12-23T12:00:53.334</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\luminous\documents\visual studio 2017\Projects\Time Talker\Time Talker\css\bootstrap-grid.min.css">
+      <PackagePath>css\bootstrap-grid.min.css</PackagePath>
+      <Modified>2016-12-23T12:00:53.342</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\luminous\documents\visual studio 2017\Projects\Time Talker\Time Talker\css\bootstrap-reboot.css">
+      <PackagePath>css\bootstrap-reboot.css</PackagePath>
+      <Modified>2016-12-23T12:00:53.347</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\luminous\documents\visual studio 2017\Projects\Time Talker\Time Talker\css\bootstrap-reboot.min.css">
+      <PackagePath>css\bootstrap-reboot.min.css</PackagePath>
+      <Modified>2016-12-23T12:00:53.352</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\luminous\documents\visual studio 2017\Projects\Time Talker\Time Talker\css\bootstrap-reset.css">
+      <PackagePath>css\bootstrap-reset.css</PackagePath>
+      <Modified>2016-12-23T12:00:53.357</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\luminous\documents\visual studio 2017\Projects\Time Talker\Time Talker\css\bootstrap-theme.css">
+      <PackagePath>css\bootstrap-theme.css</PackagePath>
+      <Modified>2016-12-23T12:00:53.366</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\luminous\documents\visual studio 2017\Projects\Time Talker\Time Talker\css\bootstrap-theme.min.css">
+      <PackagePath>css\bootstrap-theme.min.css</PackagePath>
+      <Modified>2016-12-23T12:00:53.382</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\luminous\documents\visual studio 2017\Projects\Time Talker\Time Talker\css\bootstrap.css">
+      <PackagePath>css\bootstrap.css</PackagePath>
+      <Modified>2016-12-23T12:00:53.470</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\luminous\documents\visual studio 2017\Projects\Time Talker\Time Talker\css\bootstrap.min.css">
+      <PackagePath>css\bootstrap.min.css</PackagePath>
+      <Modified>2016-12-23T12:00:53.491</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\luminous\documents\visual studio 2017\Projects\Time Talker\Time Talker\css\commentPage.css">
+      <PackagePath>css\commentPage.css</PackagePath>
+      <Modified>2016-12-23T12:00:53.386</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\luminous\documents\visual studio 2017\Projects\Time Talker\Time Talker\css\common.css">
+      <PackagePath>css\common.css</PackagePath>
+      <Modified>2016-12-23T17:01:29.177</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\luminous\documents\visual studio 2017\Projects\Time Talker\Time Talker\css\custom.css">
+      <PackagePath>css\custom.css</PackagePath>
+      <Modified>2016-12-23T12:00:53.390</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\luminous\documents\visual studio 2017\Projects\Time Talker\Time Talker\css\dashboard.css">
+      <PackagePath>css\dashboard.css</PackagePath>
+      <Modified>2016-12-27T11:29:56.161</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\luminous\documents\visual studio 2017\Projects\Time Talker\Time Talker\css\dimmer.css">
+      <PackagePath>css\dimmer.css</PackagePath>
+      <Modified>2016-12-26T12:04:02.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\luminous\documents\visual studio 2017\Projects\Time Talker\Time Talker\css\dropdown.css">
+      <PackagePath>css\dropdown.css</PackagePath>
+      <Modified>2016-12-26T12:04:02.015</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\luminous\documents\visual studio 2017\Projects\Time Talker\Time Talker\css\flat-ui.min.css">
+      <PackagePath>css\flat-ui.min.css</PackagePath>
+      <Modified>2016-12-23T12:24:24.981</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\luminous\documents\visual studio 2017\Projects\Time Talker\Time Talker\css\font-awesome.css">
+      <PackagePath>css\font-awesome.css</PackagePath>
+      <Modified>2016-12-23T12:00:53.399</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\luminous\documents\visual studio 2017\Projects\Time Talker\Time Talker\css\font-awesome.min.css">
+      <PackagePath>css\font-awesome.min.css</PackagePath>
+      <Modified>2016-12-23T12:00:53.407</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\luminous\documents\visual studio 2017\Projects\Time Talker\Time Talker\css\form.css">
+      <PackagePath>css\form.css</PackagePath>
+      <Modified>2016-12-25T07:30:52.306</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\luminous\documents\visual studio 2017\Projects\Time Talker\Time Talker\css\form.min.css">
+      <PackagePath>css\form.min.css</PackagePath>
+      <Modified>2016-12-25T07:30:52.306</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\luminous\documents\visual studio 2017\Projects\Time Talker\Time Talker\css\header.css">
+      <PackagePath>css\header.css</PackagePath>
+      <Modified>2016-12-25T07:16:50.653</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\luminous\documents\visual studio 2017\Projects\Time Talker\Time Talker\css\index.css">
+      <PackagePath>css\index.css</PackagePath>
+      <Modified>2016-12-26T09:22:47.488</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\luminous\documents\visual studio 2017\Projects\Time Talker\Time Talker\css\jquery.nouislider.css">
+      <PackagePath>css\jquery.nouislider.css</PackagePath>
+      <Modified>2016-12-23T12:24:24.982</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\luminous\documents\visual studio 2017\Projects\Time Talker\Time Talker\css\jquery.steps.css">
+      <PackagePath>css\jquery.steps.css</PackagePath>
+      <Modified>2016-12-23T12:00:53.422</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\luminous\documents\visual studio 2017\Projects\Time Talker\Time Talker\css\mdb.css">
+      <PackagePath>css\mdb.css</PackagePath>
+      <Modified>2016-12-23T12:00:53.431</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\luminous\documents\visual studio 2017\Projects\Time Talker\Time Talker\css\menu.css">
+      <PackagePath>css\menu.css</PackagePath>
+      <Modified>2016-12-25T14:42:16.823</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\luminous\documents\visual studio 2017\Projects\Time Talker\Time Talker\css\modal.css">
+      <PackagePath>css\modal.css</PackagePath>
+      <Modified>2016-12-25T13:08:44.494</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\luminous\documents\visual studio 2017\Projects\Time Talker\Time Talker\css\notelist.css">
+      <PackagePath>css\notelist.css</PackagePath>
+      <Modified>2016-12-27T11:08:10.684</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\luminous\documents\visual studio 2017\Projects\Time Talker\Time Talker\css\notepage.css">
+      <PackagePath>css\notepage.css</PackagePath>
+      <Modified>2016-12-27T13:28:42.939</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\luminous\documents\visual studio 2017\Projects\Time Talker\Time Talker\css\owl.carousel.css">
+      <PackagePath>css\owl.carousel.css</PackagePath>
+      <Modified>2016-12-23T12:00:53.436</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\luminous\documents\visual studio 2017\Projects\Time Talker\Time Talker\css\profile.css">
+      <PackagePath>css\profile.css</PackagePath>
+      <Modified>2016-12-27T12:35:07.858</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\luminous\documents\visual studio 2017\Projects\Time Talker\Time Talker\css\register-login.css">
       <PackagePath>css\register-login.css</PackagePath>
       <Modified>2016-12-26T11:02:57.615</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\luminous\documents\visual studio 2017\Projects\Time Talker\Time Talker\css\remarkStar.css">
+      <PackagePath>css\remarkStar.css</PackagePath>
+      <Modified>2016-12-23T12:00:53.440</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\luminous\documents\visual studio 2017\Projects\Time Talker\Time Talker\css\room-list.css">
+      <PackagePath>css\room-list.css</PackagePath>
+      <Modified>2016-12-23T12:00:53.444</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\luminous\documents\visual studio 2017\Projects\Time Talker\Time Talker\css\semantic.css">
+      <PackagePath>css\semantic.css</PackagePath>
+      <Modified>2016-12-27T10:06:09.319</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\luminous\documents\visual studio 2017\Projects\Time Talker\Time Talker\css\slide.css">
+      <PackagePath>css\slide.css</PackagePath>
+      <Modified>2016-12-23T12:24:24.973</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\luminous\documents\visual studio 2017\Projects\Time Talker\Time Talker\css\style-responsive.css">
+      <PackagePath>css\style-responsive.css</PackagePath>
+      <Modified>2016-12-23T12:00:53.458</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\luminous\documents\visual studio 2017\Projects\Time Talker\Time Talker\css\style.css">
+      <PackagePath>css\style.css</PackagePath>
+      <Modified>2016-12-23T12:00:53.453</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\luminous\documents\visual studio 2017\Projects\Time Talker\Time Talker\css\table.css">
+      <PackagePath>css\table.css</PackagePath>
+      <Modified>2016-12-25T07:30:52.322</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\luminous\documents\visual studio 2017\Projects\Time Talker\Time Talker\css\table.min.css">
+      <PackagePath>css\table.min.css</PackagePath>
+      <Modified>2016-12-25T07:30:52.337</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\luminous\documents\visual studio 2017\Projects\Time Talker\Time Talker\css\tasklist.css">
+      <PackagePath>css\tasklist.css</PackagePath>
+      <Modified>2016-12-27T12:58:16.465</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\luminous\documents\visual studio 2017\Projects\Time Talker\Time Talker\css\taskpage.css">
+      <PackagePath>css\taskpage.css</PackagePath>
+      <Modified>2016-12-27T12:58:42.698</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\luminous\documents\visual studio 2017\Projects\Time Talker\Time Talker\demos\alaska\alaska.css">
       <PackagePath>demos\alaska\alaska.css</PackagePath>
@@ -499,6 +671,14 @@
     <AppxPackagedFile Include="C:\Users\luminous\documents\visual studio 2017\Projects\Time Talker\Time Talker\pages\hub\contributorsControl.css">
       <PackagePath>pages\hub\contributorsControl.css</PackagePath>
       <Modified>2016-12-22T06:16:21.147</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\luminous\documents\visual studio 2017\Projects\Time Talker\Time Talker\css\bootstrap-theme.css.map">
+      <PackagePath>css\bootstrap-theme.css.map</PackagePath>
+      <Modified>2016-12-23T12:00:53.374</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\luminous\documents\visual studio 2017\Projects\Time Talker\Time Talker\css\bootstrap.css.map">
+      <PackagePath>css\bootstrap.css.map</PackagePath>
+      <Modified>2016-12-23T12:00:53.481</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\luminous\documents\visual studio 2017\Projects\Time Talker\Time Talker\demos\ads\ads.html">
       <PackagePath>demos\ads\ads.html</PackagePath>
@@ -1208,9 +1388,41 @@
       <PackagePath>src\AddApointment.html</PackagePath>
       <Modified>2016-12-22T07:05:22.970</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\luminous\documents\visual studio 2017\Projects\Time Talker\Time Talker\src\createtask.html">
+      <PackagePath>src\createtask.html</PackagePath>
+      <Modified>2016-12-27T00:09:25.213</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\luminous\documents\visual studio 2017\Projects\Time Talker\Time Talker\src\footer.html">
+      <PackagePath>src\footer.html</PackagePath>
+      <Modified>2016-12-27T01:13:19.444</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\luminous\documents\visual studio 2017\Projects\Time Talker\Time Talker\src\header.html">
+      <PackagePath>src\header.html</PackagePath>
+      <Modified>2016-12-27T01:12:47.254</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\luminous\documents\visual studio 2017\Projects\Time Talker\Time Talker\src\login.html">
       <PackagePath>src\login.html</PackagePath>
       <Modified>2016-12-26T12:28:32.495</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\luminous\documents\visual studio 2017\Projects\Time Talker\Time Talker\src\master.html">
+      <PackagePath>src\master.html</PackagePath>
+      <Modified>2016-12-27T01:15:10.190</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\luminous\documents\visual studio 2017\Projects\Time Talker\Time Talker\src\notelist.html">
+      <PackagePath>src\notelist.html</PackagePath>
+      <Modified>2016-12-27T15:20:59.779</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\luminous\documents\visual studio 2017\Projects\Time Talker\Time Talker\src\notepage.html">
+      <PackagePath>src\notepage.html</PackagePath>
+      <Modified>2016-12-27T13:30:04.326</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\luminous\documents\visual studio 2017\Projects\Time Talker\Time Talker\src\personinfo.html">
+      <PackagePath>src\personinfo.html</PackagePath>
+      <Modified>2016-12-27T00:01:35.653</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\luminous\documents\visual studio 2017\Projects\Time Talker\Time Talker\src\profile.html">
+      <PackagePath>src\profile.html</PackagePath>
+      <Modified>2016-12-27T15:39:59.969</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\luminous\documents\visual studio 2017\Projects\Time Talker\Time Talker\src\register.html">
       <PackagePath>src\register.html</PackagePath>
@@ -1218,7 +1430,23 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\luminous\documents\visual studio 2017\Projects\Time Talker\Time Talker\src\navbar.html">
       <PackagePath>src\navbar.html</PackagePath>
-      <Modified>2016-12-26T14:14:33.785</Modified>
+      <Modified>2016-12-27T11:44:10.163</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\luminous\documents\visual studio 2017\Projects\Time Talker\Time Talker\src\semantic.html">
+      <PackagePath>src\semantic.html</PackagePath>
+      <Modified>2016-12-27T11:44:25.652</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\luminous\documents\visual studio 2017\Projects\Time Talker\Time Talker\src\splitView.html">
+      <PackagePath>src\splitView.html</PackagePath>
+      <Modified>2016-12-27T03:34:25.213</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\luminous\documents\visual studio 2017\Projects\Time Talker\Time Talker\src\tasklist.html">
+      <PackagePath>src\tasklist.html</PackagePath>
+      <Modified>2016-12-27T11:58:35.130</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\luminous\documents\visual studio 2017\Projects\Time Talker\Time Talker\src\taskpage.html">
+      <PackagePath>src\taskpage.html</PackagePath>
+      <Modified>2016-12-27T13:27:08.408</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\luminous\documents\visual studio 2017\Projects\Time Talker\Time Talker\demos\ads\ads.json">
       <PackagePath>demos\ads\ads.json</PackagePath>
@@ -2552,9 +2780,53 @@
       <PackagePath>js\background.js</PackagePath>
       <Modified>2016-12-23T09:20:22.312</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\luminous\documents\visual studio 2017\Projects\Time Talker\Time Talker\js\bootstrap.min.js">
+      <PackagePath>js\bootstrap.min.js</PackagePath>
+      <Modified>2016-12-24T07:00:43.014</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\luminous\documents\visual studio 2017\Projects\Time Talker\Time Talker\js\common-scripts.js">
+      <PackagePath>js\common-scripts.js</PackagePath>
+      <Modified>2016-12-23T11:54:18.999</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\luminous\documents\visual studio 2017\Projects\Time Talker\Time Talker\js\dashboard.js">
+      <PackagePath>js\dashboard.js</PackagePath>
+      <Modified>2016-12-27T11:25:58.800</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\luminous\documents\visual studio 2017\Projects\Time Talker\Time Talker\js\docs.js">
+      <PackagePath>js\docs.js</PackagePath>
+      <Modified>2016-12-25T13:45:54.103</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\luminous\documents\visual studio 2017\Projects\Time Talker\Time Talker\js\dropdown.js">
+      <PackagePath>js\dropdown.js</PackagePath>
+      <Modified>2016-12-26T12:04:01.993</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\luminous\documents\visual studio 2017\Projects\Time Talker\Time Talker\js\form.js">
+      <PackagePath>js\form.js</PackagePath>
+      <Modified>2016-12-25T07:31:26.411</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\luminous\documents\visual studio 2017\Projects\Time Talker\Time Talker\js\form.min.js">
+      <PackagePath>js\form.min.js</PackagePath>
+      <Modified>2016-12-25T07:31:26.449</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\luminous\documents\visual studio 2017\Projects\Time Talker\Time Talker\js\index.js">
+      <PackagePath>js\index.js</PackagePath>
+      <Modified>2016-12-25T07:31:26.464</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\luminous\documents\visual studio 2017\Projects\Time Talker\Time Talker\js\jquery-1.8.3.min.js">
+      <PackagePath>js\jquery-1.8.3.min.js</PackagePath>
+      <Modified>2016-12-23T12:01:32.396</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\luminous\documents\visual studio 2017\Projects\Time Talker\Time Talker\js\jquery.js">
       <PackagePath>js\jquery.js</PackagePath>
       <Modified>2016-12-22T08:32:27.857</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\luminous\documents\visual studio 2017\Projects\Time Talker\Time Talker\js\jquery.min.js">
+      <PackagePath>js\jquery.min.js</PackagePath>
+      <Modified>2016-12-24T07:00:43.046</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\luminous\documents\visual studio 2017\Projects\Time Talker\Time Talker\js\jquery.nouislider.js">
+      <PackagePath>js\jquery.nouislider.js</PackagePath>
+      <Modified>2016-12-24T07:00:42.990</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\luminous\documents\visual studio 2017\Projects\Time Talker\Time Talker\js\jquery_login.min.js">
       <PackagePath>js\jquery_login.min.js</PackagePath>
@@ -2566,19 +2838,43 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\luminous\documents\visual studio 2017\Projects\Time Talker\Time Talker\js\login.js">
       <PackagePath>js\login.js</PackagePath>
-      <Modified>2016-12-26T13:14:05.619</Modified>
+      <Modified>2016-12-27T08:55:15.095</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\luminous\documents\visual studio 2017\Projects\Time Talker\Time Talker\js\main.js">
       <PackagePath>js\main.js</PackagePath>
-      <Modified>2016-12-26T10:27:45.991</Modified>
+      <Modified>2016-12-27T15:23:33.480</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\luminous\documents\visual studio 2017\Projects\Time Talker\Time Talker\js\mdb.min.js">
+      <PackagePath>js\mdb.min.js</PackagePath>
+      <Modified>2016-12-23T11:55:12.195</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\luminous\documents\visual studio 2017\Projects\Time Talker\Time Talker\js\modal.js">
+      <PackagePath>js\modal.js</PackagePath>
+      <Modified>2016-12-25T13:08:44.455</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\luminous\documents\visual studio 2017\Projects\Time Talker\Time Talker\js\navbar.js">
       <PackagePath>js\navbar.js</PackagePath>
-      <Modified>2016-12-26T15:01:12.534</Modified>
+      <Modified>2016-12-27T08:21:30.951</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\luminous\documents\visual studio 2017\Projects\Time Talker\Time Talker\js\notelist.js">
+      <PackagePath>js\notelist.js</PackagePath>
+      <Modified>2016-12-27T15:21:19.325</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\luminous\documents\visual studio 2017\Projects\Time Talker\Time Talker\js\notepage.js">
+      <PackagePath>js\notepage.js</PackagePath>
+      <Modified>2016-12-27T13:25:57.035</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\luminous\documents\visual studio 2017\Projects\Time Talker\Time Talker\js\package.js">
+      <PackagePath>js\package.js</PackagePath>
+      <Modified>2016-12-25T07:31:26.464</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\luminous\documents\visual studio 2017\Projects\Time Talker\Time Talker\js\particles.js">
       <PackagePath>js\particles.js</PackagePath>
       <Modified>2016-12-26T10:07:41.598</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\luminous\documents\visual studio 2017\Projects\Time Talker\Time Talker\js\profile.js">
+      <PackagePath>js\profile.js</PackagePath>
+      <Modified>2016-12-27T15:39:56.668</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\luminous\documents\visual studio 2017\Projects\Time Talker\Time Talker\js\register.js">
       <PackagePath>js\register.js</PackagePath>
@@ -2587,6 +2883,22 @@
     <AppxPackagedFile Include="C:\Users\luminous\documents\visual studio 2017\Projects\Time Talker\Time Talker\js\semantic.js">
       <PackagePath>js\semantic.js</PackagePath>
       <Modified>2016-12-22T08:33:47.369</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\luminous\documents\visual studio 2017\Projects\Time Talker\Time Talker\js\splitView.js">
+      <PackagePath>js\splitView.js</PackagePath>
+      <Modified>2016-12-27T03:27:55.250</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\luminous\documents\visual studio 2017\Projects\Time Talker\Time Talker\js\tasklist.js">
+      <PackagePath>js\tasklist.js</PackagePath>
+      <Modified>2016-12-27T12:23:01.443</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\luminous\documents\visual studio 2017\Projects\Time Talker\Time Talker\js\taskpage.js">
+      <PackagePath>js\taskpage.js</PackagePath>
+      <Modified>2016-12-27T13:00:31.339</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\luminous\documents\visual studio 2017\Projects\Time Talker\Time Talker\js\tether.min.js">
+      <PackagePath>js\tether.min.js</PackagePath>
+      <Modified>2016-12-23T11:55:12.414</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\luminous\documents\visual studio 2017\Projects\Time Talker\Time Talker\lib\winjs-4.0.1\js\base.js">
       <PackagePath>lib\winjs-4.0.1\js\base.js</PackagePath>
@@ -2676,6 +2988,10 @@
       <PackagePath>demos\zoom\oceanrocks.jpg</PackagePath>
       <Modified>2016-12-22T06:16:01.284</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\luminous\documents\visual studio 2017\Projects\Time Talker\Time Talker\images\avatar1.jpg">
+      <PackagePath>images\avatar1.jpg</PackagePath>
+      <Modified>2016-12-25T13:51:41.150</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\luminous\documents\visual studio 2017\Projects\Time Talker\Time Talker\demos\basicscaling\ketch.scale-100.png">
       <PackagePath>demos\basicscaling\ketch.scale-100.png</PackagePath>
       <Modified>2016-12-22T06:15:13.544</Modified>
@@ -2730,14 +3046,38 @@
       <PackagePath>images\50_title.scale-100.png</PackagePath>
       <Modified>2016-12-22T13:15:42.181</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\luminous\documents\visual studio 2017\Projects\Time Talker\Time Talker\images\createnote_title.png">
+      <PackagePath>images\createnote_title.png</PackagePath>
+      <Modified>2016-12-27T11:53:30.816</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\luminous\documents\visual studio 2017\Projects\Time Talker\Time Talker\images\createtask_title.png">
+      <PackagePath>images\createtask_title.png</PackagePath>
+      <Modified>2016-12-27T11:54:27.747</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\luminous\documents\visual studio 2017\Projects\Time Talker\Time Talker\images\dashboard_title.png">
+      <PackagePath>images\dashboard_title.png</PackagePath>
+      <Modified>2016-12-27T11:50:42.980</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\luminous\documents\visual studio 2017\Projects\Time Talker\Time Talker\images\logo.png">
       <PackagePath>images\logo.png</PackagePath>
       <Modified>2016-12-24T05:31:10.064</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\luminous\documents\visual studio 2017\Projects\Time Talker\Time Talker\images\notes_title.png">
+      <PackagePath>images\notes_title.png</PackagePath>
+      <Modified>2016-12-27T11:51:42.380</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\luminous\documents\visual studio 2017\Projects\Time Talker\Time Talker\images\profile_title.png">
+      <PackagePath>images\profile_title.png</PackagePath>
+      <Modified>2016-12-27T11:55:06.920</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\luminous\documents\visual studio 2017\Projects\Time Talker\Time Talker\images\splash3.scale-100.png">
       <PackagePath>images\splash3.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2016-12-23T13:14:31.354</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\luminous\documents\visual studio 2017\Projects\Time Talker\Time Talker\images\tasks_title.png">
+      <PackagePath>images\tasks_title.png</PackagePath>
+      <Modified>2016-12-27T11:52:18.026</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\luminous\documents\visual studio 2017\Projects\Time Talker\Time Talker\images\LockScreenLogo.scale-200.png">
       <PackagePath>images\LockScreenLogo.scale-200.png</PackagePath>
@@ -3259,7 +3599,7 @@
     <AppxPackagedFile Include="C:\Users\luminous\documents\visual studio 2017\Projects\Time Talker\Time Talker\bin\x64\Debug\ReverseMap\resources.pri">
       <PackagePath>resources.pri</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2016-12-26T13:39:35.890</Modified>
+      <Modified>2016-12-27T13:30:40.628</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\luminous\documents\visual studio 2017\Projects\Time Talker\Time Talker\bin\x64\Debug\Core\UWPShim.exe">
       <PackagePath>UWPShim.exe</PackagePath>

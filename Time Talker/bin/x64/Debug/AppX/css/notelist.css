@@ -1,0 +1,29 @@
+﻿body {
+}
+
+.mainContent {
+    padding-top: 4%;
+    height: 96%;
+}
+
+#id1 {
+    float: left;
+    position: absolute;
+    right: 50px;
+}
+
+body {
+    height: 100%;
+    width: 100%;
+    color: #555;
+    position: absolute;
+    left: 30px;
+}
+
+#modalf {
+    position: absolute;
+    height: 400px;
+    width: 90%;
+    left: 500px;
+    top: 30px;
+}

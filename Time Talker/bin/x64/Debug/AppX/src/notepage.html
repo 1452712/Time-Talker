@@ -1,0 +1,65 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <link href="../lib/winjs-4.0.1/css/ui-light.css" rel="stylesheet" />
+    <script src="../lib/winjs-4.0.1/js/base.js"></script>
+    <script src="../lib/winjs-4.0.1/js/ui.js"></script>
+    <link href="../css/notepage.css" rel="stylesheet" type="text/css" />
+    <script src="../js/notepage.js"></script>
+</head>
+<body class="win-type-body">
+    <div id="navBarBlock">
+        <div id="navBar" data-win-control="WinJS.UI.NavBar">
+            <div id="globalNav" data-win-control="WinJS.UI.NavBarContainer">
+                <div data-win-control="WinJS.UI.NavBarCommand" data-win-options="{
+                        label: 'You Account',
+                        icon: WinJS.UI.AppBarIcon.contact,
+                        splitButton: true,
+                        location: '/src/profile.html'
+                        }">
+                </div>
+                <div data-win-control="WinJS.UI.NavBarCommand" data-win-options="{
+                        label: 'Dashboard',
+                        icon: WinJS.UI.AppBarIcon.gotostart,
+                        location: '/src/semantic.html',
+                        splitButton: false
+                        }">
+                </div>
+                <div data-win-control="WinJS.UI.NavBarCommand" data-win-options="{
+                        label: 'Tasks',
+                        icon: WinJS.UI.AppBarIcon.calendar,
+                        location: '/src/tasklist.html',
+                        splitButton: false
+                        }">
+                </div>
+                <div data-win-control="WinJS.UI.NavBarCommand" data-win-options="{
+                        label: 'Notes',
+                        icon: WinJS.UI.AppBarIcon.bookmarks,
+                        location: '/src/notelist.html',
+                        splitButton: false
+                        }">
+                </div>
+            </div>
+        </div>
+        <div id="accountFlyout" data-win-control="WinJS.UI.Flyout" data-win-options="{ placement: 'bottom', alignment: 'left' }">
+            <div id="contactNavBarContainer" data-win-control="WinJS.UI.NavBarContainer">
+                <div data-win-control="WinJS.UI.NavBarCommand" data-win-options="{
+                         label: 'Setting',
+                         icon: WinJS.UI.AppBarIcon.settings,
+                         location: '/src/profile.html'
+                         }">
+                </div>
+                <div data-win-control="WinJS.UI.NavBarCommand" data-win-options="{
+                         label: 'Sign Out',
+                         icon: WinJS.UI.AppBarIcon.blockcontact,
+                         location: '/src/login.html'
+                         }">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="mainContent">
+    </div>
+</body>
+</html>

@@ -1,0 +1,43 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Split View</title>
+    <link href="../lib/winjs-4.0.1/css/ui-light.css" rel="stylesheet" />
+    <script src="../lib/winjs-4.0.1/js/base.js"></script>
+    <script src="../lib/winjs-4.0.1/js/ui.js"></script>
+     <script src="../js/splitView.js"></script>
+</head>
+<body class="win-type-body">
+    <div class="simple fragment">
+        <section aria-label="Main content" role="main">           
+        </section>
+    </div>
+    <header aria-label="Header content" role="banner" style="background-color:#F7FAFC">
+        <button data-win-control="WinJS.UI.BackButton"></button>
+        <!--<h1 class="titlearea win-type-ellipsis">
+            <span class="pagetitle">Welcome to simple</span>
+        </h1>-->
+    </header>
+    <div id="GlobalSplit" data-win-control="WinJS.UI.SplitView">
+        <div>part1</div>
+        <!--
+        <div id="SplitViewPaneToggle" data-win-control="WinJS.UI.SplitViewPaneToggle" data-win-options="{
+                 splitView : 'dashboardView'}"></div>-->
+        <div>part2</div>
+        <div id = "dashboardView" data-win-control="WinJS.UI.SplitViewCommand" data-win-options="{
+                        label: 'Home',
+                        icon: WinJS.UI.AppBarIcon.home
+                        }">
+        </div>
+        <div id = "taskView"  data-win-control="WinJS.UI.SplitViewCommand" data-win-options="{
+                        label: 'Demos',
+                        icon: WinJS.UI.AppBarIcon.gotostart
+                        }">
+        </div><div id="test">part3</div>
+    </div>
+    <div>part4</div>
+    <div id="SplitViewPaneToggle" data-win-control="WinJS.UI.SplitViewPaneToggle" data-win-options="{
+                 splitView : 'GlobalSplit'}"></div>
+    <div>part5</div>
+</body>
+</html>

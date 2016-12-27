@@ -1,0 +1,183 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+    <title>Time Talker</title>
+    <link rel="stylesheet" type="text/css" href="../css/taskpage.css">
+    <link rel="stylesheet" type="text/css" href="../css/semantic.css">
+    <link rel="stylesheet" type="text/css" href="../css/form.css">
+    <link rel="stylesheet" type="text/css" href="../css/form.min.css">
+    <script src="../js/jquery.min.js"></script>
+    <script src="../js/semantic.js"></script>
+    <script type="text/javascript" src="../js/form.js"></script>
+    <script type="text/javascript" src="../js/form.min.js"></script>
+    <!--
+    <script type="text/javascript" src="../js/index.js"></script>
+    <script type="text/javascript" src="../js/package.js"></script>-->
+    <link href="../lib/winjs-4.0.1/css/ui-light.css" rel="stylesheet" />
+    <script src="../lib/winjs-4.0.1/js/base.js"></script>
+    <script src="../lib/winjs-4.0.1/js/ui.js"></script>
+    <script src="../js/taskpage.js"></script>
+</head>
+<body class="win-type-body">
+    <div id="navBarBlock">
+        <div id="navBar" data-win-control="WinJS.UI.NavBar">
+            <div id="globalNav" data-win-control="WinJS.UI.NavBarContainer">
+                <div data-win-control="WinJS.UI.NavBarCommand" data-win-options="{
+                        label: 'You Account',
+                        icon: WinJS.UI.AppBarIcon.contact,
+                        splitButton: true,
+                        location: '/src/profile.html'
+                        }">
+                </div>
+                <div data-win-control="WinJS.UI.NavBarCommand" data-win-options="{
+                        label: 'Dashboard',
+                        icon: WinJS.UI.AppBarIcon.gotostart,
+                        location: '/src/semantic.html',
+                        splitButton: false
+                        }">
+                </div>
+                <div data-win-control="WinJS.UI.NavBarCommand" data-win-options="{
+                        label: 'Tasks',
+                        icon: WinJS.UI.AppBarIcon.calendar,
+                        location: '/src/tasklist.html',
+                        splitButton: false
+                        }">
+                </div>
+                <div data-win-control="WinJS.UI.NavBarCommand" data-win-options="{
+                        label: 'Notes',
+                        icon: WinJS.UI.AppBarIcon.bookmarks,
+                        location: '/src/notelist.html',
+                        splitButton: false
+                        }">
+                </div>
+            </div>
+        </div>
+        <div id="accountFlyout" data-win-control="WinJS.UI.Flyout" data-win-options="{ placement: 'bottom', alignment: 'left' }">
+            <div id="contactNavBarContainer" data-win-control="WinJS.UI.NavBarContainer">
+                <div data-win-control="WinJS.UI.NavBarCommand" data-win-options="{
+                         label: 'Setting',
+                         icon: WinJS.UI.AppBarIcon.settings,
+                         location: '/src/profile.html'
+                         }">
+                </div>
+                <div data-win-control="WinJS.UI.NavBarCommand" data-win-options="{
+                         label: 'Sign Out',
+                         icon: WinJS.UI.AppBarIcon.blockcontact,
+                         location: '/src/login.html'
+                         }">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="mainContent">
+        <div id="taskpage">
+
+
+            <div>
+                <div id="taskcontent">
+                    <form class="ui form" style="margin-left:10px;margin-right:10px">
+                        <div class="field">
+                            <label>Task Name</label>
+                            <input type="text" name="taskname" placeholder="Reading A book" />
+                        </div>
+                        <div class="two fields">
+                            <div class="field">
+                                <label>Task Type</label>
+                                <select class="ui search dropdown">
+                                    <option value="">type</option>
+                                    <option value="1">Read</option>
+                                    <option value="2">Code</option>
+                                    <option value="3">Write</option>
+                                </select>
+                            </div>
+                            <div class="field">
+                                <label>Status</label>
+                                <input type="text" readonly="" placeholder="inProgress" />
+                            </div>
+                        </div>
+                        <div class="two fields">
+                            <div class="field">
+                                <label>Start Time</label>
+                                <input type="date" readonly="" placeholder="2016/6/6" />
+                            </div>
+                            <div class="field">
+                                <label>Predict End Time</label>
+                                <input type="date" placeholder="2016/6/7" />
+                            </div>
+                        </div>
+                        <div>
+                            <label>Alarm Time</label>
+                            <div class="fields inline">
+
+                                <div class="three wide field">
+                                    <label>Type</label>
+                                    <select multiple="" class="ui dropdown">
+                                        <option value="8">AllDays</option>
+                                        <option value="1">Monday</option>
+                                        <option value="2">Tuesday</option>
+                                        <option value="3">Wednesday</option>
+                                        <option value="4">Thursday</option>
+                                        <option value="5">Friday</option>
+                                        <option value="6">Saturday</option>
+                                        <option value="7">Sunday</option>
+                                    </select>
+                                </div>
+                                <div class="two field inline">
+                                    <label>Begin Time</label>
+                                    <input type="time" name="begintime" />
+                                </div>
+                                <div class="two field inline">
+                                    <label>Stop Time</label>
+                                    <input type="time" name="endtime" />
+                                </div>
+                                <div class="ui circular icon tiny green button"><i class="plus icon"></i></div>
+                                <div class="ui circular icon tiny red button"><i class="minus icon"></i></div>
+                            </div>
+                        </div>
+                        <div class="field">
+                            <label>Description</label>
+                            <textarea></textarea>
+                        </div>
+                        <div class="ui submit button green"> Save </div>
+                        <div class="ui nonsubmit button red">Cancel</div>
+                    </form>
+                    <script>
+                        $(".taskbtnn").click(function () {
+                            alert("alert");
+                        });
+                    </script>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+
+
+
+        $("#taskinfo").click(function () {
+            $("#tpcontent").load("taskpage.html #taskcontent");
+        });
+
+
+        $("#viewnote").click(function () {
+            $("#tpcontent").load("notelist.html");
+        });
+
+        $(document).ready(function () {
+            $("#tpcontent").load("taskpage.html #taskcontent");
+
+        });
+
+
+
+        $('.ui .item').on('click', function () {
+            $('.ui .item').removeClass('active');
+            $(this).addClass('active');
+        });
+
+
+    </script>
+</body>
+</html>
