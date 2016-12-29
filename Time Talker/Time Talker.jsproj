@@ -411,9 +411,6 @@
     <None Include="Time Talker_TemporaryKey.pfx" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\AppointmentComponent\AppointmentComponent.csproj" />
-  </ItemGroup>
-  <ItemGroup>
     <Reference Include="Microsoft.Toolkit.Uwp.Notifications">
       <HintPath>..\packages\Microsoft.Toolkit.Uwp.Notifications.JavaScript.1.2.0\lib\Windows\Microsoft.Toolkit.Uwp.Notifications.winmd</HintPath>
       <IsWinMDFile>true</IsWinMDFile>
