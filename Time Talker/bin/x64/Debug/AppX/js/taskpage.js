@@ -84,9 +84,11 @@
         Windows.ApplicationModel.Appointments.AppointmentManager.showAddAppointmentAsync(appointment, selectionRect, Windows.UI.Popups.Placement.default)
             .done(function (appointmentId) {
                 if (appointmentId) {
+                    document.getElementById('removeIcon').hidden = true;
                     document.getElementById('checkmarkIcon').hidden = false;
                 } else {
                     document.getElementById('removeIcon').hidden = false;
+                    document.getElementById('checkmarkIcon').hidden = true;
                 }
             });
     }

@@ -28,7 +28,7 @@
     <AppXManifest Include="C:\Users\luminous\documents\visual studio 2017\Projects\Time Talker\Time Talker\bin\x64\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2016-12-27T22:44:06.454</Modified>
+      <Modified>2016-12-28T16:27:13.237</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
@@ -1474,7 +1474,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\luminous\documents\visual studio 2017\Projects\Time Talker\Time Talker\src\notepage.html">
       <PackagePath>src\notepage.html</PackagePath>
-      <Modified>2016-12-27T19:13:00.296</Modified>
+      <Modified>2016-12-28T15:24:22.606</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\luminous\documents\visual studio 2017\Projects\Time Talker\Time Talker\src\personinfo.html">
       <PackagePath>src\personinfo.html</PackagePath>
@@ -3078,11 +3078,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\luminous\documents\visual studio 2017\Projects\Time Talker\Time Talker\js\login.js">
       <PackagePath>js\login.js</PackagePath>
-      <Modified>2016-12-27T08:55:15.095</Modified>
+      <Modified>2016-12-28T15:04:55.230</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\luminous\documents\visual studio 2017\Projects\Time Talker\Time Talker\js\main.js">
       <PackagePath>js\main.js</PackagePath>
-      <Modified>2016-12-27T21:21:22.698</Modified>
+      <Modified>2016-12-28T14:26:53.736</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\luminous\documents\visual studio 2017\Projects\Time Talker\Time Talker\js\mdb.min.js">
       <PackagePath>js\mdb.min.js</PackagePath>
@@ -3102,7 +3102,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\luminous\documents\visual studio 2017\Projects\Time Talker\Time Talker\js\notepage.js">
       <PackagePath>js\notepage.js</PackagePath>
-      <Modified>2016-12-27T19:21:00.163</Modified>
+      <Modified>2016-12-28T15:33:30.178</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\luminous\documents\visual studio 2017\Projects\Time Talker\Time Talker\js\package.js">
       <PackagePath>js\package.js</PackagePath>
@@ -3114,11 +3114,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\luminous\documents\visual studio 2017\Projects\Time Talker\Time Talker\js\profile.js">
       <PackagePath>js\profile.js</PackagePath>
-      <Modified>2016-12-27T15:45:46.249</Modified>
+      <Modified>2016-12-28T15:28:56.900</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\luminous\documents\visual studio 2017\Projects\Time Talker\Time Talker\js\register.js">
       <PackagePath>js\register.js</PackagePath>
-      <Modified>2016-12-26T13:28:05.315</Modified>
+      <Modified>2016-12-28T16:23:51.355</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\luminous\documents\visual studio 2017\Projects\Time Talker\Time Talker\js\semantic.js">
       <PackagePath>js\semantic.js</PackagePath>
@@ -3134,7 +3134,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\luminous\documents\visual studio 2017\Projects\Time Talker\Time Talker\js\taskpage.js">
       <PackagePath>js\taskpage.js</PackagePath>
-      <Modified>2016-12-27T22:43:58.179</Modified>
+      <Modified>2016-12-27T22:45:16.249</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\luminous\documents\visual studio 2017\Projects\Time Talker\Time Talker\js\tether.min.js">
       <PackagePath>js\tether.min.js</PackagePath>

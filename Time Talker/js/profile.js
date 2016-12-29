@@ -1,6 +1,8 @@
 ﻿(function () {
     "use strict";
     var navcontainer;
+    var roamingFolder = Windows.Storage.ApplicationData.current.roamingFolder;
+    var filename = "settings.txt";
 
     WinJS.UI.Pages.define("/src/profile.html", {
         ready: function (element, options) {
@@ -23,9 +25,55 @@
             var username = document.getElementById("username").value;
             var email = document.getElementById("email").value;
             var password = document.getElementById("password").value;
+            var token = "";
 
+            roamingFolder.getFileAsync(filename)
+                .then(function (file) {
+                    return  token = Windows.Storage.FileIO.readTextAsync(file);
+                }).done(function (error) {
+                    //Handle erors encounterd during read
+                    console.log("Error reading file.")
+                });
             //TODO
+            var httpClient = new Windows.Web.Http.HttpClient();
+            var uri = new Windows.Foundation.Uri("http://localhost:8080@para?token=" + token + "&&nowpassword=" + password);
+            var httpMethod = new Windows.Web.Http.HttpMethod.post;
+            var httpRequestMessage = new Windows.Web.Http.HttpRequestMessage(httpMethod, uri);
 
+            var httpResponse = new Windows.Web.Http.HttpResponseMessage();
+            var httpResponseBody = "";
+
+            try {
+                httpResponse = /*await*/ httpClient.sendRequestAsync(httpRequestMessage);
+                httpResponse.EnsureSuccessStatusCode();
+                httpResponseBody = /*await*/ httpResponse.Content.ReadAsStringAsync();
+
+                var resJson = JSON.parse(httpResponseBody);
+                if (resJson.result == false) {
+                    self.localtion = "/src/profile.html";
+                    return;
+                }
+
+                //create a file and write token to it.
+                roamingFolder.createFileAsync(filename, Windows.Storage.CreationCollisionOption.replaceExisting)
+                    .then(function (filename) {
+                        return Windows.Storage.FileIO.writeTextAsync(filename, resJson.token);
+                    }).done(function () {
+                        //console.log("file created");
+                    });
+
+            }
+            catch (ex) {
+                httpResponseBody = "Error: " + ex.HResult.ToString("X") + " Message: " + ex.Message;
+                self.location = "/src/prifile.html";
+                httpResponse.close();
+                httpRequestMessage.close();
+                httpClient.close();
+            }
+
+            httpResponse.close();
+            httpRequestMessage.close();
+            httpClient.close();
 
             self.location = "/src/tasklist.html";
         },

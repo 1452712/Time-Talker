@@ -1,5 +1,7 @@
 ﻿(function () {
     "use strict";
+    var roamingFolder = Windows.Storage.ApplicationData.current.roamingFolder;
+    var filename = "settings.txt";
 
     WinJS.UI.Pages.define("/src/register.html", {
         ready: function (element, options) {
@@ -18,25 +20,13 @@
                 var password = document.getElementById("password1").value;
                 var password1 = document.getElementById("password2").value;
                 var verify = document.getElementById("verify").value;
-                //WinJS.xhr({ url: "/demos/xhr/fetchme.html", responseType: "json" });
+                if (password != password1) {
+                    self.location = "/src/register.html";
+                    return;
+                }
 
-                // $.ajax({
-                // url: 'http://www.zrong.me/home/index/userLogin',
-                // type: 'post',
-                // jsonp: 'jsonpcallback',
-          //       jsonpCallback: "flightHandler",
-                // async: false,
-                // data: {
-                // 	'email':email,
-                // 	'password':password,
-                // 	'verify':verify
-                // },
-                // success: function(data){
-                // 	info = data.status;
-                // 	layer.msg(info);
-                // }
-                // })
                 /*
+                WinJS.xhr({ url: "/demos/xhr/fetchme.html", responseType: "json" });
                 var destinationUrl = "ms-appx:///src/login.html";
                 try {
                     WinJS.Navigation.navigate(destinationUrl);
@@ -44,7 +34,63 @@
                     WinJS.log && WinJS.log("\"" + destinationUrl + "\" is not a valid absolute URL.\n", "sdksample", "error");
                     return;
                 }*/
-                self.location = "/src/login.html";
+
+                var httpClient = new Windows.Web.Http.HttpClient();
+                var uri = new Windows.Foundation.Uri("http://localhost:8080@para?username="+user+"&&email="+email+"&&password="+password);
+                var httpMethod = new Windows.Web.Http.HttpMethod.put;
+                var httpRequestMessage = new Windows.Web.Http.HttpRequestMessage(httpMethod, uri);
+ 
+                /*
+                //Add a user-agent header to the GET request.var headers = httpClient.DefaultRequestHeaders;
+
+                //The safe way to add a header value is to use the TryParseAdd method and verify the return value is true,
+                //especially if the header value is coming from user input.
+                
+                var header = "ie";
+                if (!headers.UserAgent.TryParseAdd(header)) {
+                    throw new Exception("Invalid header value: " + header);
+                }
+
+                header = "Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; WOW64; Trident/6.0)";
+                if (!headers.UserAgent.TryParseAdd(header)) {
+                    throw new Exception("Invalid header value: " + header);
+                }*/
+
+                //Send the GET request asynchronously and retrieve the response as a string.
+                var httpResponse = new Windows.Web.Http.HttpResponseMessage();
+                var httpResponseBody = "";
+
+                try {
+                    //Send the GET request
+                    httpResponse = /*await*/ httpClient.sendRequestAsync(httpRequestMessage);
+                    httpResponse.EnsureSuccessStatusCode();
+                    httpResponseBody = /*await*/ httpResponse.Content.ReadAsStringAsync();
+                    var resJson = JSON.parse(httpResponseBody);
+                    if (resJson.result == false) {
+                        self.localtion = "/src/register.html";
+                        return;
+                    }
+
+                    //create a file and write token to it.
+                    roamingFolder.createFileAsync(filename, Windows.Storage.CreationCollisionOption.replaceExisting)
+                        .then(function (filename) {
+                            return Windows.Storage.FileIO.writeTextAsync(filename, resJson.token);
+                        }).done(function () {
+                            //console.log("file created");
+                        }); 
+                }
+                catch (ex) {
+                    httpResponseBody = "Error: " + ex.HResult.ToString("X") + " Message: " + ex.Message;
+                    self.location = "/src/register.html";
+                    httpResponse.close();
+                    httpRequestMessage.close();
+                    httpClient.close();
+                }
+
+                self.location = "/src/tasklist.html";
+                httpResponse.close();
+                httpRequestMessage.close();
+                httpClient.close();
             }
 
             function navigationToHomepage(eventObject) {
