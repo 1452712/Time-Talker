@@ -10,9 +10,7 @@
     <script src="../js/semantic.js"></script>
     <script type="text/javascript" src="../js/form.js"></script>
     <script type="text/javascript" src="../js/form.min.js"></script>
-    <!--
-    <script type="text/javascript" src="../js/index.js"></script>
-    <script type="text/javascript" src="../js/package.js"></script>-->
+    
     <link href="../lib/winjs-4.0.1/css/ui-light.css" rel="stylesheet" />
     <script src="../lib/winjs-4.0.1/js/base.js"></script>
     <script src="../lib/winjs-4.0.1/js/ui.js"></script>
@@ -106,7 +104,7 @@
 
                                 <div class="two field inline">
                                     <label>Repeat</label>
-                                        <select class="ui search dropdown">
+                                        <select id="repeat" class="ui search dropdown">
                                             <option value="">----</option>
                                             <option value="8">All Days</option>
                                             <option value="1">Monday</option>
@@ -120,14 +118,12 @@
                                 </div>
                                 <div class="two field inline">
                                     <label>Begin Time</label>
-                                    <input type="time" name="begintime" />
+                                    <input type="time" name="begintime" id="begintime"/>
                                 </div>
                                 <div class="two field inline">
                                     <label>Stop Time</label>
-                                    <input type="time" name="endtime" />
+                                    <input type="time" name="endtime" id="endtime"/>
                                 </div>
-                                <div class="ui circular icon tiny green button"><i class="plus icon"></i></div>
-                                <div class="ui circular icon tiny red button"><i class="minus icon"></i></div>
                             </div>
                         </div>
                         <div class="field">

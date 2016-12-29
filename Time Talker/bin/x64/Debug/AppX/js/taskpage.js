@@ -1,6 +1,8 @@
 ﻿(function () {
     "use strict";
     var navcontainer;
+    var roamingFolder = Windows.Storage.ApplicationData.current.roamingFolder;
+    var filename = "settings.txt";
 
     WinJS.UI.Pages.define("/src/taskpage.html", {
         ready: function (element, options) {
@@ -26,9 +28,49 @@
             var taskType = document.getElementById("tasktype").value;
             var startDate = document.getElementById("startdate").value;
             var endDate = document.getElementById("enddate").value;
+            var repeat = document.getElementById("repeat").value;
+            var beginTime = document.getElementById("begintime").value;
+            var endTime = document.getElementById("endtime").value;
             var description = document.getElementById("description").value;
-            //TODO
+            var token = "";
+            var time = {
+                "date": repeat,
+                "starttime": beginTime,
+                "endtime": endTime
+            };
 
+            roamingFolder.getFileAsync(filename)
+                .then(function (file) {
+                    return token = Windows.Storage.FileIO.readTextAsync(file);
+                }).done(function (error) {
+                    //Handle erors encounterd during read
+                    console.log("Error reading file.")
+                });
+            //TODO
+            var httpClient = new Windows.Web.Http.HttpClient();
+            var uri = new Windows.Foundation.Uri("http://localhost:8080/task?token=" + token + "&&taskname=" + taskName +"&&description=" + description + "&&time=" + time.toString());
+            var httpMethod = new Windows.Web.Http.HttpMethod("post");
+            var httpRequestMessage = new Windows.Web.Http.HttpRequestMessage(httpMethod, uri);
+
+            var httpResponse = new Windows.Web.Http.HttpResponseMessage();
+            var httpResponseBody = "";
+
+            try {
+                httpResponse = /*await*/ httpClient.sendRequestAsync(httpRequestMessage);
+                httpResponse.EnsureSuccessStatusCode();
+                httpResponseBody = /*await*/ httpResponse.Content.ReadAsStringAsync();
+
+                var resJson = JSON.parse(httpResponseBody);
+                if (resJson.result === false) {
+                    self.localtion = "/src/taskpage.html";
+                    return;
+                }
+            }
+            catch (ex) {
+                self.location = "/src/taskpage.html";
+                return;
+            }
+            
             self.location = "/src/tasklist.html";
         },
 
@@ -79,8 +121,6 @@
         var selectionRect = { x: boundingRect.left, y: boundingRect.top, width: boundingRect.width, height: boundingRect.height };
 
         // ShowAddAppointmentAsync returns an appointment id if the appointment given was added to the user's calendar.
-        // This value should be stored in app data and roamed so that the appointment can be replaced or removed in the future.
-        // An empty string return value indicates that the user canceled the operation before the appointment was added.
         Windows.ApplicationModel.Appointments.AppointmentManager.showAddAppointmentAsync(appointment, selectionRect, Windows.UI.Popups.Placement.default)
             .done(function (appointmentId) {
                 if (appointmentId) {

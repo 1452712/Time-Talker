@@ -4,14 +4,16 @@
     <script src="../js/jquery.js"></script>
     <script src="../js/jquery.min.js"></script>
     <script src="../js/bootstrap.min.js"></script>
-    <script src="http://d3js.org/d3.v3.min.js"></script>
     <link rel="stylesheet" type="text/css" href="../css/semantic.css">
-
+    <link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css" />
     <link href="../lib/winjs-4.0.1/css/ui-light.css" rel="stylesheet" />
     <script src="../lib/winjs-4.0.1/js/base.js"></script>
     <script src="../lib/winjs-4.0.1/js/ui.js"></script>
-    <script src="../js/dashboard.js"></script>
     <link rel="stylesheet" type="text/css" href="../css/dashboard.css" />
+    <script src="../js/semantic.js"></script>
+    <script src="../js/d3.js"></script>
+    <script src="../js/liquidFillGauge.js"></script>
+    <script src="../js/dashboard.js"></script>
 </head>
 <body class="win-type-body">
     <div id="navBarBlock">
@@ -21,7 +23,7 @@
                         label: 'You Account',
                         icon: WinJS.UI.AppBarIcon.contact,
                         splitButton: true,
-                         location: '/src/profile.html'
+                        location: '/src/profile.html'
                         }">
                 </div>
                 <div data-win-control="WinJS.UI.NavBarCommand" data-win-options="{
@@ -64,16 +66,14 @@
             </div>
         </div>
     </div>
-
     <div class="mainContent">
         <div id="titleBlock"><img src="../images/dashboard_title.png" /></div>
-        <div id=div_header>
-            <script src="../js/semantic.js"></script>
 
-
-            <button class="randomize">randomize</button>
-
+        <img src="../images/dashboard.png" style="margin-left:4em"/>
         </div>
-    </div>
+    <!--
+    <x-ms-webview id="contentHost">
+
+    </x-ms-webview>-->
     </body>
 </html>

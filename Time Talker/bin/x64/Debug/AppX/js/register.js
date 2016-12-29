@@ -20,7 +20,7 @@
                 var password = document.getElementById("password1").value;
                 var password1 = document.getElementById("password2").value;
                 var verify = document.getElementById("verify").value;
-                if (password != password1) {
+                if (password !== password1) {
                     self.location = "/src/register.html";
                     return;
                 }
@@ -36,8 +36,8 @@
                 }*/
 
                 var httpClient = new Windows.Web.Http.HttpClient();
-                var uri = new Windows.Foundation.Uri("http://localhost:8080@para?username="+user+"&&email="+email+"&&password="+password);
-                var httpMethod = new Windows.Web.Http.HttpMethod.put;
+                var uri = new Windows.Foundation.Uri("http://localhost:8080/user?username="+user+"&&email="+email+"&&password="+password);
+                var httpMethod = new Windows.Web.Http.HttpMethod("put");
                 var httpRequestMessage = new Windows.Web.Http.HttpRequestMessage(httpMethod, uri);
  
                 /*
@@ -66,7 +66,7 @@
                     httpResponse.EnsureSuccessStatusCode();
                     httpResponseBody = /*await*/ httpResponse.Content.ReadAsStringAsync();
                     var resJson = JSON.parse(httpResponseBody);
-                    if (resJson.result == false) {
+                    if (resJson.result === false) {
                         self.localtion = "/src/register.html";
                         return;
                     }
@@ -80,17 +80,17 @@
                         }); 
                 }
                 catch (ex) {
-                    httpResponseBody = "Error: " + ex.HResult.ToString("X") + " Message: " + ex.Message;
+                    //httpResponseBody = "Error: " + ex.HResult.ToString("X") + " Message: " + ex.Message;
                     self.location = "/src/register.html";
-                    httpResponse.close();
-                    httpRequestMessage.close();
-                    httpClient.close();
+                    //httpResponse.close();
+                    //httpRequestMessage.close();
+                    //httpClient.close();
                 }
 
                 self.location = "/src/tasklist.html";
-                httpResponse.close();
-                httpRequestMessage.close();
-                httpClient.close();
+                //httpResponse.close();
+                //httpRequestMessage.close();
+                //httpClient.close();
             }
 
             function navigationToHomepage(eventObject) {
@@ -154,23 +154,6 @@
                 var password1 = document.getElementById("password2").value;
                 var verify = document.getElementById("verify").value;
                 //WinJS.xhr({ url: "/demos/xhr/fetchme.html", responseType: "json" });
-
-                // $.ajax({
-                // url: 'http://www.zrong.me/home/index/userLogin',
-                // type: 'post',
-                // jsonp: 'jsonpcallback',
-                //       jsonpCallback: "flightHandler",
-                // async: false,
-                // data: {
-                // 	'email':email,
-                // 	'password':password,
-                // 	'verify':verify
-                // },
-                // success: function(data){
-                // 	info = data.status;
-                // 	layer.msg(info);
-                // }
-                // })
 
                 /*
                 var destinationUrl = "ms-appx:///src/login.html";

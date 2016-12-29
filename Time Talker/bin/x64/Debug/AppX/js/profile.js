@@ -26,18 +26,18 @@
             var email = document.getElementById("email").value;
             var password = document.getElementById("password").value;
             var token = "";
-
+            
             roamingFolder.getFileAsync(filename)
                 .then(function (file) {
-                    return  token = Windows.Storage.FileIO.readTextAsync(file);
+                    return token = Windows.Storage.FileIO.readTextAsync(file);
                 }).done(function (error) {
                     //Handle erors encounterd during read
                     console.log("Error reading file.")
                 });
             //TODO
             var httpClient = new Windows.Web.Http.HttpClient();
-            var uri = new Windows.Foundation.Uri("http://localhost:8080@para?token=" + token + "&&nowpassword=" + password);
-            var httpMethod = new Windows.Web.Http.HttpMethod.post;
+            var uri = new Windows.Foundation.Uri("http://localhost:8080/user?token=" + token + "&&nowpassword=" + password);
+            var httpMethod = new Windows.Web.Http.HttpMethod("post");
             var httpRequestMessage = new Windows.Web.Http.HttpRequestMessage(httpMethod, uri);
 
             var httpResponse = new Windows.Web.Http.HttpResponseMessage();
@@ -49,7 +49,7 @@
                 httpResponseBody = /*await*/ httpResponse.Content.ReadAsStringAsync();
 
                 var resJson = JSON.parse(httpResponseBody);
-                if (resJson.result == false) {
+                if (resJson.result === false) {
                     self.localtion = "/src/profile.html";
                     return;
                 }
@@ -64,16 +64,9 @@
 
             }
             catch (ex) {
-                httpResponseBody = "Error: " + ex.HResult.ToString("X") + " Message: " + ex.Message;
-                self.location = "/src/prifile.html";
-                httpResponse.close();
-                httpRequestMessage.close();
-                httpClient.close();
+                //self.location = "/src/prifile.html";
+                //return;
             }
-
-            httpResponse.close();
-            httpRequestMessage.close();
-            httpClient.close();
 
             self.location = "/src/tasklist.html";
         },

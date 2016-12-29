@@ -1,15 +1,21 @@
 ﻿body {
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    width: 480px;
-    height: 250px;
+    width: 100%;
+    height: 100%;
     position: fixed;
     left: 0px;
     top: 0px;
 }
 
+.liquidFillGaugeText {
+    font-family: Helvetica;
+    font-weight: bold;
+}
+
 .mainContent {
     padding-top: 4%;
     height: 96%;
+    width: 100%;
 }
 
 #div_header {
@@ -36,6 +42,12 @@ polyline {
 
 #titleBlock {
     padding-top: 2em;
-    padding-bottom: 1em;
+    padding-bottom: 3em;
     padding-left: 2em;
+    background-color: #F7FAFC;
+}
+
+#contentHost {
+    height: 100%;
+    width: 100%;
 }

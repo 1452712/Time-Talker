@@ -9,6 +9,12 @@
     <script src="../lib/winjs-4.0.1/js/ui.js"></script>
     <script src="../js/editor/kindeditor.js"></script>
     <script src="../js/editor/lang/zh-CN.js"></script>
+    
+    <link rel="stylesheet" type="text/css" href="../css/form.css">
+    <script src="../js/jquery.min.js"></script>
+    <script src="../js/semantic.js"></script>
+    <script type="text/javascript" src="../js/form.js"></script>
+    <script type="text/javascript" src="../js/form.min.js"></script>
 
     <link href="../css/notepage.css" rel="stylesheet" type="text/css" />
     <script src="../js/notepage.js"></script>
@@ -66,11 +72,19 @@
     </div>
     <div class="mainContent">
         <div id="titleBlock"><img src="../images/createnote_title.png" /></div>
-        <div class="field">
-            <label>Task Name</label>
-            <input type="text" id="taskname" name="taskname" placeholder="Reading A book" />
-        </div>
-        <br/>
+        <form class="ui form" style="margin-left:10px;margin-right:10px">
+            <div class="two fields">
+                <div class="field">
+                    <label>Task Name</label>
+                    <input type="text" id="taskname" name="taskname" placeholder="Reading A book" style="width:250px" />
+                </div>
+                <div class="field">
+                    <label>Note Name</label>
+                    <input type="text" id="notename" name="notename" placeholder="Question" style="width:250px" />
+                </div>
+            </div>
+        </form>
+
         <textarea id="editor_id" name="content"></textarea>
 
         <br />

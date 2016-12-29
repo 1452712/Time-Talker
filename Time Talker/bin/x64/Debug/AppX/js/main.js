@@ -50,7 +50,7 @@
                 var uriPage = "ms-appx:///src/login.html";
                 WinJS.Navigation.navigate(uriPage);
                 // Appointment Component
-                /* Example
+                /* 
                 var button1 = document.getElementById("button1");
                 button1.addEventListener("click", basics1, false);
                 var button2 = document.getElementById("button2");
@@ -96,7 +96,7 @@
     }
 
     //Appointment Compoennt
-    /* Example
+    /* 
     var ex;
 
     function basics1() {
